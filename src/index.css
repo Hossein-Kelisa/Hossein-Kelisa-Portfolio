@@ -16,6 +16,7 @@
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
+    background-color: rgb(214, 214, 214);
   }
   
   a {
