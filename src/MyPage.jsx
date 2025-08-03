@@ -13,22 +13,22 @@ const MyPage = () => {
         <section className="section about">
           <h2 className="section-title">About Me</h2>
           <p className="section-text">
-            I’m studying <strong>[Your Field]</strong> at <strong>[Your University]</strong>. Passionate about technology, learning, and building cool stuff.
+            I’m studying <strong>[Field]</strong> at <strong>[ University]</strong>. Passionate about technology, learning, and building cool stuff.
           </p>
         </section>
 
         <section className="section projects">
           <h2 className="section-title">Projects</h2>
           <ul className="project-list">
-            <li><strong>Project 1:</strong> Description of your project.</li>
-            <li><strong>Project 2:</strong> Another cool thing you built.</li>
+            <li><strong>Project 1:</strong> Description of my project.</li>
+            <li><strong>Project 2:</strong> Another cool thing I built.</li>
           </ul>
         </section>
 
         <section className="section contact">
           <h2 className="section-title">Contact</h2>
-          <p>Email: <a href="mailto:your.email@example.com" className="contact-link">your.email@example.com</a></p>
-          <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">yourusername</a></p>
+          <p>Email: <a href="mailto:hossein.kelisa@gmail.com" className="contact-link">hossein.kelisa@gmail.com</a></p>
+          <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">username</a></p>
         </section>
       </main>
 
