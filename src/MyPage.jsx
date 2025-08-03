@@ -1,38 +1,42 @@
 import React from 'react';
 import './MyPage.css';
 
-const MYPage = () => {
+const MyPage = () => {
   return (
-    <div>
-      <header>
-        <h1>Hossein's Portfolio</h1>
-        <p>Welcome to my personal website!</p>
+    <div className="page-container">
+      <header className="header">
+        <h1 className="site-title">Hossein's Portfolio</h1>
+        <p className="site-subtitle">Welcome to my personal website!</p>
       </header>
 
-      <section>
-        <h2>About Me</h2>
-        <p>I’m studying [Your Field] at [Your University]. Passionate about technology, learning, and building cool stuff.</p>
-      </section>
+      <main>
+        <section className="section about">
+          <h2 className="section-title">About Me</h2>
+          <p className="section-text">
+            I’m studying <strong>[Your Field]</strong> at <strong>[Your University]</strong>. Passionate about technology, learning, and building cool stuff.
+          </p>
+        </section>
 
-      <section>
-        <h2>Projects</h2>
-        <ul>
-          <li><strong>Project 1:</strong> Description of your project.</li>
-          <li><strong>Project 2:</strong> Another cool thing you built.</li>
-        </ul>
-      </section>
+        <section className="section projects">
+          <h2 className="section-title">Projects</h2>
+          <ul className="project-list">
+            <li><strong>Project 1:</strong> Description of your project.</li>
+            <li><strong>Project 2:</strong> Another cool thing you built.</li>
+          </ul>
+        </section>
 
-      <section>
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">yourusername</a></p>
-      </section>
+        <section className="section contact">
+          <h2 className="section-title">Contact</h2>
+          <p>Email: <a href="mailto:your.email@example.com" className="contact-link">your.email@example.com</a></p>
+          <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">yourusername</a></p>
+        </section>
+      </main>
 
-      <footer style={{ marginTop: '2rem', fontSize: '0.8rem', color: '#555' }}>
+      <footer className="footer">
         <p>© 2025 Hossein</p>
       </footer>
     </div>
   );
 };
 
-export default MYPage;
+export default MyPage;
