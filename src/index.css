@@ -4,7 +4,6 @@
     font-weight: 400;
   
     color: #333;
-    background-color: #ffffff;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -16,7 +15,7 @@
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(64, 123, 134);
   }
   
   a {
@@ -32,6 +31,5 @@
   @media (prefers-color-scheme: light) {
     :root {
       color: #333;
-      background-color: #ffffff;
     }
   }
