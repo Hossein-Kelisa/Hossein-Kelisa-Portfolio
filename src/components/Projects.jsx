@@ -6,12 +6,12 @@ const Projects = () => (
     <h2>Projects</h2>
     <div className="project-grid">
       <div className="project-card">
-        <h3>Portfolio Website</h3>
-        <p>A personal website built using React + Vite with modern design.</p>
+        <h3>Website</h3>
+        <p>A personal website .</p>
       </div>
       <div className="project-card">
-        <h3>Weather App</h3>
-        <p>Simple weather app using OpenWeather API, shows live weather data.</p>
+        <h3>Website</h3>
+        <p>Simple data.</p>
       </div>
     </div>
   </section>

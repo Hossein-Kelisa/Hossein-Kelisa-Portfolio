@@ -10,19 +10,19 @@ const Contact = () => (
       <a href="mailto:your.email@example.com" className="contact-card" target="_blank" rel="noopener noreferrer">
         <FaEnvelope className="icon" />
         <span>Email</span>
-        <p>your.email@example.com</p>
+        <p>email@gmail.com</p>
       </a>
 
       <a href="https://github.com/yourusername" className="contact-card" target="_blank" rel="noopener noreferrer">
         <FaGithub className="icon" />
         <span>GitHub</span>
-        <p>github.com/yourusername</p>
+        <p>github.com/username</p>
       </a>
 
       <a href="https://linkedin.com/in/yourusername" className="contact-card" target="_blank" rel="noopener noreferrer">
         <FaLinkedin className="icon" />
         <span>LinkedIn</span>
-        <p>linkedin.com/in/yourusername</p>
+        <p>linkedin.com/in/username</p>
       </a>
 
       <a href="/resume.pdf" download className="contact-card">

@@ -5,6 +5,7 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
+import Skills from "./components/Skills";
 import "./index.css";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Layout />
+      <Skills />
       <Resume />
       <Contact />
       <Footer />

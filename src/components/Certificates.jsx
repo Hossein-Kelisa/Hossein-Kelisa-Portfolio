@@ -6,14 +6,13 @@ const Certificates = () => (
     <h2>Certificates</h2>
     <ul className="cert-list">
       <li>
-        <strong>HackYourFuture - Web Development</strong><br />
+        <strong>HackYourFuture </strong><br />
         Completed: July 2025
       </li>
       <li>
-        <strong>FreeCodeCamp - JavaScript Algorithms</strong><br />
+        <strong>FreeCodeCamp </strong><br />
         Completed: May 2025
       </li>
-      {/* Add more if needed */}
     </ul>
   </section>
 );
