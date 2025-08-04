@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .left-column > * {
+    border-radius: 15px;
+    padding: 20px;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .container > :last-child {
+    flex: 2;
+    padding: 40px 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left-column {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .left-column > * {
+      flex: 1;
+      aspect-ratio: 1 / 1;
+    }
+  
+    .container > :last-child {
+      flex: unset;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  

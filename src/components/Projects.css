@@ -1,9 +1,8 @@
-/* Projects.css */
-
 .section {
     padding: 6rem 2rem;
-    background-color: #fff;
+    background-color: #fbf5ed;
     text-align: center;
+    border-radius: 15px;
   }
   
   .section h2 {
