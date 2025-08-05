@@ -25,6 +25,8 @@
   align-items: center;
   gap: 2rem;
   list-style: none;
+  border-radius: 10px;
+  margin-top: 1px;
 }
 
 .nav-links li a {
@@ -47,6 +49,10 @@
   font-size: 1.5rem;
   cursor: pointer;
   color: #333;
+}
+.mobile-menu-icon:hover {
+  color: #4c8394;
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
