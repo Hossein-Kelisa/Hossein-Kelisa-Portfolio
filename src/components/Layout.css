@@ -15,6 +15,7 @@
 
 .layout-right {
   flex: 2;
+  display: flex;
 }
 
 .card {
