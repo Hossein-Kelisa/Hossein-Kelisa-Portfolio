@@ -5,13 +5,19 @@ import Projects from './Projects';
 import './Layout.css';
 
 const Layout = () => (
-  <div className="container">
-    <div className="left-column">
-      <About />
-      <Certificates />
+  <section className="layout">
+    <div className="layout-left">
+      <section className="card">
+        <About />
+      </section>
+      <section className="card">
+        <Certificates />
+      </section>
     </div>
-    <Projects />
-  </div>
+    <div className="layout-right card">
+      <Projects />
+    </div>
+  </section>
 );
 
 export default Layout;

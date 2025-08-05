@@ -1,46 +1,36 @@
-.container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .left-column {
-    display: flex;
+.layout {
+  display: flex;
+  gap: 20px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.layout-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.layout-right {
+  flex: 2;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+  .layout {
     flex-direction: column;
-    gap: 20px;
-    flex: 1;
   }
-  
-  .left-column > * {
-    border-radius: 15px;
-    padding: 20px;
-    aspect-ratio: 1 / 1;
+
+  .layout-left,
+  .layout-right {
+    width: 100%;
   }
-  
-  .container > :last-child {
-    flex: 2;
-    padding: 40px 20px;
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-  
-    .left-column {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .left-column > * {
-      flex: 1;
-      aspect-ratio: 1 / 1;
-    }
-  
-    .container > :last-child {
-      flex: unset;
-      width: 100%;
-      padding: 20px;
-    }
-  }
-  
+}
