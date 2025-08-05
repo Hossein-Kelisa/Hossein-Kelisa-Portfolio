@@ -2,15 +2,17 @@ import React from "react";
 import "./Hero.css";
 
 const Hero = () => (
-  <header className="hero-section">
-    <h1>Hi there,</h1>
-    <p>
-      I’m Hossein — a passionate web developer who builds responsive, user-friendly websites with a focus on clean design and great user experience.
+  <section className="hero-section">
+    <h1 className="hero-title">
+      Hi there, I'm <span>Hossein</span>
+    </h1>
+    <p className="hero-subtitle">
+      A passionate web developer building responsive and user-friendly websites.
     </p>
-    <p>
-      <strong>Let’s build something great!</strong>
-    </p>
-  </header>
+    <a href="#projects" className="hero-button">
+      View My Work
+    </a>
+  </section>
 );
 
 export default Hero;

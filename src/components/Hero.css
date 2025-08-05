@@ -1,48 +1,56 @@
 .hero-section {
-  max-width: 600px;
-  margin: 11rem auto;
+  max-width: 700px;
+  margin: 8rem auto;
   padding: 3rem 2.5rem;
   border-radius: 20px;
   box-shadow: 1px 1px 10px 10px rgba(198, 201, 18, 0.1);
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #222;
   line-height: 1.6;
-}
-
-.hero-section :hover {
-  transform: scale(1.1);
   transition: transform 0.3s ease;
-  cursor: pointer;
 }
-
-.hero-section h1 {
+.hero-title {
   font-size: 2.8rem;
-  margin-bottom: 1.5rem;
   font-weight: 700;
+  margin-bottom: 1rem;
   color: #111;
 }
-
-.hero-section p {
+.hero-title span {
+  color: #76bf3f;
+  font-weight: 800;
+}
+.hero-subtitle {
   font-size: 1.2rem;
-  margin-bottom: 1.1rem;
-  color: #444;
+  margin-bottom: 1rem;
+  color: #3b3a3a;
 }
-
-.hero-section p strong {
-  color: #79a745;
-  font-weight: 700;
+.hero-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
-  
+.hero-button:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+  color: rgb(136, 204, 73);
+}
 @media (max-width: 600px) {
   .hero-section {
     padding: 2rem 1.5rem;
     margin: 5rem 1rem;
   }
-  .hero-section h1 {
+  .hero-title {
     font-size: 2rem;
   }
-  .hero-section p {
+  .hero-subtitle {
     font-size: 1rem;
   }
 }

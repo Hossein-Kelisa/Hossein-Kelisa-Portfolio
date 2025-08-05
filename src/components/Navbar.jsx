@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
-import logo from "/logo.png"; 
+import logo from "/logo.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -10,37 +10,36 @@ const Navbar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const closeMobileMenu = () => setMobileMenuOpen(false);
+  const handleLinkClick = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" aria-label="Main navigation">
       <div className="navbar-left">
-        <img src={logo} alt="Logo" className="logo" />
+        <a href="/">
+          <img src={logo} alt="My Logo" className="logo" />
+        </a>
       </div>
 
-      <button className="mobile-menu-icon" onClick={toggleMobileMenu}>
+      <button
+        className="mobile-menu-icon"
+        onClick={toggleMobileMenu}
+        aria-label="Toggle navigation"
+      >
         {isMobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
       </button>
 
-      <ul
-        className={`nav-links ${isMobileMenuOpen ? "open" : ""}`}
-        onClick={closeMobileMenu}
-      >
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#certificates">Certificates</a>
-        </li>
-        <li>
-          <a href="#resume">Resume</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+      <ul className={`nav-links ${isMobileMenuOpen ? "open" : ""}`}>
+        {["about", "projects", "certificates", "resume", "contact"].map(
+          (section) => (
+            <li key={section}>
+              <a href={`#${section}`} onClick={handleLinkClick}>
+                {section.charAt(0).toUpperCase() + section.slice(1)}
+              </a>
+            </li>
+          )
+        )}
       </ul>
     </nav>
   );

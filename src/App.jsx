@@ -10,15 +10,17 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <Hero />
-      <Layout />
-      <Skills />
-      <Resume />
-      <Contact />
+      <main>
+        <Hero />
+        <Layout />
+        <Skills />
+        <Resume />
+        <Contact />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 };
 
