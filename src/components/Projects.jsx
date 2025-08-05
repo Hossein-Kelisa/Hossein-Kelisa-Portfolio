@@ -1,6 +1,6 @@
-import React from 'react';
-import '../Section.css';
-import './Projects.css';
+import React from "react";
+import "../Section.css";
+import "./Projects.css";
 
 const Projects = () => (
   <section id="projects" className="section">
@@ -12,7 +12,9 @@ const Projects = () => (
       </div>
       <div className="project-card">
         <h3>Data Viewer</h3>
-        <p>An app that displays and filters external data using APIs and React.</p>
+        <p>
+          An app that displays and filters external data using APIs and React.
+        </p>
       </div>
     </div>
   </section>

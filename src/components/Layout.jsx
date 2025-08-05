@@ -1,8 +1,8 @@
-import React from 'react';
-import About from './About';
-import Certificates from './Certificates';
-import Projects from './Projects';
-import './Layout.css';
+import React from "react";
+import About from "./About";
+import Certificates from "./Certificates";
+import Projects from "./Projects";
+import "./Layout.css";
 
 const Layout = () => (
   <section className="layout">
