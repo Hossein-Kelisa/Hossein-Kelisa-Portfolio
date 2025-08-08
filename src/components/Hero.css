@@ -8,7 +8,7 @@
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   transition: transform 0.3s ease;
-  background: linear-gradient(135deg, #f0f3f8e2, #0c5054ab);
+  background: #f9f9f978
 }
 .hero-title {
   font-size: 2.8rem;
