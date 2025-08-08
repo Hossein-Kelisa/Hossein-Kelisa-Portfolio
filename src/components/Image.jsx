@@ -1,6 +1,6 @@
 import React from 'react';
 import Fades from "../Animations/Fades";
-import IMG from "../assets/IMG.png";
+import IMG from "../assets/my-image.jpg"; 
 import './Image.css';
 
 const Image = () => {
