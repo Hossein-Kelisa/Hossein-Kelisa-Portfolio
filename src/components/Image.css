@@ -22,14 +22,14 @@
 
 @media (max-width: 768px) {
     .my-image {
-        width: 160px;
-        height: 220px;
+        width: 200px;
+        height: 260px;
     }
 }
 
 @media (max-width: 480px) {
     .my-image{
-        width: 90px;
-        height: 120px;
+        width: 140px;
+        height: 170px;
     }
 }
