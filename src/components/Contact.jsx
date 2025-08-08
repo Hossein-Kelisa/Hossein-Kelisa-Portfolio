@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => (
-  <section id="contact" className="section contact">
+  <section id="contact" className="contact-section">
     <h2>Contact Me</h2>
     <div className="contact-cards">
 
