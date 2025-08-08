@@ -6,8 +6,8 @@ import './Image.css';
 const Image = () => {
     return (
         <div className="image-container">
-        <Fades animationType="fadeZoom">
-            <img className="image" src={IMG} alt="my image" />
+        <Fades animationType="fadeRotate">
+            <img className="my-image" src={IMG} alt="my image" />
         </Fades>
         </div>
     );

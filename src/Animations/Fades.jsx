@@ -19,7 +19,7 @@ export default function Fades({ children, animationType = "fadeScale" }) {
       animate: { opacity: 1, x: 0 },
     },
     fadeRotate: {
-      initial: { opacity: 0, rotate: -10 },
+      initial: { opacity: 0, rotate: -15 },
       animate: { opacity: 1, rotate: 0 },
     },
     fadeOnly: {
