@@ -1,9 +1,8 @@
 import React from "react";
-import "../Section.css";
 import "./Certificates.css";
 
 const Certificates = () => (
-  <section id="certificates" className="section">
+  <section id="certificates" className="certification-section">
     <h2>Certificates</h2>
     <ul className="cert-list">
       <li>

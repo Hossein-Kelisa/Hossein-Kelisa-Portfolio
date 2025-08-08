@@ -1,9 +1,8 @@
 import React from "react";
-import "../Section.css";
 import "./Projects.css";
 
 const Projects = () => (
-  <section id="projects" className="section">
+  <section id="projects" className="project-section">
     <h2>Projects</h2>
     <div className="project-grid">
       <div className="project-card">

@@ -7,14 +7,14 @@ import "./Layout.css";
 const Layout = () => (
   <section className="layout">
     <div className="layout-left">
-      <section className="card">
+      <section className="about-card">
         <About />
       </section>
-      <section className="card">
+      <section className="certification-card">
         <Certificates />
       </section>
     </div>
-    <div className="layout-right card">
+    <div className="layout-right">
       <Projects />
     </div>
   </section>

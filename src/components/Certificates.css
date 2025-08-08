@@ -1,3 +1,30 @@
+.certification-section {
+  padding: 5rem 2rem;
+  background-color: #fbf5ed;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+}
+.certification-section h2 {
+  font-size: 2.5rem;
+  color: #514d4d;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.certification-section h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #b2d45c;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
 .cert-list {
   list-style: none;
   max-width: 600px;
@@ -28,6 +55,13 @@
 }
 
 @media (max-width: 768px) {
+  .certification-section {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .certification-section h2 {
+    font-size: 2rem;
+  }
   .cert-list {
     padding: 0 1rem;
   }
