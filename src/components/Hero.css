@@ -8,7 +8,7 @@
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   transition: transform 0.3s ease;
-  background-color: #1f657338;
+  background: linear-gradient(135deg, #f0f4f8, #0c5054ab);
 }
 .hero-title {
   font-size: 2.8rem;
@@ -17,7 +17,7 @@
   color: #313131dc;
 }
 .hero-title span {
-  color: #98cc49a5;
+  color: #edededf4;
   font-size: 3.2rem;
 }
 .hero-subtitle {
@@ -40,7 +40,7 @@
 .hero-button:hover {
   transform: scale(1.07);
   cursor: pointer;
-  color: rgb(136, 204, 73);
+  color: rgb(25, 208, 34);
 }
 @media (max-width: 600px) {
   .hero-section {
