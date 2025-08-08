@@ -78,3 +78,14 @@
     width: 100%;
   }
 }
+@media (max-width: 480px) {
+  .project-section h2 {
+    font-size: 1.75rem;
+  }
+  .project-card h3 {
+    font-size: 1.25rem;
+  }
+  .project-card p {
+    font-size: 0.9rem;
+  }
+}

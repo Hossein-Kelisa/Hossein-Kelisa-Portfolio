@@ -39,3 +39,11 @@
     font-size: 2rem;
   }
 }
+@media (max-width: 480px) {
+  .about-section p {
+    font-size: 1rem;
+  }
+  .about-section h2 {
+    font-size: 1.75rem;
+  }
+}
