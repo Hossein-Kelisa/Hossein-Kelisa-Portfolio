@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 import logo from "/logo.png";
+import Fades from "../Animations/Fades";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,6 +16,7 @@ const Navbar = () => {
   };
 
   return (
+    <Fades animationType="fadeDown">
     <nav className="navbar" aria-label="Main navigation">
       <div className="navbar-left">
         <a href="/">
@@ -42,6 +44,7 @@ const Navbar = () => {
         )}
       </ul>
     </nav>
+    </Fades>
   );
 };
 
