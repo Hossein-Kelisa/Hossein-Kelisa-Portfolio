@@ -10,27 +10,55 @@ const Projects = () => (
     <Fades animationType="fadeUp">
       <div className="project-grid">
         <div className="project-card">
-          <h3>Tic_eng</h3>
+          <a
+            href="https://tic-eng.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>Tic_eng</h3>
+          </a>
           <p>
-          A company website for an engineering business offering Testing, Inspection, and Certification services.
+            A company website for an engineering business offering Testing,
+            Inspection, and Certification services.
           </p>
         </div>
         <div className="project-card">
-          <h3>ShareWithUs</h3>
+          <a
+            href="https://c51a.hyf.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>ShareWithUs</h3>
+          </a>
           <p>
-          A social sharing platform where users can list and borrow items from each other.
+            A social sharing platform where users can list and borrow items from
+            each other.
           </p>
         </div>
         <div className="project-card">
-          <h3>World Of Horses</h3>
+          <a
+            href="https://github.com/Hossein-Kelisa/The-World-of-Horses"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>World Of Horses</h3>
+          </a>
           <p>
-          A project showcasing horse breeds from around the world using APIs and a dynamic user interface.
+            A project showcasing horse breeds from around the world using APIs
+            and a dynamic user interface.
           </p>
         </div>
         <div className="project-card">
-          <h3>Quiz App</h3>
+          <a
+            href="https://github.com/Hossein-Kelisa/QuizApp-SyntaxSquid"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>Quiz App</h3>
+          </a>
           <p>
-          A simple and interactive quiz application built with HTML, CSS, and JavaScript.
+            A simple and interactive quiz application built with HTML, CSS, and
+            JavaScript.
           </p>
         </div>
       </div>
