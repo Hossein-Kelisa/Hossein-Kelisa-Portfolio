@@ -48,7 +48,7 @@ const Skills = () => {
   );
 
   return (
-    <section className="skills-section">
+    <section id="skills" className="skills-section">
       <Fades animationType="fadeZoom">
         <h2 className="skills-title">Skills</h2>
       </Fades>
