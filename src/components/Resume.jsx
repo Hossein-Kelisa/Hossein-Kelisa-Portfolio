@@ -1,6 +1,7 @@
 import React from "react";
 import Fades from "../Animations/Fades";
 import "./Resume.css";
+import { FaFilePdf } from "react-icons/fa"
 
 const Resume = () => (
   <section id="resume" className="resume-section">
@@ -16,7 +17,7 @@ const Resume = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Download
+        Download  <FaFilePdf className="resume-icon" />
       </a>
     </Fades>
   </section>
