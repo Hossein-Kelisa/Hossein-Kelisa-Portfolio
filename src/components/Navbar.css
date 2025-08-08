@@ -92,3 +92,22 @@
     display: block;
   }
 }
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem;
+    height: auto;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .nav-links li a {
+    font-size: 0.9rem;
+  }
+
+  .mobile-menu-icon {
+    font-size: 0.8rem;
+  }
+  
+}

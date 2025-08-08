@@ -1,29 +1,29 @@
 .hero-section {
-  max-width: 700px;
-  margin: 8rem auto;
+  max-width: 800px;
+  margin: 15rem auto;
   padding: 3rem 2.5rem;
   border-radius: 20px;
   box-shadow: 1px 1px 10px 10px rgba(198, 201, 18, 0.1);
   text-align: center;
-  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #222;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   transition: transform 0.3s ease;
+  background-color: #1f657338;
 }
 .hero-title {
   font-size: 2.8rem;
   font-weight: 700;
-  margin-bottom: 1rem;
-  color: #111;
+  margin-bottom: 3rem;
+  color: #313131dc;
 }
 .hero-title span {
-  color: #76bf3f;
-  font-weight: 800;
+  color: #98cc49a5;
+  font-size: 3.2rem;
 }
 .hero-subtitle {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  color: #3b3a3a;
+  color: #000000;
 }
 .hero-button {
   display: inline-block;
@@ -45,7 +45,7 @@
 @media (max-width: 600px) {
   .hero-section {
     padding: 2rem 1.5rem;
-    margin: 5rem 1rem;
+    margin: 8rem auto;
   }
   .hero-title {
     font-size: 1.4rem;
