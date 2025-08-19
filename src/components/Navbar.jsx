@@ -3,9 +3,11 @@ import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 import logo from "/logo.png";
 import Fades from "../Animations/Fades";
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t, i18n } = useTranslation();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -13,6 +15,11 @@ const Navbar = () => {
 
   const handleLinkClick = () => {
     setMobileMenuOpen(false);
+  };
+  
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("lang", lang);
   };
 
   return (
@@ -43,10 +50,14 @@ const Navbar = () => {
           ].map((section) => (
             <li key={section}>
               <a href={`#${section}`} onClick={handleLinkClick}>
-                {section.charAt(0).toUpperCase() + section.slice(1)}
+                {t(`navbar.${section}`)}
               </a>
             </li>
           ))}
+          <li>
+            <button onClick={() => changeLanguage("en")}>EN</button>
+            <button onClick={() => changeLanguage("fa")}>FA</button>
+          </li>
         </ul>
       </nav>
     </Fades>
