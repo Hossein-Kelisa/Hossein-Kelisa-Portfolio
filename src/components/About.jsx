@@ -1,23 +1,27 @@
 import React from "react";
 import Fades from "../Animations/Fades";
 import "./About.css";
+import { useTranslation } from "react-i18next";
 
-const About = () => (
-  <section id="about" className="about-section">
-    <Fades animationType="fadeUp">
-      <h2>About Me</h2>
-    </Fades>
-    <Fades animationType="fadeUp">
-      <p>
-        I'm a junior full-stack developer based in the Netherlands 🇳🇱,
-        passionate about building modern, user-focused web applications with
-        JavaScript, React, and Node.js. After completing <a href="https://www.hackyourfuture.net/" target="_blank" rel="noopener noreferrer">HackYourFuture</a>’s program, I gained real-world experience, practiced clean code,
-        and learned to collaborate effectively in teams. I enjoy solving
-        problems, learning continuously, and transforming ideas into functional
-        digital products.
-      </p>
-    </Fades>
-  </section>
-);
+const About = () => {
+  const { t } = useTranslation();
+
+  return (
+    <section id="about" className="about-section">
+      <Fades animationType="fadeUp">
+        <h2>{t("about.title")}</h2>
+      </Fades>
+      <Fades animationType="fadeUp">
+        <p>
+          {t("about.text.part1")}
+          <a href="https://www.hackyourfuture.net/" target="_blank" rel="noopener noreferrer">
+            {t("about.text.link")}
+          </a>
+          {t("about.text.part2")}
+        </p>
+      </Fades>
+    </section>
+  );
+};
 
 export default About;

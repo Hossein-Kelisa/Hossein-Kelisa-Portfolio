@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import Skills from "./components/Skills";
+import "./i18n"; 
 import "./index.css";
 
 const App = () => {

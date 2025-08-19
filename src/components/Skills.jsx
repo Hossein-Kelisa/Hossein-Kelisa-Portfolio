@@ -5,8 +5,8 @@ import {
   FaFigma, FaCodepen, FaJira, FaServer, FaTools, FaCloud, FaFileCode
 } from "react-icons/fa";
 import Fades from "../Animations/Fades"; 
+import { useTranslation } from "react-i18next";
 
-// Group 1: Languages, Frameworks, Libraries
 const languages = [
   { name: "JavaScript", icon: <FaJs />, level: 5 },
   { name: "React", icon: <FaReact />, level: 5 },
@@ -19,7 +19,6 @@ const languages = [
   { name: "MongoDB", icon: <FaDatabase />, level: 5 },
 ];
 
-// Group 2: Tools and Platforms
 const tools = [
   { name: "Git", icon: <FaGitAlt />, level: 5 },
   { name: "GitHub", icon: <FaGit />, level: 5 },
@@ -34,6 +33,8 @@ const tools = [
 ];
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   const renderSkillCard = (skill, index) => (
     <Fades animationType="fadeSlide" key={index}>
       <div className="skill-card" title={skill.name}>
@@ -50,18 +51,18 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section">
       <Fades animationType="fadeZoom">
-        <h2 className="skills-title">Skills</h2>
+        <h2 className="skills-title">{t("skills.title")}</h2>
       </Fades>
 
       <Fades animationType="fadeZoom">
-        <h3 className="skills-subtitle">💻 Languages, Frameworks and Libraries</h3>
+        <h3 className="skills-subtitle">💻 {t("skills.languages")}</h3>
       </Fades>
       <div className="skills-grid">
         {languages.map(renderSkillCard)}
       </div>
 
       <Fades animationType="fadeZoom">
-        <h3 className="skills-subtitle">🔧 Tools and Platforms</h3>
+        <h3 className="skills-subtitle">🔧 {t("skills.tools")}</h3>
       </Fades>
       <div className="skills-grid">
         {tools.map(renderSkillCard)}
