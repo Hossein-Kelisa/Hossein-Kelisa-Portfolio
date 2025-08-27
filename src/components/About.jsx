@@ -1,4 +1,3 @@
-import React from "react";
 import Fades from "../Animations/Fades";
 import "./About.css";
 
