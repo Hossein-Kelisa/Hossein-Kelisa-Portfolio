@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -15,11 +15,6 @@ const Navbar = () => {
 
   const handleLinkClick = () => {
     setMobileMenuOpen(false);
-  };
-
-  const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-    localStorage.setItem("lang", lang);
   };
 
   return (
@@ -54,24 +49,6 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <li>
-            <button
-              onClick={() => changeLanguage("en")}
-              aria-label="Switch to English"
-              aria-pressed={i18n.language === "en"}
-              title="Switch to English"
-            >
-              EN
-            </button>
-            <button
-              onClick={() => changeLanguage("fa")}
-              aria-label="Switch to Farsi"
-              aria-pressed={i18n.language === "fa"}
-              title="Switch to Farsi"
-            >
-              FA
-            </button>
-          </li>
         </ul>
       </nav>
     </Fades>
