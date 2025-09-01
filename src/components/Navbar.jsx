@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 import logo from "/logo.png";
 import Fades from "../Animations/Fades";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -43,7 +45,7 @@ const Navbar = () => {
           ].map((section) => (
             <li key={section}>
               <a href={`#${section}`} onClick={handleLinkClick}>
-                {section.charAt(0).toUpperCase() + section.slice(1)}
+                {t(`navbar.${section}`)}
               </a>
             </li>
           ))}

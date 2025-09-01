@@ -1,5 +1,6 @@
 .hero-section {
   max-width: 800px;
+  margin-top: 5rem;
   margin-bottom: 15rem;
   margin-right: auto;
   margin-left: auto;
@@ -7,10 +8,9 @@
   border-radius: 20px;
   box-shadow: 1px 1px 10px 10px rgba(146, 201, 18, 0.145);
   text-align: center;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   transition: transform 0.3s ease;
-  background: #f9f9f978;
+  background: #f9f9f9c2;
 }
 .hero-title {
   font-size: 2.7rem;
@@ -32,18 +32,20 @@
   display: inline-block;
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
-  color: #06491a;
-  border: 1px solid #06491a;
-  border-radius: 30px;
+  color: #000000;
+  text-shadow: 1px 1px 2px #ffffff;
+  border: 1px solid #55645957;
+  border-radius: 10px;
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .hero-button:hover {
-  transform: scale(1.07);
+  transform: scale(0.97);
   cursor: pointer;
-  color: rgb(211, 253, 155);
+  color: rgb(9, 109, 100);
+  background-color: rgba(0, 0, 0, 0.03);
 }
 @media (max-width: 768px) {
   .hero-section {

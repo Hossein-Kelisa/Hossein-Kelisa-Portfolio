@@ -52,7 +52,7 @@
 }
 
 .contact-detail:hover {
-  color: #001fb8;
+  color: #03071b;
   transform: scale(1.2);
   transition: color 0.3s ease, transform 0.3s ease;
   text-shadow: #67e76078 0px 0px 5px;
