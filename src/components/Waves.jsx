@@ -176,7 +176,7 @@ export function Waves({
       const mouse = mouseRef.current;
       const b = boundingRef.current;
       mouse.x = x - b.left;
-      mouse.y = y - b.top + window.scrollY;
+      mouse.y = y - b.top;
       if (!mouse.set) {
         mouse.sx = mouse.x;
         mouse.sy = mouse.y;
