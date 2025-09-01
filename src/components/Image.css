@@ -1,9 +1,10 @@
 .image-container {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  margin-bottom: 7rem;
+  height: 70vh;
+  margin-bottom: 4rem;
 }
 
 .my-image {
