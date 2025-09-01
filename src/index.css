@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 :root {
-  --font-main: "Inter, Arial, Helvetica, sans-serif";
+  /* --font-main: "Inter, Arial, Helvetica, sans-serif"; */
   --color-text: #333;
   --color-background: rgb(32, 121, 137);
+}
+html[lang="fa"] body {
+  font-family: "Vazirmatn, Arial, Helvetica, sans-serif";
+  direction: rtl;
+}
+html[lang="en"] body {
+  font-family: "Inter, Arial, Helvetica, sans-serif";
+  direction: ltr;
 }
 
 * {

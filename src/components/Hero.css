@@ -1,5 +1,6 @@
 .hero-section {
   max-width: 800px;
+  margin-top: 5rem;
   margin-bottom: 15rem;
   margin-right: auto;
   margin-left: auto;
@@ -7,10 +8,9 @@
   border-radius: 20px;
   box-shadow: 1px 1px 10px 10px rgba(146, 201, 18, 0.145);
   text-align: center;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   transition: transform 0.3s ease;
-  background: #f9f9f978;
+  background: #f9f9f9c2;
 }
 .hero-title {
   font-size: 2.7rem;
