@@ -1,4 +1,3 @@
-import React from "react";
 import "./Skills.css";
 import { 
   FaReact, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaNodeJs, FaDatabase, FaGit,
