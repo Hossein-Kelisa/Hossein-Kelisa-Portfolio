@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "about": "Over Mij",
+    "skills": "Vaardigheden",
+    "projects": "Projecten",
+    "resume": "CV",
+    "certificates": "Certificaten",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hallo, ik ben {{name}}",
+    "subtitle": "Een enthousiaste webontwikkelaar die responsieve en gebruiksvriendelijke websites bouwt.",
+    "viewWork": "Bekijk Mijn Werk"
+  },
+  "about": {
+    "title": "Over Mij",
+    "text": {
+      "part1": "Ik ben een junior full-stack ontwikkelaar in Nederland 🇳🇱, met passie voor het bouwen van moderne, gebruiksvriendelijke webapplicaties met JavaScript, React en Node.js. Na het voltooien van ",
+      "link": "HackYourFuture",
+      "part2": " programma heb ik praktijkervaring opgedaan, schone code geoefend en geleerd om effectief samen te werken in teams. Ik geniet van het oplossen van problemen, continu leren en het omzetten van ideeën in functionele digitale producten."
+    }
+  },
+  "resume": {
+    "title": "CV",
+    "description": "Je kunt mijn CV hier downloaden:",
+    "download": "Downloaden"
+  },
+  "projects": {
+    "title": "Projecten",
+    "ticEng": {
+      "title": "Tic_eng",
+      "description": "Een bedrijfswebsite voor een ingenieursbedrijf dat Test-, Inspectie- en Certificatiediensten aanbiedt."
+    },
+    "shareWithUs": {
+      "title": "ShareWithUs",
+      "description": "Een sociaal deelplatform waar gebruikers items kunnen aanbieden en lenen van elkaar."
+    },
+    "worldOfHorses": {
+      "title": "World Of Horses",
+      "description": "Een project dat paardenrassen van over de hele wereld toont met behulp van API's en een dynamische gebruikersinterface."
+    },
+    "quizApp": {
+      "title": "Quiz App",
+      "description": "Een eenvoudige en interactieve quizapplicatie gebouwd met HTML, CSS en JavaScript."
+    }
+  },
+  "certificates": {
+    "title": "Certificaten",
+    "fullStack": "Full Stack Webontwikkeling"
+  },
+  "skills": {
+    "title": "Vaardigheden",
+    "languages": "Talen, Frameworks en Bibliotheken",
+    "tools": "Tools en Platforms"
+  },
+  "contact": {
+    "title": "Contact Mij"
+  }
+}

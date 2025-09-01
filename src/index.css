@@ -9,7 +9,7 @@ html[lang="fa"] body {
   font-family: "Vazirmatn, Arial, Helvetica, sans-serif";
   direction: rtl;
 }
-html[lang="en"] body {
+html[lang="en"] body, html[lang="du"] body {
   font-family: "Inter, Arial, Helvetica, sans-serif";
   direction: ltr;
 }

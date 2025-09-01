@@ -13,17 +13,17 @@ const ToggleLanguages = () => {
 
   return (
     <div className="toggle-languages-container">
-      {["en", "fa"].map((lang) => (
+      {["en", "fa", "du"].map((lang) => (
         <button
           key={lang}
           onClick={() => changeLanguage(lang)}
           className={`lang-btn ${i18n.language === lang ? "active" : ""}`}
-          aria-label={`Switch to ${lang === "en" ? "English" : "Farsi"}`}
-          title={`Switch to ${lang === "en" ? "English" : "Farsi"}`}
+          aria-label={`Switch to ${lang === "en" ? "English" : lang === "fa" ? "Farsi" : "Dutch"}`}
+          title={`Switch to ${lang === "en" ? "English" : lang === "fa" ? "Farsi" : "Dutch"}`}
         >
           <img
             src={`Flags/${lang.toUpperCase()}.png`}
-            alt={`${lang === "en" ? "English" : "Farsi"} flag`}
+            alt={`${lang === "en" ? "English" : lang === "fa" ? "Farsi" : "Dutch"} flag`}
             className="flag-icon"
           />
         </button>
