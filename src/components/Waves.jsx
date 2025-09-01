@@ -71,6 +71,8 @@ export function Waves({
       const lines = linesRef.current;
       const mouse = mouseRef.current;
       const noise = noiseRef.current;
+
+      // Apply wave movement
       lines.forEach((pts) => {
         pts.forEach((p) => {
           const move =
@@ -88,6 +90,7 @@ export function Waves({
           if (dist < l) {
             const s = 1 - dist / l;
             const f = Math.cos(dist * 0.001) * s;
+            // Apply cursor forces
             p.cursor.vx += Math.cos(mouse.a) * f * l * mouse.vs * 0.00065;
             p.cursor.vy += Math.sin(mouse.a) * f * l * mouse.vs * 0.00065;
           }
@@ -224,7 +227,7 @@ export function Waves({
   );
 }
 
-// Noise & Grad classes remain same
+// Perlin Noise Implementation
 class Grad {
   constructor(x, y, z) {
     this.x = x;
@@ -261,7 +264,8 @@ class Noise {
     seed = Math.floor(seed);
     if (seed < 256) seed |= seed << 8;
     for (let i = 0; i < 256; i++) {
-      let v = i & 1 ? this.p[i] ^ (seed & 255) : this.p[i] ^ ((seed >> 8) & 255);
+      let v =
+        i & 1 ? this.p[i] ^ (seed & 255) : this.p[i] ^ ((seed >> 8) & 255);
       this.perm[i] = this.perm[i + 256] = v;
       this.gradP[i] = this.gradP[i + 256] = this.grad3[v % 12];
     }
