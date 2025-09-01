@@ -44,6 +44,7 @@
 .nav-links li a:hover {
   color: #417e91;
   text-decoration: underline;
+  transform: scale(1.05);
 }
 
 .mobile-menu-icon {
@@ -75,7 +76,7 @@
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: #fefefe;
+    background: linear-gradient(to bottom, rgb(32, 121, 137), #e1e1e1);
     position: absolute;
     top: 100%;
     left: 0;
@@ -83,6 +84,11 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 99;
   }
+  .nav-links li a:hover {
+  color: #1002a9;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
 
   .nav-links.open {
     display: flex;

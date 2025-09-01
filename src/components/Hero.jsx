@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.css";
 import Fades from "../Animations/Fades"; 
 import { useTranslation } from "react-i18next";
