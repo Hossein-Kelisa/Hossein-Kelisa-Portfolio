@@ -171,6 +171,7 @@ export function Waves({
       updateMouse(e.pageX, e.pageY);
     }
     function onTouchMove(e) {
+      if (!e.touches || e.touches.length === 0) return;
       const touch = e.touches[0];
       updateMouse(touch.clientX, touch.clientY);
     }
