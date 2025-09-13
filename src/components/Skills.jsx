@@ -45,7 +45,7 @@ const tools = [
   { name: "Miro", icon: <FaFigma />, level: 4 },
   { name: "Namecheap", icon: <FaServer />, level: 4 },
   { name: "CodePen", icon: <FaCodepen />, level: 4 },
-  { name: "MongoDB Atlas", icon: <FaDatabase />, level: 5 }
+  { name: "Atlas", icon: <FaDatabase />, level: 5 }
 ];
 
 const Skills = () => {
