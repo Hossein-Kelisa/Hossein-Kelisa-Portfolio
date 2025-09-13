@@ -69,8 +69,8 @@
   .hero-section {
     padding: 1.5rem 1rem;
     margin-bottom: 5rem;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
   .hero-title {
     font-size: 1.2rem;
