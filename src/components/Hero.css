@@ -5,7 +5,7 @@
   margin-right: auto;
   margin-left: auto;
   padding: 3rem 2.5rem;
-  border-radius: 10px 100px;
+  border-radius: 1px 80px 1px 80px;
   box-shadow: 1px 1px 10px 10px rgba(146, 201, 18, 0.145);
   text-align: center;
   line-height: 1.6;
@@ -51,8 +51,8 @@
   .hero-section {
     padding: 2rem 1.5rem;
     margin-bottom: 9rem;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
   .hero-title {
     font-size: 1.4rem;
