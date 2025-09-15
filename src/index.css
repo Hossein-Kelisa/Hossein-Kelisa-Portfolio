@@ -3,7 +3,6 @@
 @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.0.0/dist/font-face.css');
 
 :root {
-  /* --font-main: "Inter, Arial, Helvetica, sans-serif"; */
   --color-text: #333;
   --color-background: rgb(32, 121, 137);
 }
