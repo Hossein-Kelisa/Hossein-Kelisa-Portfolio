@@ -25,7 +25,6 @@ const Certificates = () => {
               role="img"
               aria-label={t("certificates.iconLabel")}
             >
-              📜
             </span>
           </div>
         </a>
