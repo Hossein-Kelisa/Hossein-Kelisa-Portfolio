@@ -1,3 +1,6 @@
+/* Import Comic Neue font */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+/* Import Inter font */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 /* Import Vazir font */
 @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.0.0/dist/font-face.css');
@@ -12,7 +15,7 @@ html[lang="fa"] body {
   text-align: left;
 }
 html[lang="en"] body, html[lang="du"] body {
-  font-family: 'Inter, Arial, Helvetica, sans-serif';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   direction: ltr;
 }
 
@@ -23,7 +26,6 @@ html[lang="en"] body, html[lang="du"] body {
 }
 
 body {
-  font-family: var(--font-main);
   line-height: 1.6;
   font-weight: 400;
   color: var(--color-text);
@@ -32,6 +34,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-overflow-scrolling: touch;
 }
+/* Headings use Comic Neue */
+h1, h2, h3 {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700; /* makes it bold and fun */
+}
+
 
 /* Links */
 a {
