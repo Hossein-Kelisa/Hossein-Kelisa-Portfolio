@@ -17,7 +17,7 @@
     "text": {
       "part1": "I'm a junior full-stack developer based in the Netherlands 🇳🇱, passionate about building modern, user-focused web applications with JavaScript, React, and Node.js. After completing ",
       "link": "HackYourFuture",
-      "part2": "’s program, I gained real-world experience, practiced clean code, and learned to collaborate effectively in teams. I enjoy solving problems, learning continuously, and transforming ideas into functional digital products."
+      "part2": "’s program, I gained real-world experience, practiced clean code, and learned to collaborate effectively in teams. I enjoy solving problems, learning continuously, and transforming ideas into functional digital products"
     }
   },
   "resume": {
@@ -29,19 +29,19 @@
     "title": "Projects",
     "ticEng": {
       "title": "Tic_eng",
-      "description": "A company website for an engineering business offering Testing, Inspection, and Certification services."
+      "description": "A company website for an engineering business offering Testing, Inspection, and Certification services"
     },
     "shareWithUs": {
       "title": "ShareWithUs",
-      "description": "A social sharing platform where users can list and borrow items from each other."
+      "description": "A social sharing platform where users can list and borrow items from each other"
     },
     "worldOfHorses": {
       "title": "World Of Horses",
-      "description": "A project showcasing horse breeds from around the world using APIs and a dynamic user interface."
+      "description": "A project showcasing horse breeds from around the world using APIs and a dynamic user interface"
     },
     "quizApp": {
       "title": "Quiz App",
-      "description": "A simple and interactive quiz application built with HTML, CSS, and JavaScript."
+      "description": "A simple and interactive quiz application built with HTML, CSS, and JavaScript"
     }
   },
   "certificates": {
