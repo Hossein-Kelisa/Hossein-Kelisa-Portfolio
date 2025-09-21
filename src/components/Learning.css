@@ -1,0 +1,9 @@
+.learning-box {
+  max-width: 300px;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
