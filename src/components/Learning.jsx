@@ -1,6 +1,6 @@
-import "./LearningNow.css";
+import "./Learning.css";
 
-function LearningNow() {
+function Learning() {
   return (
     <div className="learning-box">
       <h2>📚 Learning Now</h2>
@@ -14,4 +14,4 @@ function LearningNow() {
   );
 }
 
-export default LearningNow;
+export default Learning;
