@@ -7,3 +7,8 @@
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
   font-family: Arial, sans-serif;
 }
+.learning-box h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #333;
+}
