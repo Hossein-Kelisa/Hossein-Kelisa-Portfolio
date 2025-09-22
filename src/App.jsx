@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import Skills from "./components/Skills";
+import Learning from "./components/Learning";
 import "./i18n";
 import "./index.css";
 
@@ -20,6 +21,7 @@ const App = () => {
         <Hero />
         <Layout />
         <Skills />
+        <Learning />
         <Resume />
         <Contact />
       </main>
