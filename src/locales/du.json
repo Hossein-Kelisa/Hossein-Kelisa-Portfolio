@@ -55,5 +55,10 @@
   },
   "contact": {
     "title": "Contact Mij"
+  },
+  "learning": {
+    "title": "Nu aan het leren",
+    "tech": "Technologie",
+    "languages": "Talen"
   }
 }
