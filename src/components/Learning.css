@@ -31,13 +31,28 @@
   font-size: 1.75rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  color: #020873;
-  text-shadow: 0 1px 2px rgba(6, 131, 6, 0.6);
   font-weight: 600;
   text-align: left;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Default subtitle style */
+.learning-subtitle {
+  color: #020873;
+  text-shadow: 0 1px 2px rgba(6, 131, 6, 0.6);
+}
+
+/* Category colors */
+.learning-subtitle.tech {
+  color: #005f99;
+  text-shadow: 0 1px 2px rgba(0, 95, 153, 0.4);
+}
+
+.learning-subtitle.languages {
+  color: #0a7b28;
+  text-shadow: 0 1px 2px rgba(10, 123, 40, 0.4);
 }
 
 .learning-grid {
@@ -65,8 +80,18 @@
 
 .learning-icon {
   font-size: 2.5rem;
-  color: #20707e;
   margin-bottom: 0.75rem;
+  color: #20707e; /* default */
+}
+
+/* Tech category */
+.learning-card.tech .learning-icon {
+  color: #007acc;
+}
+
+/* Language category */
+.learning-card.languages .learning-icon {
+  color: #0a7b28;
 }
 
 .learning-name {
