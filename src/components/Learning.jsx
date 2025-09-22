@@ -5,13 +5,13 @@ import Fades from "../Animations/Fades";
 import { useTranslation } from "react-i18next";
 
 const techLearning = [
-  { name: "TypeScript", icon: <SiTypescript />, level: 2 },
-  { name: "TailwindCSS", icon: <SiTailwindcss />, level: 3 },
+  { name: "TypeScript", icon: <SiTypescript />, level: 1 },
+  { name: "TailwindCSS", icon: <SiTailwindcss />, level: 1 },
 ];
 
 const languageLearning = [
-  { name: "English", icon: <FaGlobeEurope />, level: 4 },
-  { name: "Dutch", icon: <FaLanguage />, level: 2 },
+  { name: "English", icon: <FaGlobeEurope />, level: 3 },
+  { name: "Dutch", icon: <FaLanguage />, level: 1 },
 ];
 
 const Learning = () => {
@@ -22,8 +22,8 @@ const Learning = () => {
       <div className={`learning-card ${category}`} title={item.name}>
         <div className="learning-icon">{item.icon}</div>
         <div className="learning-level">
-          {"📖".repeat(item.level)}
-          {"▫️".repeat(5 - item.level)}
+          {"★".repeat(item.level)}
+          {"☆".repeat(5 - item.level)}
         </div>
         <div className="learning-name">{item.name}</div>
       </div>
