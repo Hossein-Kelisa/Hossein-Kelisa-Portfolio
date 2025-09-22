@@ -1,59 +1,139 @@
-/* Learning.css */
-
 .learning-section {
-  padding: 4rem 2rem;
-  background: #f9f9f9; /* soft background to separate from other sections */
+  padding: 5rem 2rem;
+  background: linear-gradient(to right, #f9f9f9, #edf5fb6e);
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
 }
 
 .learning-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
   color: #333;
   font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.learning-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #cf9230;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
 }
 
 .learning-subtitle {
-  font-size: 1.5rem;
-  margin: 2rem 0 1rem;
-  color: #444;
+  font-size: 1.75rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #020873;
+  text-shadow: 0 1px 2px rgba(6, 131, 6, 0.6);
+  font-weight: 600;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .learning-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .learning-card {
-  background: white;
-  border-radius: 1rem;
-  padding: 1.5rem 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background-color: #f8f8f800;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  padding: 2.5rem 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
   cursor: default;
 }
 
 .learning-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(13, 118, 41, 0.544);
 }
 
 .learning-icon {
   font-size: 2.5rem;
-  color: #007acc; /* blue tone, matches TypeScript/Tailwind */
-  margin-bottom: 0.5rem;
-}
-
-.learning-level {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-  color: #ff9800; /* warm orange for 📖 progress */
+  color: #20707e;
+  margin-bottom: 0.75rem;
 }
 
 .learning-name {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #333;
+  font-size: 1.2rem;
+  color: #3d3e44;
+  font-weight: 600;
+}
+
+.learning-level {
+  color: rgb(255, 128, 0);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .learning-section {
+    padding: 3.5rem 1.5rem;
+    margin: 0 20px 10px 20px;
+  }
+
+  .learning-title {
+    font-size: 2rem;
+  }
+  .learning-subtitle {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .learning-grid {
+    gap: 1.5rem;
+  }
+
+  .learning-card {
+    padding: 1.75rem 1rem;
+  }
+
+  .learning-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .learning-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .learning-title {
+    font-size: 1.75rem;
+  }
+  .learning-subtitle {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .learning-card {
+    padding: 1.5rem 0.8rem;
+  }
+
+  .learning-name {
+    font-size: 1rem;
+  }
+
+  .learning-level {
+    font-size: 0.9rem;
+  }
 }
