@@ -8,7 +8,7 @@ import Fades from "../Animations/Fades";
 import { useTranslation } from "react-i18next";
 
 const techLearning = [
-  { name: "TypeScript", icon: <SiTypescript />, level: 2 }, // just started
+  { name: "TypeScript", icon: <SiTypescript />, level: 2 }, 
   { name: "TailwindCSS", icon: <SiTailwindcss />, level: 3 },
 ];
 
