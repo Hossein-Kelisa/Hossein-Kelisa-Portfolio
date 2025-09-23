@@ -1,4 +1,5 @@
 import ToggleLanguages from "./components/ToggleLanguages";
+import ThemeToggle from "./components/ThemeToggle";
 import Navbar from "./components/Navbar";
 import Image from "./components/Image";
 import Hero from "./components/Hero";
@@ -15,6 +16,7 @@ const App = () => {
   return (
       <>
         <ToggleLanguages />
+        <ThemeToggle />
         <Navbar />
         <main>
           <Image />
