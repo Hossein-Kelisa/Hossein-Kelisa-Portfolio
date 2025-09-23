@@ -54,6 +54,11 @@
     "tools": "Tools en Platforms"
   },
   "contact": {
-    "title": "Contact Mij"
+    "title": "Neem contact op"
+  },
+  "learning": {
+    "title": "Nu aan het leren",
+    "tech": "Technologie",
+    "languages": "Talen"
   }
 }

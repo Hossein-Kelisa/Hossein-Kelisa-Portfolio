@@ -55,5 +55,10 @@
   },
   "contact": {
     "title": "Contact Me"
+  },
+  "learning": {
+    "title": "Learning Now",
+    "tech": "Tech",
+    "languages": "Languages"
   }
 }
