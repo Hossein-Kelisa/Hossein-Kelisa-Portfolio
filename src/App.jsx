@@ -8,25 +8,28 @@ import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import Skills from "./components/Skills";
 // import Learning from "./components/Learning";
+import { ThemeProvider } from "./components/ThemeContext";
 import "./i18n";
 import "./index.css";
 
 const App = () => {
   return (
-    <>
-      <ToggleLanguages />
-      <Navbar />
-      <main>
-        <Image />
-        <Hero />
-        <Layout />
-        <Skills />
-        {/* <Learning /> */}
-        <Resume />
-        <Contact />
-      </main>
-      <Footer />
-    </>
+    <ThemeProvider>
+      <>
+        <ToggleLanguages />
+        <Navbar />
+        <main>
+          <Image />
+          <Hero />
+          <Layout />
+          <Skills />
+          {/* <Learning /> */}
+          <Resume />
+          <Contact />
+        </main>
+        <Footer />
+      </>
+    </ThemeProvider>
   );
 };
 
