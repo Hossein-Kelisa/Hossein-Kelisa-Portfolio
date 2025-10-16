@@ -34,6 +34,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-overflow-scrolling: touch;
 }
+/* Dark mode */
+body.dark {
+  background: #121212f1;
+  color: #ffffff;
+}
+
 /* Headings use Comic Neue */
 h1, h2, h3 {
   font-family: 'Comic Neue', cursive;

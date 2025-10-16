@@ -1,4 +1,5 @@
 import ToggleLanguages from "./components/ToggleLanguages";
+import ThemeToggle from "./components/ThemeToggle";
 import Navbar from "./components/Navbar";
 import Image from "./components/Image";
 import Hero from "./components/Hero";
@@ -13,20 +14,21 @@ import "./index.css";
 
 const App = () => {
   return (
-    <>
-      <ToggleLanguages />
-      <Navbar />
-      <main>
-        <Image />
-        <Hero />
-        <Layout />
-        <Skills />
-        {/* <Learning /> */}
-        <Resume />
-        <Contact />
-      </main>
-      <Footer />
-    </>
+      <>
+        <ToggleLanguages />
+        <ThemeToggle />
+        <Navbar />
+        <main>
+          <Image />
+          <Hero />
+          <Layout />
+          <Skills />
+          {/* <Learning /> */}
+          <Resume />
+          <Contact />
+        </main>
+        <Footer />
+      </>
   );
 };
 

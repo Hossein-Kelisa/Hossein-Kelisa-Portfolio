@@ -5,12 +5,15 @@
   margin-right: auto;
   margin-left: auto;
   padding: 3rem 2.5rem;
-  border-radius: 1px 80px 1px 80px;
+  border-radius: 1px 70px 1px 70px;
   box-shadow: 1px 1px 10px 10px rgba(146, 201, 18, 0.145);
   text-align: center;
   line-height: 1.6;
   transition: transform 0.3s ease;
-  background: #f9f9f9c2;
+  background: #f9f9f9e9;
+}
+body.dark .hero-section {
+  background: linear-gradient(to right, #6a7784, #ffffff);
 }
 .hero-title {
   font-size: 2.7rem;
@@ -41,6 +44,14 @@
   font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
+body.dark .hero-button {
+  background-color: #417e915c;
+  color: #000000;
+  border: 1px solid #2c3e507d;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}
+
 .hero-button:hover {
   transform: scale(0.97);
   cursor: pointer;
