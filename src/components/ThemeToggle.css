@@ -1,16 +1,35 @@
-/* Theme toggle button */
+.theme-toggle-container {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 4px 8px;
+}
 .theme-toggle {
-  padding: 8px 16px;
-  margin: 12px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  display: block;
+  background: none;
   border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  background: #0077ff;
-  color: white;
-  font-size: 14px;
-  transition: background 0.3s;
 }
 
 .theme-toggle:hover {
-  background: #005ecc;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+  .theme-toggle-container {
+    top: 10px;
+    right: 10px;
+    gap: 8px;
+  }
 }
