@@ -49,7 +49,7 @@ body.dark .hero-button {
   color: #000000;
   border: 1px solid #2c3e507d;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  text-shadow: 0 0 0 #ffffff;
+  text-shadow: none;
 }
 
 .hero-button:hover {

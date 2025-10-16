@@ -11,7 +11,7 @@
   backdrop-filter: blur(8px);
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 4px 8px;
+  padding: 5px 10px;
 }
 .theme-toggle {
   width: 25px;
@@ -31,5 +31,6 @@
     top: 10px;
     right: 10px;
     gap: 8px;
+    padding: 2px 8px;
   }
 }
