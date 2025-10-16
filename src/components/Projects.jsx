@@ -35,7 +35,7 @@ const Projects = () => {
           </div>
           <div className="project-card">
             <a
-              href="https://github.com/Hossein-Kelisa/The-World-of-Horses"
+              href="https://hossein-kelisa.github.io/The-World-of-Horses/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +45,7 @@ const Projects = () => {
           </div>
           <div className="project-card">
             <a
-              href="https://github.com/Hossein-Kelisa/QuizApp-SyntaxSquid"
+              href="https://hossein-kelisa.github.io/QuizApp-SyntaxSquid/"
               target="_blank"
               rel="noopener noreferrer"
             >
