@@ -1,6 +1,6 @@
 .hero-section {
   max-width: 800px;
-  margin-top: 5rem;
+  margin-top: 10rem;
   margin-bottom: 15rem;
   margin-right: auto;
   margin-left: auto;
@@ -11,6 +11,7 @@
   line-height: 1.6;
   transition: transform 0.3s ease;
   background: #f9f9f9e9;
+  rotate: -5deg;
 }
 body.dark .hero-section {
   background: linear-gradient(to right, #6a7784, #ffffff);
