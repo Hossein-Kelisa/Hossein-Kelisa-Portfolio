@@ -22,7 +22,7 @@ body.dark .hero-section {
   margin-bottom: 3rem;
   color: #313131dc;
   rotate: -4deg;
-  text-shadow: 2px 2px 15px rgba(126, 207, 5, 0.758);
+  animation: glow 2s infinite alternate;
 }
 .hero-title span {
   color: #edededf4;
@@ -100,5 +100,14 @@ body.dark .hero-button {
   .hero-button {
     padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 1px 1px 1px rgba(157, 207, 5, 0.758);
+  }
+  100% {
+    text-shadow: 1px 1px 30px rgb(157, 207, 5);
   }
 }
