@@ -34,7 +34,7 @@ body.dark .hero-section {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: #000000;
-  rotate: 6deg;
+  transform: rotate(6deg);
 }
 .hero-button {
   display: inline-block;
@@ -48,7 +48,7 @@ body.dark .hero-section {
   font-size: 1.1rem;
   font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  rotate: 13deg;
+  transform: rotate(13deg);
 }
 body.dark .hero-button {
   background-color: #417e915c;
