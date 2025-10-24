@@ -17,11 +17,12 @@ body.dark .hero-section {
   background: linear-gradient(to right, #6a7784, #ffffff);
 }
 .hero-title {
-  font-size: 2.7rem;
+  font-size: 2.8rem;
   font-weight: 700;
   margin-bottom: 3rem;
   color: #313131dc;
   rotate: -4deg;
+  text-shadow: 2px 2px 15px rgba(126, 207, 5, 0.758);
 }
 .hero-title span {
   color: #edededf4;
