@@ -10,7 +10,7 @@
   text-align: center;
   line-height: 1.6;
   transition: transform 0.3s ease;
-  background: #f9f9f9e9;
+  background: #ffffff;
   rotate: -5deg;
 }
 body.dark .hero-section {
