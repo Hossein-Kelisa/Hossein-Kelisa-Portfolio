@@ -1,6 +1,6 @@
 .hero-section {
   max-width: 800px;
-  margin-top: 5rem;
+  margin-top: 10rem;
   margin-bottom: 15rem;
   margin-right: auto;
   margin-left: auto;
@@ -10,16 +10,18 @@
   text-align: center;
   line-height: 1.6;
   transition: transform 0.3s ease;
-  background: #f9f9f9e9;
+  background: #ffffff;
 }
 body.dark .hero-section {
   background: linear-gradient(to right, #6a7784, #ffffff);
 }
 .hero-title {
-  font-size: 2.7rem;
+  font-size: 2.8rem;
   font-weight: 700;
   margin-bottom: 3rem;
   color: #313131dc;
+  animation: wave 3s infinite alternate;
+  text-shadow: 1px 1px 10px rgba(165, 221, 9, 0.894);
 }
 .hero-title span {
   color: #edededf4;
@@ -95,5 +97,14 @@ body.dark .hero-button {
   .hero-button {
     padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
   }
 }
