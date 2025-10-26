@@ -11,7 +11,6 @@
   line-height: 1.6;
   transition: transform 0.3s ease;
   background: #ffffff;
-  transform: rotate(-5deg);
 }
 body.dark .hero-section {
   background: linear-gradient(to right, #6a7784, #ffffff);
@@ -21,8 +20,7 @@ body.dark .hero-section {
   font-weight: 700;
   margin-bottom: 3rem;
   color: #313131dc;
-  transform: rotate(-4deg);
-  animation: wave 2s infinite alternate;
+  animation: wave 3s infinite alternate;
   text-shadow: 1px 1px 10px rgba(165, 221, 9, 0.894);
 }
 .hero-title span {
@@ -34,7 +32,6 @@ body.dark .hero-section {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: #000000;
-  transform: rotate(6deg);
 }
 .hero-button {
   display: inline-block;
@@ -48,7 +45,6 @@ body.dark .hero-section {
   font-size: 1.1rem;
   font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  transform: rotate(13deg);
 }
 body.dark .hero-button {
   background-color: #417e915c;
@@ -106,7 +102,7 @@ body.dark .hero-button {
 
 @keyframes wave {
   0% {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
   100% {
     transform: rotate(-5deg);
