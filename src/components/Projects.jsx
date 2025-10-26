@@ -53,6 +53,16 @@ const Projects = () => {
             </a>
             <p>{t("projects.quizApp.description")}</p>
           </div>
+          <div className="project-card">
+            <a
+              href="https://hossein-kelisa.github.io/Dictionary/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>{t("projects.dictionary.title")}</h3>
+            </a>
+            <p>{t("projects.dictionary.description")}</p>
+          </div>
         </div>
       </Fades>
     </section>
