@@ -10,9 +10,9 @@ import Layout from "./components/Layout";
 import Skills from "./components/Skills";
 import Learning from "./components/Learning";
 import Proposal from "./components/Proposal";
+import Hobbies from "./components/Hobbies";
 import "./i18n";
 import "./index.css";
-import Hobbies from "./components/Hobbies";
 
 const App = () => {
   return (
@@ -25,9 +25,9 @@ const App = () => {
           <Hero />
           <Layout />
           <Skills />
-          <Learning />
-          <Hobbies />
-          <Proposal />
+          {/* <Learning /> */}
+          {/* <Hobbies /> */}
+          {/* <Proposal /> */}
           <Resume />
           <Contact />
         </main>
