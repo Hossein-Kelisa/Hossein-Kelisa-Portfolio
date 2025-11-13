@@ -11,6 +11,7 @@ import Skills from "./components/Skills";
 // import Learning from "./components/Learning";
 import "./i18n";
 import "./index.css";
+import Hobbies from "./components/Hobbies";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Layout />
           <Skills />
           {/* <Learning /> */}
+          <Hobbies />
           <Resume />
           <Contact />
         </main>
