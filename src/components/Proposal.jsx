@@ -23,6 +23,41 @@ const Proposal = () => {
           {t("proposal.download")} <FaFilePdf className="proposal-icon" />
         </a>
       </Fades>
+      <h2>Languages</h2>
+      <div>
+        <h3>Spoken Languages:</h3>
+        <ul>
+          <li>Persian (Native)</li>
+          <li>Azeri (Native)</li>
+          <li>Turkish (Native)</li>
+          <li>English (Advanced)</li>
+          <li>Dutch (Intermediate)</li>
+        </ul>
+      </div>
+
+      <form
+        name="requirement-form"
+        method="POST"
+        data-netlify="true"
+        encType="multipart/form-data"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea
+          name="details"
+          placeholder="Your answers here"
+          required
+        ></textarea>
+        <label>
+          Upload File (PDF, DOC, JPG, max 10MB):
+          <input
+            type="file"
+            name="attachment"
+            accept=".pdf,.doc,.docx,.jpg,.png"
+          />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
     </section>
   );
 };
