@@ -13,10 +13,12 @@ html[lang="fa"] body {
   font-family: 'Vazir', sans-serif;
   direction: ltr;
   text-align: left;
+  scroll-behavior: smooth;
 }
 html[lang="en"] body, html[lang="du"] body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   direction: ltr;
+  scroll-behavior: smooth;
 }
 
 * {
