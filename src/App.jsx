@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import Skills from "./components/Skills";
 import Learning from "./components/Learning";
+import Proposal from "./components/Proposal";
 import "./i18n";
 import "./index.css";
 import Hobbies from "./components/Hobbies";
@@ -26,6 +27,7 @@ const App = () => {
           <Skills />
           <Learning />
           <Hobbies />
+          <Proposal />
           <Resume />
           <Contact />
         </main>
