@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 import logo from "/logo.png";
@@ -7,11 +7,23 @@ import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const menuRef = useRef(null);
   const { t } = useTranslation();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setMobileMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   const handleLinkClick = (id) => {
     setMobileMenuOpen(false);
@@ -47,7 +59,10 @@ const Navbar = () => {
           {isMobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
         </button>
 
-        <ul className={`nav-links ${isMobileMenuOpen ? "open" : ""}`}>
+        <ul
+          ref={menuRef}
+          className={`nav-links ${isMobileMenuOpen ? "open" : "closed"}`}
+        >
           {sections.map((section) => (
             <li key={section}>
               <button
