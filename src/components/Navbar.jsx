@@ -13,9 +13,22 @@ const Navbar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const handleLinkClick = () => {
+  const handleLinkClick = (id) => {
     setMobileMenuOpen(false);
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
+
+  const sections = [
+    "about",
+    "projects",
+    "certificates",
+    "skills",
+    "resume",
+    "contact",
+  ];
 
   return (
     <Fades animationType="fadeDown">
@@ -35,18 +48,14 @@ const Navbar = () => {
         </button>
 
         <ul className={`nav-links ${isMobileMenuOpen ? "open" : ""}`}>
-          {[
-            "about",
-            "projects",
-            "certificates",
-            "skills",
-            "resume",
-            "contact",
-          ].map((section) => (
+          {sections.map((section) => (
             <li key={section}>
-              <a href={`#${section}`} onClick={handleLinkClick}>
+              <button
+                className="nav-button"
+                onClick={() => handleLinkClick(section)}
+              >
                 {t(`navbar.${section}`)}
-              </a>
+              </button>
             </li>
           ))}
         </ul>
