@@ -1,39 +1,16 @@
-import ToggleLanguages from "./components/ToggleLanguages";
-import ThemeToggle from "./components/ThemeToggle";
-import Navbar from "./components/Navbar";
-import Image from "./components/Image";
-import Hero from "./components/Hero";
-import Resume from "./components/Resume";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Layout from "./components/Layout";
-import Skills from "./components/Skills";
-import Learning from "./components/Learning";
-import Proposal from "./components/Proposal";
-import Hobbies from "./components/Hobbies";
-import "./i18n";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./Pages/HomePage";
+import Services from "./Pages/ServicesPage";
 import "./index.css";
 
 const App = () => {
   return (
-      <>
-        <ToggleLanguages />
-        <ThemeToggle />
-        <Navbar />
-        <main>
-          <Image />
-          <Hero />
-          <Layout />
-          <Skills />
-          <Learning />
-          <Hobbies />
-          <Proposal />
-          <Resume />
-          <Contact />
-        </main>
-        <Footer />
-      </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<Services />} />
+      </Routes>
+    </Router>
   );
 };
-
 export default App;
