@@ -1,8 +1,8 @@
-import Navbar from "../components/Navbar";
 import Resume from "../components/Resume";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 import RequirementForm from "../components/RequirementForm";
 import Proposal from "../components/Proposal";
 import ScrollTop from "../components/ScrollTop";
@@ -10,9 +10,9 @@ import ScrollTop from "../components/ScrollTop";
 const HomePage = () => {
   return (
     <>
-      <Navbar />
       <main>
         <ScrollTop />
+        <Projects />
         <Skills />
         <RequirementForm />
         <Proposal />
