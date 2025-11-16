@@ -19,7 +19,7 @@
   line-height: 1.6;
 }
 
-.download-btn {
+/* .download-btn {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -45,7 +45,7 @@
 
 .download-btn:active {
   transform: translateY(0);
-}
+} */
 
 .proposal-icon {
   font-size: 1.3rem;
