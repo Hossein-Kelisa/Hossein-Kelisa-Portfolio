@@ -1,18 +1,19 @@
 import Fades from "../Animations/Fades";
 import "./Proposal.css";
 import { FaFilePdf } from "react-icons/fa";
-import { useTranslation } from "react-i18next";
 
 const Proposal = () => {
-  const { t } = useTranslation();
-
   return (
     <section id="proposal" className="proposal-section">
       <Fades animationType="fadeUp">
-        <h2>{t("proposal.title")}</h2>
+        <h2>Project Proposal</h2>
       </Fades>
       <Fades animationType="fadeUp">
-        <p>{t("proposal.description")}</p>
+        <p>
+          Here you can download the full project proposal, including
+          requirements, structure, and planning details.
+        </p>
+
         <a
           href="/Website_Requirement.pdf"
           download
@@ -20,7 +21,7 @@ const Proposal = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {t("proposal.download")} <FaFilePdf className="proposal-icon" />
+          Download Proposal <FaFilePdf className="proposal-icon" />
         </a>
       </Fades>
     </section>
