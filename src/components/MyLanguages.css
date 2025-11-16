@@ -1,0 +1,52 @@
+.lang-container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.lang-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.lang-item {
+  margin-bottom: 22px;
+}
+
+.lang-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.lang-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.lang-level {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4a90e2, #7fdfd4);
+  border-radius: 10px;
+  transition: width 1.2s ease-out;
+}

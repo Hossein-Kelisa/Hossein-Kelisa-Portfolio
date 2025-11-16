@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import Skills from "../components/Skills";
 import Learning from "../components/Learning";
+import MyLanguages from "../components/MyLanguages";
 import Proposal from "../components/Proposal";
 import Hobbies from "../components/Hobbies";
 import ScrollTop from "../components/ScrollTop";
@@ -27,6 +28,7 @@ const HomePage = () => {
         <Layout />
         <Skills />
         <Learning />
+        <MyLanguages />
         <Hobbies />
         <Proposal />
         <Resume />
