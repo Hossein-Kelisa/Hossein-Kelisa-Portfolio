@@ -11,28 +11,30 @@ import Skills from "../components/Skills";
 import Learning from "../components/Learning";
 import Proposal from "../components/Proposal";
 import Hobbies from "../components/Hobbies";
+import ScrollTop from "../components/ScrollTop";
 import "../i18n";
 
-const App = () => {
+const HomePage = () => {
   return (
-      <>
-        <ToggleLanguages />
-        <ThemeToggle />
-        <Navbar />
-        <main>
-          <Image />
-          <Hero />
-          <Layout />
-          <Skills />
-          <Learning />
-          <Hobbies />
-          <Proposal />
-          <Resume />
-          <Contact />
-        </main>
-        <Footer />
-      </>
+    <>
+      <ToggleLanguages />
+      <ThemeToggle />
+      <Navbar />
+      <main>
+        <Image />
+        <Hero />
+        <ScrollTop />
+        <Layout />
+        <Skills />
+        <Learning />
+        <Hobbies />
+        <Proposal />
+        <Resume />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 };
 
-export default App;
+export default HomePage;
