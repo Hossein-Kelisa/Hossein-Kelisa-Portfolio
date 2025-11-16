@@ -16,7 +16,7 @@ const Hero = () => {
         {t('hero.subtitle')}
       </p>
       <Fades animationType="fadeZoom">
-        <a href="#projects" className="hero-button">
+        <a href="/services" className="hero-button">
           {t('hero.viewWork')}
         </a>
       </Fades>

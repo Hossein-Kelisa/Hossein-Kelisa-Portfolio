@@ -1,7 +1,6 @@
-import React from "react";
 import About from "./About";
 import Certificates from "./Certificates";
-import Projects from "./Projects";
+import Learning from "./Learning";
 import "./Layout.css";
 
 const Layout = () => (
@@ -15,7 +14,7 @@ const Layout = () => (
       </section>
     </div>
     <div className="layout-right">
-      <Projects />
+      <Learning />
     </div>
   </section>
 );
