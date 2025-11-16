@@ -14,6 +14,7 @@ import Skills from "../components/Skills";
 // import Proposal from "../components/Proposal";
 // import Hobbies from "../components/Hobbies";
 import ScrollTop from "../components/ScrollTop";
+// import CollaborationBanner from "../components/Collaboration";
 import "../i18n";
 
 const HomePage = () => {
@@ -28,6 +29,7 @@ const HomePage = () => {
         <ScrollTop />
         <Layout />
         <Skills />
+        {/* <CollaborationBanner /> */}
         {/* <Learning /> */}
         {/* <MyLanguages /> */}
         {/* <RequirementForm /> */}
