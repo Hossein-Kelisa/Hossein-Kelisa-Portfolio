@@ -1,6 +1,6 @@
 function CollaborationBanner() {
   return (
-    <div style={{ padding: "20px", display: "flex", justifyContent: "center" }}>
+    <div style={{ padding: "20px", display: "flex", justifyContent: "center", rotate: "-3deg" }}>
       <div
         style={{
           maxWidth: "500px",

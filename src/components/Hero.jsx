@@ -9,15 +9,16 @@ const Hero = () => {
     <section className="hero-section">
       <Fades animationType="fadeZoom">
         <h1 className="hero-title">
-          {t('hero.greeting', { name: "Hossein" })}
+          {t("hero.homeGreeting", { name: "Hossein" })}
         </h1>
       </Fades>
-      <p className="hero-subtitle">
-        {t('hero.subtitle')}
-      </p>
+
+      <p className="hero-subtitle">{t("hero.homeSubtitle1")}</p>
+      <p className="hero-subtitle">{t("hero.homeSubtitle2")}</p>
+
       <Fades animationType="fadeZoom">
         <a href="/services" className="hero-button">
-          {t('hero.viewWork')}
+          {t("hero.goToServices")}
         </a>
       </Fades>
     </section>

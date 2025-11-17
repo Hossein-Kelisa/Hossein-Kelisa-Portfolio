@@ -8,9 +8,10 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Hi there, I'm {{name}}",
-    "subtitle": "A passionate web developer building responsive and user-friendly websites.",
-    "viewWork": "View My Work"
+    "homeGreeting": "Hi, I'm {{name}}",
+    "homeSubtitle1": "Welcome to my personal space.",
+    "homeSubtitle2": "get to know my journey, background, and who I am.",
+    "goToServices": "See My Services"
   },
   "about": {
     "title": "About Me",
