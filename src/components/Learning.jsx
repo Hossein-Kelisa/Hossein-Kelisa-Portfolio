@@ -1,12 +1,21 @@
 import "./Learning.css";
 import { SiTypescript, SiTailwindcss } from "react-icons/si";
-import { FaLanguage, FaGlobeEurope } from "react-icons/fa";
+import {
+  FaLanguage,
+  FaGlobeEurope,
+  FaAws,
+  FaShieldAlt,
+  FaPalette,
+} from "react-icons/fa";
 import Fades from "../Animations/Fades";
 import { useTranslation } from "react-i18next";
 
 const techLearning = [
   { name: "TypeScript", icon: <SiTypescript />, level: 1 },
   { name: "TailwindCSS", icon: <SiTailwindcss />, level: 1 },
+  { name: "AWS", icon: <FaAws />, level: 1 },
+  { name: "Web Security", icon: <FaShieldAlt />, level: 1 },
+  { name: "Professional UI Design", icon: <FaPalette />, level: 1 },
 ];
 
 const languageLearning = [

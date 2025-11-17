@@ -8,6 +8,7 @@
 :root {
   --color-text: #333;
   --color-background: rgb(32, 121, 137);
+    /* --color-background: rgb(236, 235, 235); */
 }
 html[lang="fa"] body {
   font-family: 'Vazir', sans-serif;
@@ -60,10 +61,28 @@ button {
   cursor: pointer;
   font-family: inherit;
 }
+.progress {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 4px;
+  width: 0%;
+  background-color: rgb(32, 70, 197);
+  z-index: 9999;
+}
+
 
 /* Light mode preference */
 @media (prefers-color-scheme: light) {
   :root {
     --color-text: #111;
+  }
+}
+@keyframes scroll-animation {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
   }
 }

@@ -107,6 +107,16 @@
 
   <body>
     <div id="root"></div>
+    <div class="progress"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      window.addEventListener("scroll", () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.body.scrollHeight - window.innerHeight;
+        const progress = (scrollTop / docHeight) * 100;
+
+        document.querySelector(".progress").style.width = progress + "%";
+      });
+    </script>
   </body>
 </html>
