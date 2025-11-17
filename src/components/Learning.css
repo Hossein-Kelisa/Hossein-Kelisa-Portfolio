@@ -1,12 +1,12 @@
 .learning-section {
   padding: 5rem 2rem;
-  background: linear-gradient(to right, #f9f9f9, #edf5fb6e);
+  background: linear-gradient(to left, #ffffff, #edf5fbad);
   border-radius: 15px;
   text-align: center;
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.551);
   direction: rtl;
 }
 
