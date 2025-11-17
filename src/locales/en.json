@@ -9,16 +9,16 @@
   },
   "hero": {
     "homeGreeting": "Hi, I'm {{name}}",
-    "homeSubtitle1": "Welcome to my personal space.",
-    "homeSubtitle2": "get to know my journey, background, and who I am.",
-    "goToServices": "See My Services"
+    "homeSubtitle1": "Welcome to my portfolio.",
+    "homeSubtitle2": "Learn about my work, my experience and the projects I build.",
+    "goToServices": "Explore My Services"
   },
   "about": {
     "title": "About Me",
     "text": {
-      "part1": "I'm a junior full-stack developer based in the Netherlands 🇳🇱, passionate about building modern, user-focused web applications with JavaScript, React, and Node.js. After completing ",
+      "part1": " I’m a full-stack developer based in the Netherlands 🇳🇱 with a strong passion for solving problems and creating user-friendly digital products. Originally from Iran, I studied Industrial Engineering at Payam Noor University in Urmia and worked for five years in accounting before moving to the Netherlands. After discovering my interest in coding, I decided to change my career and joined the ",
       "link": "HackYourFuture",
-      "part2": "’s program, I gained real-world experience, practiced clean code, and learned to collaborate effectively in teams. I enjoy solving problems, learning continuously, and transforming ideas into functional digital products"
+      "part2": " program, where I learned modern web development and gained real project experience through teamwork and clean coding practices. I’m confident working with React, and I enjoy UI design, problem-solving, and collaborating with others. I’m responsible, motivated, and a fast learner who is always improving and growing as a developer."
     }
   },
   "resume": {

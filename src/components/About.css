@@ -25,11 +25,17 @@
   border-radius: 2px;
 }
 .about-section p {
-  max-width: 700px;
+  max-width: 750px;
   margin: 0 auto;
-  font-size: 1.15rem;
-  line-height: 1.8;
-  color: #232323;
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: #1f1f1f;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  
+  /* modern touch */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 .about-section a {
   color: #905515;
