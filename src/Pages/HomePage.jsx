@@ -10,6 +10,7 @@ import Layout from "../components/Layout";
 import MyLanguages from "../components/MyLanguages";
 import Hobbies from "../components/Hobbies";
 import ScrollTop from "../components/ScrollTop";
+import About from "../components/About";
 import CollaborationBanner from "../components/Collaboration";
 import "../i18n";
 
@@ -23,6 +24,7 @@ const HomePage = () => {
         <Image />
         <Hero />
         <ScrollTop />
+        <About />
         <Layout />
         <CollaborationBanner />
         <MyLanguages />

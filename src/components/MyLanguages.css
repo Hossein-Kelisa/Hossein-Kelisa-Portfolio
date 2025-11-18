@@ -1,12 +1,11 @@
 .lang-container {
-  max-width: 650px;
-  margin: 40px auto;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.12);
-  border-radius: 12px;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  rotate: -3deg;
+  padding: 5rem 2rem;
+  background: linear-gradient(to left, #ffffff, #edf5fbad);
+  border-radius: 15px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.551);
 }
 
 .lang-title {

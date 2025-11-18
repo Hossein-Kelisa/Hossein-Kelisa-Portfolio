@@ -1,4 +1,4 @@
-import About from "./About";
+import MyLanguages from "../components/MyLanguages";
 import Certificates from "./Certificates";
 import Learning from "./Learning";
 import "./Layout.css";
@@ -7,7 +7,7 @@ const Layout = () => (
   <section className="layout">
     <div className="layout-left">
       <section className="about-card">
-        <About />
+        <MyLanguages />
       </section>
       <section className="certification-card">
         <Certificates />
