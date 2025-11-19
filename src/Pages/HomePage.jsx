@@ -7,7 +7,6 @@ import Resume from "../components/Resume";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
-import MyLanguages from "../components/MyLanguages";
 import Hobbies from "../components/Hobbies";
 import ScrollTop from "../components/ScrollTop";
 import About from "../components/About";
@@ -27,7 +26,6 @@ const HomePage = () => {
         <About />
         <Layout />
         <CollaborationBanner />
-        <MyLanguages />
         <Hobbies />
         <Resume />
         <Contact />

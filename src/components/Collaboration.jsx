@@ -1,41 +1,41 @@
 function CollaborationBanner() {
   return (
-    <div style={{ padding: "20px", display: "flex", justifyContent: "center", rotate: "-3deg" }}>
+    <div
+      style={{
+        padding: "5rem 2rem",
+        display: "flex",
+        justifyContent: "center",
+        transform: "rotate(-3deg)",
+        background: "linear-gradient(to left, #ffffff, #edf5fbad)",
+        borderRadius: "15px",
+        textAlign: "center",
+        maxWidth: "700px",
+        width: "100%",
+        boxShadow: "0 6px 15px rgba(0, 0, 0, 0.551)",
+        margin: "0 auto 2rem auto",
+      }}
+    >
       <div
         style={{
-          maxWidth: "500px",
-          width: "100%",
-          padding: "16px",
-          borderRadius: "12px",
-          boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
-          background: "white",
+          width: "50px",
+          height: "50px",
+          borderRadius: "50%",
+          background: "#bd1111ff",
           display: "flex",
+          justifyContent: "center",
           alignItems: "center",
-          gap: "12px",
+          fontSize: "24px",
         }}
       >
-        <div
-          style={{
-            width: "50px",
-            height: "50px",
-            borderRadius: "50%",
-            background: "#f0f0f0",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            fontSize: "24px",
-          }}
-        >
-          🤝
-        </div>
+        🤝
+      </div>
 
-        <div>
-          <h2 style={{ fontSize: "20px", margin: 0 }}>Open to Collaboration</h2>
-          <p style={{ color: "#555", fontSize: "14px", marginTop: "4px" }}>
-            I enjoy working with others and building meaningful projects
-            together. Let’s connect and create something great!
-          </p>
-        </div>
+      <div>
+        <h2 style={{ fontSize: "30px", margin: 0 }}>Open to Collaboration</h2>
+        <p style={{ color: "#555", fontSize: "14px", marginTop: "4px" }}>
+          I enjoy working with others and building meaningful projects together.
+          Let’s connect and create something great!
+        </p>
       </div>
     </div>
   );
