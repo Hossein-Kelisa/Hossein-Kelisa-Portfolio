@@ -1,16 +1,13 @@
 import ToggleLanguages from "../components/ToggleLanguages";
 import ThemeToggle from "../components/ThemeToggle";
-import Navbar from "../components/Navbar";
-import Image from "../components/Image";
-import Hero from "../components/Hero";
-import Resume from "../components/Resume";
-import Contact from "../components/Contact";
+import Navbar from "../components/HomeComponents/Navbar";
+import Image from "../components/HomeComponents/Image";
+import Hero from "../components/HomeComponents/Hero";
+import Contact from "../components/HomeComponents/Contact";
 import Footer from "../components/Footer";
-import Layout from "../components/Layout";
-import Hobbies from "../components/Hobbies";
+import Layout from "../components/HomeComponents/Layout";
 import ScrollTop from "../components/ScrollTop";
-import About from "../components/About";
-import CollaborationBanner from "../components/Collaboration";
+import About from "../components/HomeComponents/About";
 import "../i18n";
 
 const HomePage = () => {
@@ -25,9 +22,6 @@ const HomePage = () => {
         <ScrollTop />
         <About />
         <Layout />
-        <CollaborationBanner />
-        <Hobbies />
-        <Resume />
         <Contact />
       </main>
       <Footer />

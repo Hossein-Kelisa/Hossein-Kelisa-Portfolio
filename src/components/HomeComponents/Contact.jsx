@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import Fades from "../Animations/Fades";
+import Fades from "../../Animations/Fades";
 import "./Contact.css";
 import { useTranslation } from "react-i18next";
 

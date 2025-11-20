@@ -1,0 +1,178 @@
+.gl-section {
+  padding: 5rem 2rem;
+  background: linear-gradient(to left, #ffffff, #edf5fbad);
+  border-radius: 15px;
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+  margin: 2rem auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  direction: rtl;
+}
+
+/* ====== TITLES ====== */
+.gl-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.gl-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #cf9230;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.gl-subtitle {
+  font-size: 1.9rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.gl-category {
+  font-size: 1.4rem;
+  color: #005f99;
+  margin: 1rem 0 1.5rem;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+/* Tech colors */
+.gl-category:nth-of-type(1) {
+  color: #005f99;
+}
+
+/* Languages */
+.gl-category:nth-of-type(2) {
+  color: #0a7b28;
+}
+
+/* ====== GRID ====== */
+.gl-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ====== CARDS ====== */
+.gl-card {
+  padding: 0.9rem 1.2rem;
+  background: #ffffffd6;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gl-card:hover {
+  transform: translateX(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+/* ====== ICONS ====== */
+.gl-icon {
+  font-size: 1.6rem;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tech */
+.gl-card.tech .gl-icon {
+  color: #007acc;
+}
+
+/* Languages */
+.gl-card.languages .gl-icon {
+  color: #0a7b28;
+}
+
+/* Hobbies */
+.gl-card.hobby .gl-icon {
+  font-size: 2.7rem;
+}
+
+/* ====== TEXT ====== */
+.gl-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Star rating */
+.gl-level {
+  margin-right: auto;
+  font-size: 0.9rem;
+  color: #cf9230;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+  .gl-section {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .gl-title {
+    font-size: 2rem;
+  }
+
+  .gl-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .gl-category {
+    font-size: 1.25rem;
+  }
+
+  .gl-card {
+    padding: 1.7rem 1rem;
+  }
+
+  .gl-icon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gl-title {
+    font-size: 1.7rem;
+  }
+
+  .gl-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .gl-grid {
+    gap: 1.2rem;
+  }
+
+  .gl-card {
+    padding: 1.4rem 0.8rem;
+    min-height: 150px;
+  }
+
+  .gl-name {
+    font-size: 1rem;
+  }
+
+  .gl-level {
+    font-size: 0.85rem;
+  }
+}

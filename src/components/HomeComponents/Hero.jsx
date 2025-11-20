@@ -1,5 +1,5 @@
 import "./Hero.css";
-import Fades from "../Animations/Fades";
+import Fades from "../../Animations/Fades";
 import { useTranslation } from "react-i18next";
 
 const Hero = () => {

@@ -1,5 +1,5 @@
-import Fades from "../Animations/Fades";
-import IMG from "../assets/my-image.jpg";
+import Fades from "../../Animations/Fades";
+import IMG from "../../assets/my-image.jpg";
 import "./Image.css";
 import { Waves } from "./Waves";
 

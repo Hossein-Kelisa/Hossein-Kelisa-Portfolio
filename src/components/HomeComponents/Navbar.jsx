@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 import logo from "/logo.png";
-import Fades from "../Animations/Fades";
+import Fades from "../../Animations/Fades";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {

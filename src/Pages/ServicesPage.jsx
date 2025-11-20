@@ -1,10 +1,8 @@
-import Resume from "../components/Resume";
-import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
-import RequirementForm from "../components/RequirementForm";
-import Proposal from "../components/Proposal";
+import Skills from "../components/ServiceComponents/Skills";
+import Projects from "../components/ServiceComponents/Projects";
+import RequirementForm from "../components/ServiceComponents/RequirementForm";
+import Proposal from "../components/ServiceComponents/Proposal";
 import ScrollTop from "../components/ScrollTop";
 
 const HomePage = () => {
@@ -16,8 +14,6 @@ const HomePage = () => {
         <Skills />
         <RequirementForm />
         <Proposal />
-        <Resume />
-        <Contact />
       </main>
       <Footer />
     </>
