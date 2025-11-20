@@ -9,8 +9,8 @@
 }
 .explore-button-wrapper {
   position: absolute;
-  left: 10%;
-  bottom: 30%;
+  left: 20%;
+  bottom: 20%;
   z-index: 20;
 }
 .explore-button {
@@ -24,13 +24,14 @@
   font-size: 1rem;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 1px 1px 10px 10px rgba(157, 226, 9, 0.387);
+  box-shadow: 0 0 10px 10px rgba(157, 226, 9, 0.352);
 }
 .explore-button:hover {
   transform: scale(0.97);
   cursor: pointer;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 10px rgba(212, 75, 65, 0.55);
 }
 @media (max-width: 1024px) {
   .hero-container {
@@ -41,9 +42,25 @@
   .hero-container {
     height: 80vh;
   }
+  .explore-button-wrapper {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+  }
+  .explore-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
 }
 @media (max-width: 480px) {
   .hero-container {
     height: 60vh;
+  }
+  .explore-button-wrapper {
+    bottom: 10%;
+  }
+  .explore-button {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.5rem;
   }
 }
