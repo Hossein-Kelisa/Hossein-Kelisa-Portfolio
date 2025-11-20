@@ -7,11 +7,10 @@
     "certificates": "Certificates",
     "contact": "Contact"
   },
-  "hero": {
+  "welcome": {
     "homeGreeting": "Hi, I'm {{name}}",
     "homeSubtitle1": "Welcome to my portfolio.",
-    "homeSubtitle2": "Learn about my work, my experience and the projects I build.",
-    "goToServices": "Explore My Services"
+    "homeSubtitle2": "Learn about my work, my experience and the projects I build."
   },
   "about": {
     "title": "About Me",

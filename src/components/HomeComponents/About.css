@@ -32,10 +32,13 @@
   color: #1f1f1f;
   font-weight: 400;
   letter-spacing: 0.2px;
-  text-align: justify; 
-  text-justify: inter-word; 
+  text-align: justify;
+  text-justify: inter-word;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  /* animation: typing 15s steps(300) forwards, blink 0.7s infinite;
+  white-space: nowrap;
+  overflow: hidden; */
 }
 .about-section a {
   color: #905515;
@@ -59,3 +62,22 @@
     font-size: 1.75rem;
   }
 }
+/* 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: white;
+  }
+} */

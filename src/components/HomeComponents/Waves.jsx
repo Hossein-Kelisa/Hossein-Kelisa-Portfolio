@@ -1,9 +1,10 @@
 import { useRef, useEffect } from "react";
+import bgImage from "../../assets/IMG_3417.jpg";
 import "./Waves.css";
 
 export function Waves({
-  lineColor = "#010101ff",
-  backgroundColor = "transparent",
+  lineColor = "#2d2e2eff",
+  backgroundImage,
   waveSpeedX = 0.0125,
   waveSpeedY = 0.005,
   waveAmpX = 32,
@@ -203,7 +204,7 @@ export function Waves({
     };
   }, [
     lineColor,
-    backgroundColor,
+    backgroundImage,
     waveSpeedX,
     waveSpeedY,
     waveAmpX,
@@ -219,10 +220,16 @@ export function Waves({
     <div
       ref={containerRef}
       className="waves-container"
-      style={{ backgroundColor }}
+      style={{
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
+        <div className="waves-overlay">
       <div className="waves-dot" />
       <canvas ref={canvasRef} className="waves-canvas" />
+      </div>
     </div>
   );
 }
