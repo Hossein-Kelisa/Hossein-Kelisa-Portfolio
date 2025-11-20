@@ -1,8 +1,8 @@
 import "./Hero.css";
 import { Waves } from "./Waves";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 import ToggleLanguages from "../ToggleLanguages";
-// import ThemeToggle from "../ThemeToggle";
+import ThemeToggle from "../ThemeToggle";
 import Welcome from "./Welcome";
 import Fades from "../../Animations/Fades";
 
@@ -11,9 +11,14 @@ const Hero = () => {
     <div className="hero-container">
       <Waves />
       <ToggleLanguages />
-      {/* <ThemeToggle /> */}
-      {/* <Navbar /> */}
+      <ThemeToggle />
+
+      <div className="hero-navbar-wrapper">
+        <Navbar />
+      </div>
+
       <Welcome />
+
       <div className="explore-button-wrapper">
         <Fades animationType="fadeZoom">
           <a href="/services" className="explore-button">

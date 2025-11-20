@@ -18,7 +18,7 @@ function MyLanguages() {
   ];
 
   return (
-    <div className="lang-container">
+    <div id="my-languages" className="lang-container">
       <h2 className="lang-title">Languages I Speak</h2>
 
       <div className="lang-list">

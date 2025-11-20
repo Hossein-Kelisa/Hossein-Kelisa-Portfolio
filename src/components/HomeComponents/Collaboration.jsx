@@ -1,18 +1,17 @@
 function CollaborationBanner() {
   return (
     <div
+      id="collaboration-banner"
       style={{
         padding: "5rem 2rem",
         display: "flex",
         justifyContent: "center",
-        transform: "rotate(-3deg)",
         background: "linear-gradient(to left, #ffffff, #edf5fbad)",
         borderRadius: "15px",
         textAlign: "center",
         maxWidth: "700px",
         width: "100%",
         boxShadow: "0 6px 15px rgba(0, 0, 0, 0.551)",
-        margin: "0 auto 2rem auto",
       }}
     >
       <div
