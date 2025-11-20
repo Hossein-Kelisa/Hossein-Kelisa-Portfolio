@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 180vh;
+  height: 120vh;
   width: 100%;
   margin-bottom: 4rem;
 }
@@ -34,16 +34,16 @@
 }
 @media (max-width: 1024px) {
   .hero-container {
-    height: 120vh;
+    height: 100vh;
   }
 }
 @media (max-width: 768px) {
   .hero-container {
-    height: 90vh;
+    height: 80vh;
   }
 }
 @media (max-width: 480px) {
   .hero-container {
-    height: 70vh;
+    height: 60vh;
   }
 }
