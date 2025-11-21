@@ -9,7 +9,7 @@
 }
 .hero-navbar-wrapper {
   position: absolute;
-  top: 4rem;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 50;
@@ -44,15 +44,8 @@
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 10px 10px rgba(212, 75, 65, 0.55);
 }
-@media (max-width: 1024px) {
-  .hero-container {
-    height: 95vh;
-  }
-}
+
 @media (max-width: 768px) {
-  .hero-container {
-    height: 80vh;
-  }
   .explore-button-wrapper {
     left: 50%;
     transform: translateX(-50%);
@@ -62,14 +55,8 @@
     font-size: 0.9rem;
     padding: 0.6rem 1.2rem;
   }
-  .hero-navbar-wrapper {
-    top: 1rem;
-  }
 }
 @media (max-width: 480px) {
-  .hero-container {
-    height: 60vh;
-  }
   .explore-button-wrapper {
     bottom: 5%;
   }
@@ -79,7 +66,7 @@
   }
   .hero-navbar-wrapper {
     position: absolute;
-    top: 8rem;
+    top: 40%;
     left: 15%;
   }
 }
