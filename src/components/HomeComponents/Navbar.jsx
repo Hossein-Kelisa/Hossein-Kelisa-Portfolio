@@ -14,10 +14,7 @@ const Navbar = () => {
 
   const sections = [
     "about",
-    "growth-life",
-    "my-languages",
-    "certificates",
-    "resume",
+    "profile",
     "contact",
   ];
 

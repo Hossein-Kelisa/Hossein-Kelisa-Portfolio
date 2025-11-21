@@ -1,10 +1,7 @@
 {
   "navbar": {
     "about": "About",
-    "growth-life": "Growth & Life",
-    "my-languages": "My Languages",
-    "resume": "Resume",
-    "certificates": "Certificates",
+    "profile": "Profile",
     "contact": "Contact"
   },
   "welcome": {

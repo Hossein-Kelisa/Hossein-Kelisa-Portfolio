@@ -1,9 +1,9 @@
 import { useRef, useEffect } from "react";
-import bgImage from "../../assets/IMG_3417.jpg";
+import bgImage from "../../assets/IMG_5030.JPG";
 import "./Waves.css";
 
 export function Waves({
-  lineColor = "#2d2e2eff",
+  lineColor = "#3a3a3ad5",
   backgroundImage,
   waveSpeedX = 0.0125,
   waveSpeedY = 0.005,

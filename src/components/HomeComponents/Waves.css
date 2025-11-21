@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;    /* Behind all content */
+  z-index: -1; /* Behind all content */
   overflow: hidden;
   pointer-events: none; /* Prevents blocking clicks */
   box-shadow: inset 0 0 150px rgba(217, 214, 228, 0.843);
@@ -33,7 +33,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* dark level */
+  background: linear-gradient(to left, #00000062, #00000062, #000000);
   pointer-events: none;
   z-index: 1;
 }

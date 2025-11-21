@@ -1,7 +1,7 @@
 .welcome-section {
   position: absolute;
   top: 30%;
-  left: 8%; /* Move to left */
+  left: 5%; /* Move to left */
   transform: translateY(-50%);
   background: transparent;
 }

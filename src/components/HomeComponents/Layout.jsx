@@ -6,7 +6,7 @@ import GrowthAndLife from "./GrowthAndLife";
 import "./Layout.css";
 
 const Layout = () => (
-  <section className="layout">
+  <section id="profile" className="layout">
     <div className="layout-left">
       <section className="Languages-card">
         <MyLanguages />
