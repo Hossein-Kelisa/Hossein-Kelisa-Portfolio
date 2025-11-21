@@ -13,7 +13,6 @@ const Welcome = () => {
         </h1>
       </Fades>
       <p className="welcome-subtitle">{t("welcome.homeSubtitle1")}</p>
-      {/* <p className="welcome-subtitle">{t("welcome.homeSubtitle2")}</p> */}
     </section>
   );
 };
