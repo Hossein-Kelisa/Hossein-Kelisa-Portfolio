@@ -6,7 +6,7 @@ function CollaborationBanner() {
         padding: "5rem 2rem",
         display: "flex",
         justifyContent: "center",
-        background: "linear-gradient(to left, #ffffff, #edf5fbad)",
+        background: "linear-gradient(to left, #ffffff, #ffffff81)",
         borderRadius: "15px",
         textAlign: "center",
         maxWidth: "700px",
