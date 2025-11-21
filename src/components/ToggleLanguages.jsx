@@ -1,5 +1,6 @@
 import "./ToggleLanguages.css";
 import { useTranslation } from "react-i18next";
+import Fades from "../Animations/Fades";
 
 const ToggleLanguages = () => {
   const { i18n } = useTranslation();
@@ -13,6 +14,7 @@ const ToggleLanguages = () => {
 
   return (
     <div className="toggle-languages-container">
+      <Fades animationType="fadeRotate">
       {["en", "fa", "du"].map((lang) => (
         <button
           key={lang}
@@ -28,6 +30,7 @@ const ToggleLanguages = () => {
           />
         </button>
       ))}
+      </Fades>
     </div>
   );
 };

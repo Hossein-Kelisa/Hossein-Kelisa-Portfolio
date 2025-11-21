@@ -29,7 +29,25 @@
 }
 
 .nav-button:hover {
-  color: #73ca0f;
+  color: #82d00d;
   transform: scale(1.1);
   text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .nav-button {
+    font-size: 0.9rem;
+  }
 }
