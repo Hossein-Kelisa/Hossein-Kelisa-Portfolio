@@ -3,10 +3,10 @@
   background: linear-gradient(to left, #ffffff, #edf5fbad);
   border-radius: 15px;
   text-align: center;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 4rem auto;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.551);
-  transform: rotate(-3deg);
+  transform: rotate(-2deg);
 }
 .about-section h2 {
   font-size: 2.5rem;
@@ -36,9 +36,6 @@
   text-justify: inter-word;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  /* animation: typing 15s steps(300) forwards, blink 0.7s infinite;
-  white-space: nowrap;
-  overflow: hidden; */
 }
 .about-section a {
   color: #905515;
@@ -47,11 +44,16 @@
 }
 @media (max-width: 768px) {
   .about-section {
-    padding: 3.5rem 1.5rem;
+    padding: 3rem 1.5rem;
+    margin: 2rem 0.5rem;
+    transform: rotate(0deg);
   }
 
   .about-section h2 {
     font-size: 2rem;
+  }
+  .about-section p {
+    font-size: 1rem;
   }
 }
 @media (max-width: 480px) {
@@ -62,22 +64,4 @@
     font-size: 1.75rem;
   }
 }
-/* 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
 
-@keyframes blink {
-  0%,
-  100% {
-    border-right-color: transparent;
-  }
-  50% {
-    border-right-color: white;
-  }
-} */

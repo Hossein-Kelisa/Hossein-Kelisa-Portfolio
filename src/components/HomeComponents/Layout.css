@@ -4,7 +4,7 @@
   padding: 10px 20px;
   max-width: 1200px;
   margin: 5rem auto;
-  transform: rotate(-3deg);
+  transform: rotate(-2deg);
 }
 
 .layout-left {
@@ -22,6 +22,7 @@
 @media (max-width: 768px) {
   .layout {
     flex-direction: column;
+    transform: rotate(0deg);
   }
 
   .layout-left,
