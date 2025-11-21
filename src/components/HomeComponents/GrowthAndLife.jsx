@@ -1,17 +1,8 @@
 import "./GrowthAndLife.css";
 import Fades from "../../Animations/Fades";
 import { useTranslation } from "react-i18next";
-import {
-  SiTypescript,
-  SiTailwindcss,
-} from "react-icons/si";
-import {
-  FaAws,
-  FaShieldAlt,
-  FaPalette,
-  FaLanguage,
-  FaGlobeEurope,
-} from "react-icons/fa";
+import { SiTypescript, SiTailwindcss } from "react-icons/si";
+import { FaAws, FaShieldAlt, FaPalette } from "react-icons/fa";
 
 const techLearning = [
   { name: "TypeScript", icon: <SiTypescript />, level: 1 },
@@ -21,19 +12,12 @@ const techLearning = [
   { name: "UI Design", icon: <FaPalette />, level: 1 },
 ];
 
-const languageLearning = [
-  { name: "English", icon: <FaGlobeEurope />, level: 3 },
-  { name: "Dutch", icon: <FaLanguage />, level: 1 },
-];
-
 const hobbies = [
-  { icon: "📚", title: "Learning English & Dutch" },
   { icon: "💻", title: "Coding New Projects" },
-  { icon: "🚶‍♂️", title: "Going for Walks" },
+  { icon: "🏋️‍♂️", title: "Gym" },
   { icon: "🏇", title: "Horse Riding" },
   { icon: "☕", title: "Coffee" },
   { icon: "🎵", title: "Listening to Music" },
-  { icon: "🏋️‍♂️", title: "Gym" },
 ];
 
 const GrowthAndLife = () => {
@@ -59,29 +43,31 @@ const GrowthAndLife = () => {
   return (
     <section id="growth-life" className="gl-section">
       <Fades animationType="fadeZoom">
-        <h2 className="gl-title">✨ {t("learning.growthLife") || "Growth & Life"}</h2>
+        <h2 className="gl-title">
+          ✨ {t("growth-life.title") || "Growth & Life"}
+        </h2>
       </Fades>
 
       {/* Learning Section */}
-      <h3 className="gl-subtitle">📚 {t("learning.title") || "Learning Now"}</h3>
+      <h3 className="gl-subtitle">
+        📚 {t("growth-life.learningNow") || "Learning Now"}
+      </h3>
 
-      <h4 className="gl-category">💻 Tech</h4>
       <div className="gl-grid">
         {techLearning.map((item, i) => renderCard(item, i, "tech"))}
       </div>
 
-      <h4 className="gl-category">🌍 Languages</h4>
-      <div className="gl-grid">
-        {languageLearning.map((item, i) =>
-          renderCard(item, i, "languages")
-        )}
-      </div>
-
       {/* Hobbies Section */}
-      <h3 className="gl-subtitle">❤️ {t("hobbies.title") || "Beyond Coding"}</h3>
+      <h3 className="gl-subtitle">
+        ❤️ {t("growth-life.hobbies") || "Beyond Coding"}
+      </h3>
 
       <div className="gl-grid">
         {hobbies.map((item, i) => renderCard(item, i, "hobby"))}
+      </div>
+      <div className="collaborate-note">
+        {t("growth-life.collaborateNote") ||
+          "I'm always open to collaborating on exciting projects!"}
       </div>
     </section>
   );

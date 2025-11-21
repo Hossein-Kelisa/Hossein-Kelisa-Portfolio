@@ -1,7 +1,6 @@
 import MyLanguages from "./MyLanguages";
 import Certificates from "./Certificates";
 import Resume from "./Resume";
-import Collaboration from "./Collaboration";
 import GrowthAndLife from "./GrowthAndLife";
 import "./Layout.css";
 
@@ -10,9 +9,6 @@ const Layout = () => (
     <div className="layout-left">
       <section className="Languages-card">
         <MyLanguages />
-      </section>
-      <section className="collaboration-card">
-        <Collaboration />
       </section>
       <section className="certification-card">
         <Certificates />

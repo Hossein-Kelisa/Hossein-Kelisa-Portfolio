@@ -19,6 +19,12 @@
       "part2": " program, where I learned modern web development and gained real project experience through teamwork and clean coding practices. I’m confident working with React, and I enjoy UI design, problem-solving, and collaborating with others. I’m responsible, motivated, and a fast learner who is always improving and growing as a developer."
     }
   },
+  "growth-life": {
+    "title": "Growth & Life",
+    "learningNow": "Learning Now",
+    "hobbies": "Beyond Coding",
+    "collaborateNote": "I enjoy working with others and building meaningful projects together. Let’s connect and create something great!"
+  },
   "resume": {
     "title": "Resume",
     "description": "You can download my resume here:",

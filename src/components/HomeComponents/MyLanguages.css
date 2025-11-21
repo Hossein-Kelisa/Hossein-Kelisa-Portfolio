@@ -1,5 +1,5 @@
 .lang-container {
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   background: linear-gradient(to left, #ffffff, #ffffff81);
   border-radius: 15px;
   text-align: center;
@@ -49,4 +49,22 @@
   background: linear-gradient(90deg, #4a90e2, #7fdfd4);
   border-radius: 10px;
   transition: width 1.2s ease-out;
+}
+@media (max-width: 768px) {
+  .lang-container {
+    padding: 3rem 1.5rem;
+  }
+
+  .lang-title {
+    font-size: 24px;
+  }
+
+  .lang-name {
+    font-size: 18px;
+  }
+
+  .lang-level {
+    font-size: 14px;
+  }
+  
 }

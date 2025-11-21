@@ -1,13 +1,11 @@
 .gl-section {
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   background: linear-gradient(to left, #ffffff, #ffffff81);
   border-radius: 15px;
   text-align: center;
-  max-width: 900px;
-  width: 100%;
-  margin: 2rem auto;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
-  direction: rtl;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.551);
 }
 
 /* ====== TITLES ====== */
@@ -38,24 +36,6 @@
   color: #333;
 }
 
-.gl-category {
-  font-size: 1.4rem;
-  color: #005f99;
-  margin: 1rem 0 1.5rem;
-  font-weight: 600;
-  text-align: right;
-  padding-right: 0.5rem;
-}
-
-/* Tech colors */
-.gl-category:nth-of-type(1) {
-  color: #005f99;
-}
-
-/* Languages */
-.gl-category:nth-of-type(2) {
-  color: #0a7b28;
-}
 
 /* ====== GRID ====== */
 .gl-grid {
@@ -72,7 +52,7 @@
   padding: 0.9rem 1.2rem;
   background: #ffffffd6;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -81,7 +61,7 @@
 
 .gl-card:hover {
   transform: translateX(-3px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
 
 /* ====== ICONS ====== */
@@ -92,21 +72,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/* Tech */
-.gl-card.tech .gl-icon {
-  color: #007acc;
-}
-
-/* Languages */
-.gl-card.languages .gl-icon {
-  color: #0a7b28;
-}
-
-/* Hobbies */
-.gl-card.hobby .gl-icon {
-  font-size: 2.7rem;
 }
 
 /* ====== TEXT ====== */
@@ -121,6 +86,13 @@
   margin-right: auto;
   font-size: 0.9rem;
   color: #cf9230;
+}
+.collaborate-note {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #464545;
+  font-style: italic;
+  text-shadow: 0 0 10px rgb(174, 183, 10);
 }
 
 /* ====== RESPONSIVE ====== */
