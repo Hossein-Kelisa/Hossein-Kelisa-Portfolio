@@ -21,9 +21,10 @@ const Hero = () => {
 
       <div className="explore-button-wrapper">
         <Fades animationType="fadeZoom">
-          <a href="/services" className="explore-button">
+          <a className="explore-button">Explore My Services</a>
+          {/* <a href="/services" className="explore-button">
             Explore My Services
-          </a>
+          </a> */}
         </Fades>
       </div>
     </div>
