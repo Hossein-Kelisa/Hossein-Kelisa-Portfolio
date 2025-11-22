@@ -43,32 +43,32 @@ const Contact = () => {
   };
   return (
     <section id="contact" className="contact-section">
-      <div className="contact-left">
-        <Fades animationType="fadeUp">
-          <h2 className="contact-title">Get in Touch</h2>
-          <p className="contact-description">
-            Feel free to contact me for projects, collaborations, or any
-            questions. I usually reply within one day!
-          </p>
-        </Fades>
+      <div className="contact-container">
+        <div className="left-side">
+          <Fades animationType="fadeUp">
+            <h2 className="contact-title">Get in Touch</h2>
+            <p className="contact-description">
+              Feel free to contact me for projects, collaborations, or any
+              questions. I usually reply within one day!
+            </p>
 
-        <Fades animationType="fadeUp">
-          <div className="contact-grid">
-            {contacts.map(({ href, icon }, index) => (
-              <a
-                key={index}
-                href={href}
-                className="contact-item"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="contact-icon">{icon}</div>
-              </a>
-            ))}
-          </div>
-        </Fades>
-      </div>
-      <div className="contact-right">
+            <div className="contact-grid">
+              {contacts.map(({ href, icon }, index) => (
+                <a
+                  className="contact-icon"
+                  key={index}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {icon}
+                </a>
+              ))}
+            </div>
+          </Fades>
+        </div>
+
+        {/* Contact Form */}
         <Fades animationType="fadeUp">
           <form className="contact-form" onSubmit={handleSubmit}>
             <h3 className="form-title">Contact Me</h3>
