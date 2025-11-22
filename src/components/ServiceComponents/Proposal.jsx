@@ -1,4 +1,4 @@
-import Fades from "../Animations/Fades";
+import Fades from "../../Animations/Fades";
 import "./Proposal.css";
 import { FaFilePdf } from "react-icons/fa";
 

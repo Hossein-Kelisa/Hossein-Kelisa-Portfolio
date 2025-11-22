@@ -1,4 +1,4 @@
-import Fades from "../Animations/Fades";
+import Fades from "../../Animations/Fades";
 import "./Resume.css";
 import { FaFilePdf } from "react-icons/fa";
 import { useTranslation } from "react-i18next";

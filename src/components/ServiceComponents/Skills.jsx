@@ -16,7 +16,7 @@ import {
   FaCloud,
   FaFileCode,
 } from "react-icons/fa";
-import Fades from "../Animations/Fades";
+import Fades from "../../Animations/Fades";
 import { useTranslation } from "react-i18next";
 
 const languages = [

@@ -1,5 +1,5 @@
 import React from "react";
-import Fades from "../Animations/Fades";
+import Fades from "../../Animations/Fades";
 import "./Projects.css";
 import { useTranslation } from "react-i18next";
 

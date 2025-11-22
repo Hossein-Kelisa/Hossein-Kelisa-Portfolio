@@ -1,0 +1,37 @@
+.text-section {
+  max-width: 800px;
+  margin: 10rem auto;
+  padding: 20px;
+  text-align: center;
+}
+.text-subtitle {
+  font-size: 1.8rem;
+  color: #0000007a;
+  text-shadow: 0 20px 0 #000000ce, 0 -20px 0 #00000037;
+  font-family: "IM Fell English SC", fantasy;
+}
+
+@media (max-width: 900px) {
+  .text-subtitle {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .text-section {
+    margin: 6rem auto;
+  }
+  .text-subtitle {
+    font-size: 1rem;
+    text-shadow: 0 17px 0 #000000ce, 0 -17px 0 #00000037;
+  }
+}
+@media (max-width: 480px) {
+  .text-section {
+    margin: 4rem auto;
+    padding: 5px;
+  }
+  .text-subtitle {
+    font-size: 0.8rem;
+    text-shadow: 0 16px 0 #000000ce, 0 -16px 0 #00000037;
+  }
+}
