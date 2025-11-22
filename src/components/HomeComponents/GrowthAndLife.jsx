@@ -4,23 +4,38 @@ import { useTranslation } from "react-i18next";
 import { SiTypescript, SiTailwindcss } from "react-icons/si";
 import { FaAws, FaShieldAlt, FaPalette } from "react-icons/fa";
 
-const techLearning = [
-  { name: "TypeScript", icon: <SiTypescript />, level: 1 },
-  { name: "TailwindCSS", icon: <SiTailwindcss />, level: 4 },
-  { name: "AWS", icon: <FaAws />, level: 1 },
-  { name: "Web Security", icon: <FaShieldAlt />, level: 1 },
-  { name: "UI Design", icon: <FaPalette />, level: 3 },
-];
-
-const hobbies = [
-  { icon: "🏋️‍♂️", title: "Gym" },
-  { icon: "🏇", title: "Horse Riding" },
-  { icon: "🎵", title: "Listening to Music" },
-  { icon: "📸", title: "Photography" },
-];
-
 const GrowthAndLife = () => {
   const { t } = useTranslation();
+  const techLearning = [
+    {
+      name: t("growth-life.Learning.typescript"),
+      icon: <SiTypescript />,
+      level: 1,
+    },
+    {
+      name: t("growth-life.Learning.tailwindcss"),
+      icon: <SiTailwindcss />,
+      level: 4,
+    },
+    { name: t("growth-life.Learning.aws"), icon: <FaAws />, level: 1 },
+    {
+      name: t("growth-life.Learning.webSecurity"),
+      icon: <FaShieldAlt />,
+      level: 1,
+    },
+    {
+      name: t("growth-life.Learning.uiDesign"),
+      icon: <FaPalette />,
+      level: 3,
+    },
+  ];
+
+  const hobbies = [
+    { icon: "🏋️‍♂️", title: t("growth-life.hobbies.gym") },
+    { icon: "🏇", title: t("growth-life.hobbies.horseRiding") },
+    { icon: "🎵", title: t("growth-life.hobbies.listeningToMusic") },
+    { icon: "📸", title: t("growth-life.hobbies.photography") },
+  ];
 
   const renderCard = (item, index, type) => (
     <Fades animationType="fadeSlide" key={index}>
@@ -53,7 +68,7 @@ const GrowthAndLife = () => {
       </div>
 
       {/* Hobbies Section */}
-      <h3 className="gl-subtitle">{t("growth-life.hobbies")}</h3>
+      <h3 className="gl-subtitle">{t("growth-life.hobby")}</h3>
 
       <div className="gl-grid">
         {hobbies.map((item, i) => renderCard(item, i, "hobby"))}

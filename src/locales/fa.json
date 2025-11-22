@@ -1,10 +1,7 @@
 {
   "navbar": {
     "about": "درباره من",
-    "skills": "مهارت‌ها",
-    "projects": "پروژه‌ها",
-    "resume": "رزومه",
-    "certificates": "گواهینامه‌ها",
+    "profile": "پروفایل",
     "contact": "تماس"
   },
   "hero": {
