@@ -6,10 +6,10 @@ import { FaAws, FaShieldAlt, FaPalette } from "react-icons/fa";
 
 const techLearning = [
   { name: "TypeScript", icon: <SiTypescript />, level: 1 },
-  { name: "TailwindCSS", icon: <SiTailwindcss />, level: 1 },
+  { name: "TailwindCSS", icon: <SiTailwindcss />, level: 4 },
   { name: "AWS", icon: <FaAws />, level: 1 },
   { name: "Web Security", icon: <FaShieldAlt />, level: 1 },
-  { name: "UI Design", icon: <FaPalette />, level: 1 },
+  { name: "UI Design", icon: <FaPalette />, level: 3 },
 ];
 
 const hobbies = [
@@ -59,7 +59,9 @@ const GrowthAndLife = () => {
         {hobbies.map((item, i) => renderCard(item, i, "hobby"))}
       </div>
       <Fades animationType="fadeSlide">
-        <div className="collaborate-note">{t("growth-life.collaborateNote")}</div>
+        <div className="collaborate-note">
+          {t("growth-life.collaborateNote")}
+        </div>
       </Fades>
     </section>
   );
