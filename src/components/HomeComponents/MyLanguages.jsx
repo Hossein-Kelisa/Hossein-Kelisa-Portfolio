@@ -1,4 +1,5 @@
 import "./MyLanguages.css";
+import Fades from "../../Animations/Fades";
 
 function MyLanguages() {
   const getLevel = (percent) => {
@@ -19,25 +20,29 @@ function MyLanguages() {
 
   return (
     <div id="my-languages" className="lang-container">
-      <h2 className="lang-title">Languages I Speak</h2>
+      <Fades animationType="fadeZoom">
+        <h2 className="lang-title">Languages I Speak</h2>
+      </Fades>
 
-      <div className="lang-list">
-        {languages.map((lang, index) => (
-          <div key={index} className="lang-item">
-            <div className="lang-header">
-              <span className="lang-name">{lang.name}</span>
-              <span className="lang-level">{getLevel(lang.percent)}</span>
-            </div>
+      <Fades animationType="fadeRight">
+        <div className="lang-list">
+          {languages.map((lang, index) => (
+            <div key={index} className="lang-item">
+              <div className="lang-header">
+                <span className="lang-name">{lang.name}</span>
+                <span className="lang-level">{getLevel(lang.percent)}</span>
+              </div>
 
-            <div className="progress-bar">
-              <div
-                className="progress-fill"
-                style={{ width: `${lang.percent}%` }}
-              ></div>
+              <div className="progress-bar">
+                <div
+                  className="progress-fill"
+                  style={{ width: `${lang.percent}%` }}
+                ></div>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </Fades>
     </div>
   );
 }

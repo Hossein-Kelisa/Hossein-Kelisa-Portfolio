@@ -50,8 +50,8 @@
 }
 @media (max-width: 768px) {
   .resume-section {
-    padding: 3.5rem 1.5rem;
-    margin: 20px 20px 10px 20px;
+    padding: 3rem 1.5rem;
+    margin: 2rem 0.5rem;
   }
 
   .resume-section h2 {

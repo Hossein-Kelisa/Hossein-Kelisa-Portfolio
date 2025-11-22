@@ -4,8 +4,8 @@
   padding: 10px 20px;
   max-width: 1200px;
   margin: 5rem auto;
-  align-items: stretch;    
-  min-height: 60vh; 
+  align-items: stretch;
+  min-height: 60vh;
   box-sizing: border-box;
   transform: rotate(-2deg);
 }
@@ -17,22 +17,24 @@
   gap: 10px;
 }
 
-.layout-left { flex: 1; }
-.layout-right { flex: 2; }
-
+.layout-left {
+  flex: 1;
+}
+.layout-right {
+  flex: 2;
+}
 
 .layout-left > section,
 .layout-right > section {
   flex: 1 1 0;
-  display: flex;           
+  display: flex;
   flex-direction: column;
-  min-width: 0;          
-  margin: 0;          
+  min-width: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-
-.layout-left > section > * ,
+.layout-left > section > *,
 .layout-right > section > * {
   flex: 1 1 auto;
   min-height: 0;
@@ -42,10 +44,13 @@
   .layout {
     flex-direction: column;
     transform: rotate(0deg);
+    margin: 0;
+    padding: 0;
   }
 
   .layout-left,
   .layout-right {
     width: 100%;
+    flex: 1;
   }
 }

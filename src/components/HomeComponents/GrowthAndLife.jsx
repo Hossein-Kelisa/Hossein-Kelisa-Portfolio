@@ -58,7 +58,9 @@ const GrowthAndLife = () => {
       <div className="gl-grid">
         {hobbies.map((item, i) => renderCard(item, i, "hobby"))}
       </div>
-      <div className="collaborate-note">{t("growth-life.collaborateNote")}</div>
+      <Fades animationType="fadeSlide">
+        <div className="collaborate-note">{t("growth-life.collaborateNote")}</div>
+      </Fades>
     </section>
   );
 };
