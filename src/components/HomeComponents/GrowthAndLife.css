@@ -120,31 +120,37 @@
   .gl-icon {
     font-size: 2rem;
   }
+  .collaborate-note {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
   .gl-title {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .gl-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .gl-grid {
-    gap: 1.2rem;
+    gap: 1rem;
   }
 
   .gl-card {
-    padding: 1.4rem 0.8rem;
+    padding: 1rem 0.8rem;
     min-height: 150px;
   }
 
   .gl-name {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .gl-level {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+  }
+  .collaborate-note {
+    font-size: 0.9rem;
   }
 }

@@ -55,7 +55,7 @@
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #4a90e2, #7fdfd4);
+  background: linear-gradient(90deg, #65da2b, #d0e81a, #f29b19);
   border-radius: 10px;
   transition: width 1.2s ease-out;
 }
@@ -66,28 +66,27 @@
   }
 
   .lang-title {
-    font-size: 24px;
+    font-size: 2rem;
   }
 
   .lang-name {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
 
   .lang-level {
-    font-size: 14px;
+    font-size: 1rem;
   }
 }
 @media (max-width: 480px) {
-
   .lang-title {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 
   .lang-name {
-    font-size: 16px;
+    font-size: 0.9rem;
   }
 
   .lang-level {
-    font-size: 12px;
+    font-size: 0.8rem;
   }
 }

@@ -66,11 +66,11 @@
 
 @media (max-width: 480px) {
   .resume-section h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .resume-section p {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 
   .download-link {
