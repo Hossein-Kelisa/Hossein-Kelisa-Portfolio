@@ -13,11 +13,10 @@ const techLearning = [
 ];
 
 const hobbies = [
-  { icon: "💻", title: "Coding New Projects" },
   { icon: "🏋️‍♂️", title: "Gym" },
   { icon: "🏇", title: "Horse Riding" },
-  { icon: "☕", title: "Coffee" },
   { icon: "🎵", title: "Listening to Music" },
+  { icon: "📸", title: "Photography" },
 ];
 
 const GrowthAndLife = () => {
@@ -43,32 +42,23 @@ const GrowthAndLife = () => {
   return (
     <section id="growth-life" className="gl-section">
       <Fades animationType="fadeZoom">
-        <h2 className="gl-title">
-          ✨ {t("growth-life.title") || "Growth & Life"}
-        </h2>
+        <h2 className="gl-title">{t("growth-life.title")}</h2>
       </Fades>
 
       {/* Learning Section */}
-      <h3 className="gl-subtitle">
-        📚 {t("growth-life.learningNow") || "Learning Now"}
-      </h3>
+      <h3 className="gl-subtitle">{t("growth-life.learningNow")}</h3>
 
       <div className="gl-grid">
         {techLearning.map((item, i) => renderCard(item, i, "tech"))}
       </div>
 
       {/* Hobbies Section */}
-      <h3 className="gl-subtitle">
-        ❤️ {t("growth-life.hobbies") || "Beyond Coding"}
-      </h3>
+      <h3 className="gl-subtitle">{t("growth-life.hobbies")}</h3>
 
       <div className="gl-grid">
         {hobbies.map((item, i) => renderCard(item, i, "hobby"))}
       </div>
-      <div className="collaborate-note">
-        {t("growth-life.collaborateNote") ||
-          "I'm always open to collaborating on exciting projects!"}
-      </div>
+      <div className="collaborate-note">{t("growth-life.collaborateNote")}</div>
     </section>
   );
 };
