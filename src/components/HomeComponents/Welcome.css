@@ -21,6 +21,9 @@
   direction: ltr;
   text-align: left;
 }
+.dark .welcome-subtitle {
+  color: #b3ff007d;
+}
 
 @media (max-width: 768px) {
   .welcome-title {

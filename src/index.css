@@ -39,8 +39,7 @@ body {
 }
 /* Dark mode */
 body.dark {
-  background: #121212f1;
-  color: #ffffff;
+  background: #11183cf1;
 }
 
 /* Headings use Comic Neue */

@@ -62,6 +62,10 @@
   flex-direction: column;
   gap: 1rem;
 }
+.dark .contact-form {
+  background-color: #484e594a;
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.288);
+}
 
 .form-title {
   font-size: 1.8rem;
