@@ -18,8 +18,8 @@ const HomePage = () => {
         <ServicesHero />
         <Projects />
         <Skills />
-        <RequirementForm />
         <Proposal />
+        <RequirementForm />
       </main>
       <Footer />
     </>
