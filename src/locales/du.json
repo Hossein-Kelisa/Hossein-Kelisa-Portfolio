@@ -1,64 +1,81 @@
 {
   "navbar": {
-    "about": "Over Mij",
-    "skills": "Vaardigheden",
-    "projects": "Projecten",
-    "resume": "CV",
-    "certificates": "Certificaten",
+    "about": "Over",
+    "profile": "Profiel",
     "contact": "Contact"
   },
+  "welcome": {
+    "homeGreeting": "Hoi, ik ben {{name}}",
+    "homeSubtitle1": "Welkom op mijn portfolio."
+  },
   "hero": {
-    "greeting": "Hallo, ik ben {{name}}",
-    "subtitle": "Een enthousiaste webontwikkelaar die responsieve en gebruiksvriendelijke websites bouwt.",
-    "viewWork": "Bekijk Mijn Werk"
+    "viewWork": "Bekijk mijn services"
+  },
+  "text": {
+    "subtitle": "Leer meer over mijn werk, mijn ervaring en de projecten die ik bouw."
   },
   "about": {
-    "title": "Over Mij",
+    "title": "Over mij",
     "text": {
-      "part1": "Ik ben een junior full-stack ontwikkelaar in Nederland 🇳🇱, met passie voor het bouwen van moderne, gebruiksvriendelijke webapplicaties met JavaScript, React en Node.js. Na het voltooien van ",
-      "link": "HackYourFuture",
-      "part2": " programma heb ik praktijkervaring opgedaan, schone code geoefend en geleerd om effectief samen te werken in teams. Ik geniet van het oplossen van problemen, continu leren en het omzetten van ideeën in functionele digitale producten."
+      "part1": " Ik ben een fullstack developer gevestigd in Nederland 🇳🇱 met een sterke passie voor het oplossen van problemen en het creëren van gebruiksvriendelijke digitale producten. Oorspronkelijk kom ik uit Iran. Ik heb Industrieel Ingenieursonderwijs gestudeerd aan de Payam Noor Universiteit in Urmia en vijf jaar als accountant gewerkt voordat ik naar Nederland verhuisde.\nNa het ontdekken van mijn interesse in programmeren besloot ik mijn carrière te veranderen en begon ik aan het",
+      "link": " HackYourFuture",
+      "part2": " -programma. Daar leerde ik moderne webontwikkeling en deed ik echte projectervaring op door teamwork en clean coding-praktijken.\nIk werk zelfverzekerd met React en ik houd van UI-design, probleemoplossing en samenwerken met anderen. Ik ben verantwoordelijk, gemotiveerd en een snelle leerling, en ik blijf mezelf steeds verder ontwikkelen als developer."
     }
   },
-  "resume": {
-    "title": "CV",
-    "description": "Je kunt mijn CV hier downloaden:",
-    "download": "Downloaden"
-  },
-  "projects": {
-    "title": "Projecten",
-    "ticEng": {
-      "title": "Tic_eng",
-      "description": "Een bedrijfswebsite voor een ingenieursbedrijf dat Test-, Inspectie- en Certificatiediensten aanbiedt."
+  "languages": {
+    "title": "Talen die ik spreek",
+    "name": {
+      "persian": "Perzisch",
+      "azeri": "Azeri",
+      "turkish": "Turks",
+      "english": "Engels",
+      "dutch": "Nederlands"
     },
-    "shareWithUs": {
-      "title": "ShareWithUs",
-      "description": "Een sociaal deelplatform waar gebruikers items kunnen aanbieden en lenen van elkaar."
-    },
-    "worldOfHorses": {
-      "title": "World Of Horses",
-      "description": "Een project dat paardenrassen van over de hele wereld toont met behulp van API's en een dynamische gebruikersinterface."
-    },
-    "quizApp": {
-      "title": "Quiz App",
-      "description": "Een eenvoudige en interactieve quizapplicatie gebouwd met HTML, CSS en JavaScript."
+    "level": {
+      "native": "Moedertaal",
+      "advanced": "Gevorderd",
+      "intermediate": "Gemiddeld",
+      "basic": "Basis",
+      "beginner": "Beginner"
     }
   },
   "certificates": {
     "title": "Certificaten",
-    "fullStack": "Full Stack Webontwikkeling"
+    "fullStack": "Full Stack Web Development"
   },
-  "skills": {
-    "title": "Vaardigheden",
-    "languages": "Talen, Frameworks en Bibliotheken",
-    "tools": "Tools en Platforms"
+  "resume": {
+    "title": "CV",
+    "description": "Je kunt mijn CV hier downloaden:",
+    "download": "Download"
+  },
+  "growth-life": {
+    "title": "Groei & Leven",
+    "learningNow": "Nu aan het leren",
+    "Learning": {
+      "typescript": "TypeScript",
+      "tailwindcss": "Tailwind CSS",
+      "aws": "AWS",
+      "webSecurity": "Webbeveiliging",
+      "uiDesign": "UI-ontwerp"
+    },
+    "hobby": "Buiten coderen",
+    "hobbies": {
+      "gym": "Naar de sportschool gaan",
+      "horseRiding": "Paardrijden",
+      "listeningToMusic": "Muziek luisteren",
+      "photography": "Fotografie"
+    },
+    "collaborateNote": "Ik sta altijd open voor samenwerking aan interessante projecten of gewoon om hallo te zeggen. Voel je vrij om contact met mij op te nemen!"
   },
   "contact": {
-    "title": "Neem contact op"
-  },
-  "learning": {
-    "title": "Nu aan het leren",
-    "tech": "Technologie",
-    "languages": "Talen"
+    "title": "Neem contact met mij op",
+    "description": "Heb je vragen of wil je samenwerken? Neem gerust contact met mij op via de onderstaande kanalen.",
+    "formTitle": "Stuur mij een bericht",
+    "formPlaceholders": {
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht"
+    },
+    "formButton": "Stuur bericht"
   }
 }
