@@ -4,12 +4,18 @@ import Projects from "../components/ServiceComponents/Projects";
 import RequirementForm from "../components/ServiceComponents/RequirementForm";
 import Proposal from "../components/ServiceComponents/Proposal";
 import ScrollTop from "../components/ScrollTop";
+import ThemeToggle from "../components/ThemeToggle";
+import ToggleLanguages from "../components/ToggleLanguages";
+import ServicesHero from "../components/ServiceComponents/ServicesHero";
 
 const HomePage = () => {
   return (
     <>
+      <ThemeToggle />
+      <ToggleLanguages />
+      <ScrollTop />
       <main>
-        <ScrollTop />
+        <ServicesHero />
         <Projects />
         <Skills />
         <RequirementForm />
@@ -21,7 +27,6 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
 
 // function Services() {
 //   return (

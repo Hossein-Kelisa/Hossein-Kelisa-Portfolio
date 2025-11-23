@@ -1,8 +1,6 @@
 import "./Hero.css";
 import { Waves } from "./Waves";
 import Navbar from "./Navbar";
-import ToggleLanguages from "../ToggleLanguages";
-import ThemeToggle from "../ThemeToggle";
 import Welcome from "./Welcome";
 import Fades from "../../Animations/Fades";
 import { useTranslation } from "react-i18next";
@@ -13,9 +11,6 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <Waves />
-      <ToggleLanguages />
-      <ThemeToggle />
-
       <div className="hero-navbar-wrapper">
         <Navbar />
       </div>
