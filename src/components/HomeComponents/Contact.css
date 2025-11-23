@@ -1,12 +1,13 @@
 .contact-section {
   padding: 4rem 1.5rem;
   background-color: #d8d8d8;
-  margin-top: 6rem;
+  margin-top: 10rem;
+  border-radius: 100px 100px 0 0;
 }
 
 .contact-container {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 2rem auto;
   display: flex;
   flex-direction: row;
   gap: 3rem;
@@ -55,11 +56,15 @@
   flex: 1;
   background: white;
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 15px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+.dark .contact-form {
+  background-color: #484e594a;
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.288);
 }
 
 .form-title {
@@ -107,6 +112,9 @@
 
 /* --- RESPONSIVE DESIGN --- */
 @media (max-width: 768px) {
+  .contact-section {
+    margin-top: 8rem;
+  }
   .contact-container {
     flex-direction: column;
     text-align: center;
@@ -130,6 +138,9 @@
 }
 
 @media (max-width: 480px) {
+  .contact-section {
+    margin-top: 6rem;
+  }
   .contact-title {
     font-size: 2rem;
   }

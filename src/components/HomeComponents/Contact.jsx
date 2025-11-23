@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaSlack } from "react-icons/fa";
 import Fades from "../../Animations/Fades";
 import "./Contact.css";
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 
 const contacts = [
@@ -24,7 +24,7 @@ const contacts = [
 ];
 
 const Contact = () => {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -46,10 +46,9 @@ const Contact = () => {
       <div className="contact-container">
         <div className="left-side">
           <Fades animationType="fadeUp">
-            <h2 className="contact-title">Get in Touch</h2>
+            <h2 className="contact-title">{t("contact.title")}</h2>
             <p className="contact-description">
-              Feel free to contact me for projects, collaborations, or any
-              questions. I usually reply within one day!
+              {t("contact.description")}
             </p>
 
             <div className="contact-grid">
@@ -71,12 +70,12 @@ const Contact = () => {
         {/* Contact Form */}
         <Fades animationType="fadeUp">
           <form className="contact-form" onSubmit={handleSubmit}>
-            <h3 className="form-title">Contact Me</h3>
+            <h3 className="form-title">{t("contact.formTitle")}</h3>
 
             <input
               type="text"
               name="name"
-              placeholder="Your Name"
+              placeholder={t("contact.formPlaceholders.name")}
               className="form-input"
               value={formData.name}
               onChange={handleChange}
@@ -86,7 +85,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              placeholder="Your Email"
+              placeholder={t("contact.formPlaceholders.email")}
               className="form-input"
               value={formData.email}
               onChange={handleChange}
@@ -95,7 +94,7 @@ const Contact = () => {
 
             <textarea
               name="message"
-              placeholder="Your Message"
+              placeholder={t("contact.formPlaceholders.message")}
               className="form-textarea"
               value={formData.message}
               onChange={handleChange}
@@ -103,7 +102,7 @@ const Contact = () => {
             ></textarea>
 
             <button type="submit" className="form-button">
-              Send Message
+              {t("contact.formButton")}
             </button>
           </form>
         </Fades>

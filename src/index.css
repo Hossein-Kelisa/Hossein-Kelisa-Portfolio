@@ -12,8 +12,8 @@
 }
 html[lang="fa"] body {
   font-family: 'Vazir', sans-serif;
-  direction: ltr;
-  text-align: left;
+  direction: rtl;
+  text-align: right;
   scroll-behavior: smooth;
 }
 html[lang="en"] body, html[lang="du"] body {
@@ -39,8 +39,7 @@ body {
 }
 /* Dark mode */
 body.dark {
-  background: #121212f1;
-  color: #ffffff;
+  background: #11183cf1;
 }
 
 /* Headings use Comic Neue */

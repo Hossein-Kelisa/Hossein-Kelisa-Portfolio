@@ -37,3 +37,6 @@
   pointer-events: none;
   z-index: 1;
 }
+.dark .waves-overlay {
+  background: linear-gradient(to left, #000000c3, #07294fc2, #000000);
+}

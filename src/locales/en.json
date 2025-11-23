@@ -8,6 +8,9 @@
     "homeGreeting": "Hi, I'm {{name}}",
     "homeSubtitle1": "Welcome to my portfolio."
   },
+  "hero": {
+    "viewWork": "Explore my service"
+  },
   "text": {
     "subtitle": "Learn about my work, my experience and the projects I build."
   },
@@ -19,17 +22,73 @@
       "part2": " program, where I learned modern web development and gained real project experience through teamwork and clean coding practices. I’m confident working with React, and I enjoy UI design, problem-solving, and collaborating with others. I’m responsible, motivated, and a fast learner who is always improving and growing as a developer."
     }
   },
-  "growth-life": {
-    "title": "Growth & Life",
-    "learningNow": "Learning Now",
-    "hobbies": "Beyond Coding",
-    "collaborateNote": "I enjoy working with others and building meaningful projects together. Let’s connect and create something great!"
+  "languages": {
+    "title": "Languages I Speak",
+    "name": {
+      "persian": "Persian",
+      "azeri": "Azeri",
+      "turkish": "Turkish",
+      "english": "English",
+      "dutch": "Dutch"
+    },
+    "level": {
+      "native": "Native",
+      "advanced": "Advanced",
+      "intermediate": "Intermediate",
+      "basic": "Basic",
+      "beginner": "Beginner"
+    }
+  },
+  "certificates": {
+    "title": "Certificates",
+    "fullStack": "Full Stack Web Development"
   },
   "resume": {
     "title": "Resume",
     "description": "You can download my resume here:",
     "download": "Download"
   },
+  "growth-life": {
+    "title": "Growth & Life",
+    "learningNow": "Learning Now",
+    "Learning": {
+      "typescript": "TypeScript",
+      "tailwindcss": "Tailwind CSS",
+      "aws": "AWS",
+      "webSecurity": "Web Security",
+      "uiDesign": "UI Design"
+    },
+    "hobby": "Beyond Coding",
+    "hobbies": {
+      "gym": "Going to the Gym",
+      "horseRiding": "Horse Riding",
+      "listeningToMusic": "Listening to Music",
+      "photography": "Photography"
+    },
+    "collaborateNote": "I enjoy working with others and building meaningful projects together. Let’s connect and create something great!"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Feel free to contact me for projects, collaborations, or any questions. I usually reply within one day!",
+    "formTitle": "Contact Me",
+    "formPlaceholders": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message"
+    },
+    "formButton": "Send Message"
+  },
+
+
+
+
+
+
+
+
+
+
+  
   "projects": {
     "title": "Projects",
     "ticEng": {
@@ -49,21 +108,10 @@
       "description": "A simple and interactive quiz application built with HTML, CSS, and JavaScript"
     }
   },
-  "certificates": {
-    "title": "Certificates",
-    "fullStack": "Full Stack Web Development"
-  },
+
   "skills": {
     "title": "Skills",
     "languages": "Languages, Frameworks and Libraries",
     "tools": "Tools and Platforms"
-  },
-  "contact": {
-    "title": "Contact Me"
-  },
-  "learning": {
-    "title": "Learning Now",
-    "tech": "Tech",
-    "languages": "Languages"
   }
 }

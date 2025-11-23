@@ -18,6 +18,11 @@
   color: #b3ff00;
   text-shadow: 0 1px 25px rgb(4, 4, 4);
   animation: fading 3s ease-in-out;
+  direction: ltr;
+  text-align: left;
+}
+.dark .welcome-subtitle {
+  color: #b3ff007d;
 }
 
 @media (max-width: 768px) {

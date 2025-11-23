@@ -6,6 +6,10 @@
   max-width: 800px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.551);
 }
+.dark .resume-section {
+  background-color: #fbfcee8f;
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.288);
+}
 
 .resume-section h2 {
   font-size: 2.5rem;
