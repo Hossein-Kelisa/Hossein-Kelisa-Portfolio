@@ -1,14 +1,8 @@
-/* -----------------------------
-   Section Layout
------------------------------ */
 .project-section {
-  padding: 5rem 2rem;
-  background: #f8f9fa;
+  padding: 8rem 2rem;
+  background: #e9e9ea;
 }
 
-/* -----------------------------
-   Image + Text Header Section
------------------------------ */
 .projects-header {
   display: flex;
   align-items: center;
@@ -29,7 +23,7 @@
   max-width: 420px;
   border-radius: 16px;
   object-fit: cover;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.363);
 }
 
 .projects-text {
@@ -51,9 +45,6 @@
   margin-top: 0.5rem;
 }
 
-/* -----------------------------
-   Project Grid
------------------------------ */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -62,14 +53,11 @@
   margin: 0 auto;
 }
 
-/* -----------------------------
-   Project Cards
------------------------------ */
 .project-card {
   background: #ffffff;
   padding: 1.8rem;
   border-radius: 14px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.215);
   transition: all 0.25s ease;
   text-align: left;
   border: 1px solid #e5e5e5;
@@ -97,9 +85,6 @@
   line-height: 1.6;
 }
 
-/* -----------------------------
-   Responsive
------------------------------ */
 @media (max-width: 768px) {
   .projects-title {
     text-align: center;

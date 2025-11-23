@@ -9,13 +9,15 @@ const Projects = () => {
   return (
     <section id="projects" className="project-section">
       <div className="projects-header">
-        <div className="projects-image-wrapper">
-          <img
-            src={ProjectImg}
-            alt="Projects Preview"
-            className="projects-image"
-          />
-        </div>
+        <Fades animationType="fadeRotate">
+          <div className="projects-image-wrapper">
+            <img
+              src={ProjectImg}
+              alt="Projects Preview"
+              className="projects-image"
+            />
+          </div>
+        </Fades>
 
         <div className="projects-text">
           <Fades animationType="fadeUp">
