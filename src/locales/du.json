@@ -77,5 +77,13 @@
       "message": "Bericht"
     },
     "formButton": "Stuur bericht"
+  },
+  "services": {
+    "title": "Mijn Services",
+    "subtitle": "Ik bouw moderne, snelle en gebruiksvriendelijke webapplicaties. Schone ontwerpen, sterke prestaties en full-stack oplossingen voor jouw bedrijf.",
+    "requirements": "Vereisten",
+    "skills": "Vaardigheden",
+    "projects": "Projecten",
+    "backToPortfolio": "Terug naar Portfolio"
   }
 }

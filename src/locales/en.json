@@ -78,6 +78,14 @@
     },
     "formButton": "Send Message"
   },
+  "services": {
+    "title": "My Services",
+    "subtitle": "I build modern, fast, and user-friendly web applications. Clean design, strong performance, and full-stack solutions for your business.",
+    "requirements": "Requirements",
+    "skills": "Skills",
+    "projects": "Projects",
+    "backToPortfolio": "Back to Portfolio"
+  },
 
 
 

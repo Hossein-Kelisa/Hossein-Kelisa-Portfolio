@@ -1,25 +1,35 @@
 import "./ServicesHero.css";
+import Fades from "../../Animations/Fades";
+import { useTranslation } from "react-i18next";
 
 const ServicesHero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="services-hero-section">
-      <div className="services-hero-overlay">
-        <h1 className="services-hero-title">My Services</h1>
-        <p className="services-hero-subtitle">
-          I build modern, fast, and user-friendly web applications. Clean
-          design, strong performance, and full-stack solutions for your
-          business.
-        </p>
+      <Fades animationType="fadeZoom">
+        <div className="services-hero-overlay">
+          <h1 className="services-hero-title">{t("services.title")}</h1>
+          <p className="services-hero-subtitle">{t("services.subtitle")}</p>
 
-        <div className="services-hero-buttons">
-          <button className="services-hero-btn primary">Requirements</button>
-          <button className="services-hero-btn secondary">Skills</button>
-          <button className="services-hero-btn secondary">Projects</button>
+          <div className="services-hero-buttons">
+            <button className="services-hero-btn primary">
+              {t("services.requirements")}
+            </button>
+            <button className="services-hero-btn secondary">
+              {t("services.skills")}
+            </button>
+            <button className="services-hero-btn secondary">
+              {t("services.projects")}
+            </button>
+          </div>
         </div>
-      </div>
-      <div className="Back-to-Portfolio-button-container">
-        <button className="Back-to-Portfolio-button">Back to Portfolio</button>
-      </div>
+        <div className="Back-to-Portfolio-button-container">
+          <button className="Back-to-Portfolio-button">
+            {t("services.backToPortfolio")}
+          </button>
+        </div>
+      </Fades>
     </section>
   );
 };
