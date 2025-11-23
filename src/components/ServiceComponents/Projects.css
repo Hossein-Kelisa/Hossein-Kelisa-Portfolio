@@ -1,93 +1,126 @@
+/* -----------------------------
+   Section Layout
+----------------------------- */
 .project-section {
   padding: 5rem 2rem;
-  background: linear-gradient(to right, #f9f9f9, #edf5fb6e);
-  border-radius: 15px;
-  text-align: center;
-  max-width: 1000px;
+  background: #f8f9fa;
+}
+
+/* -----------------------------
+   Image + Text Header Section
+----------------------------- */
+.projects-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: 0 auto 4rem auto;
+  flex-wrap: wrap; /* makes responsive */
+}
+
+.projects-image-wrapper {
+  flex: 1;
+  min-width: 260px;
+}
+
+.projects-image {
   width: 100%;
-  margin: 0 auto;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
-  direction: rtl;
+  max-width: 420px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-.project-section h2 {
-  font-size: 2.5rem;
-  color: #514d4d;
-  margin-bottom: 2rem;
-  position: relative;
-  display: inline-block;
+.projects-text {
+  flex: 1;
+  min-width: 280px;
 }
 
-.project-section h2::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 3px;
-  background-color: #cf9230;
-  margin: 0.5rem auto 0;
-  border-radius: 2px;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
-  gap: 2rem;
-  max-width: 1000px;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
-}
-
-.project-card {
-  background-color: #f8f8f800;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.projects-title {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  color: #333;
   text-align: left;
 }
 
-.project-card h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  color: #222;
+.projects-description {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.7;
+  margin-top: 0.5rem;
+}
+
+/* -----------------------------
+   Project Grid
+----------------------------- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* -----------------------------
+   Project Cards
+----------------------------- */
+.project-card {
+  background: #ffffff;
+  padding: 1.8rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
+  text-align: left;
+  border: 1px solid #e5e5e5;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.project-card a h3 {
+  color: #0057b8;
+  margin-bottom: 0.6rem;
+  font-size: 1.35rem;
+  transition: color 0.2s ease;
+}
+
+.project-card a:hover h3 {
+  color: #003f86;
 }
 
 .project-card p {
-  color: #555;
+  color: #444;
   font-size: 1rem;
   line-height: 1.6;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(14, 138, 47, 0.544);
-}
+/* -----------------------------
+   Responsive
+----------------------------- */
 @media (max-width: 768px) {
-  .project-section {
-    padding: 3.5rem 1.5rem;
+  .projects-title {
+    text-align: center;
+    font-size: 2.2rem;
   }
 
-  .project-section h2 {
-    font-size: 2rem;
+  .projects-description {
+    text-align: center;
   }
-  .project-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+
+  .projects-header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-section {
+    padding: 3rem 1rem;
   }
 
   .project-card {
-    width: 100%;
-  }
-}
-@media (max-width: 480px) {
-  .project-section h2 {
-    font-size: 1.75rem;
-  }
-  .project-card h3 {
-    font-size: 1.25rem;
-  }
-  .project-card p {
-    font-size: 0.9rem;
+    padding: 1.4rem;
   }
 }
