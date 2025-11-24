@@ -11,6 +11,9 @@
   margin-bottom: 20px;
   color: #222;
 }
+.dark .proposal-title {
+  color: #f0f0f0;
+}
 
 .proposal-text {
   font-size: 1.15rem;

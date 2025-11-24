@@ -88,8 +88,8 @@
     "projects": "Projects",
     "backToPortfolio": "Back to Portfolio"
   },
-
   "projects": {
+    "intro": "Here are some of the professional projects I have built — from full-stack applications to interactive websites. Each project reflects my clean coding style, performance-first mindset, and dedication to creating user-friendly digital experiences.",
     "title": "Projects",
     "ticEng": {
       "title": "Tic_eng",
@@ -108,10 +108,25 @@
       "description": "A simple and interactive quiz application built with HTML, CSS, and JavaScript"
     }
   },
-
   "skills": {
     "title": "Skills",
+    "description": "I specialize in building modern, efficient, and scalable web applications—covering everything from frontend interfaces to backend systems, databases, and deployment. My toolkit includes the technologies I use every day to turn ideas into real, high-quality products.",
     "languages": "Languages, Frameworks and Libraries",
     "tools": "Tools and Platforms"
+  },
+  "requirement": {
+    "title": "Send your request",
+    "subtitle": "Fill in your details and upload any supporting documents. I will review your information and contact you shortly.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "details": "Describe your project...",
+    "uploadLabel": "Upload File (PDF, DOC, JPG, max 10MB)",
+    "submitButton": "Submit Request"
+  },
+  "proposal": {
+    "title": "Project Requirements & Contract",
+    "description": "Download the complete project document, including requirements, workflow, pricing, and contract details. This helps you understand the full process before submitting a request.",
+    "download": "Download PDF"
   }
+
 }

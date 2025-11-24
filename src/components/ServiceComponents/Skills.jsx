@@ -68,8 +68,6 @@ const Skills = () => {
 
   return (
     <section id="skills" className="skills-section">
-
-      {/* ---- Header with Image + Description ---- */}
       <div className="skills-header">
         <div className="skills-image-wrapper">
           <img src={skillsImg} alt="Skills" className="skills-image" />
@@ -80,23 +78,15 @@ const Skills = () => {
             <h2 className="skills-title">{t("skills.title")}</h2>
           </Fades>
 
-          <p className="skills-description">
-            I specialize in building modern, efficient, and scalable web
-            applications—covering everything from frontend interfaces to backend
-            systems, databases, and deployment.  
-            My toolkit includes the technologies I use every day to turn ideas
-            into real, high-quality products.
-          </p>
+          <p className="skills-description">{t("skills.description")}</p>
         </div>
       </div>
 
-      {/* ---- Languages / Frameworks ---- */}
       <Fades animationType="fadeZoom">
         <h3 className="skills-subtitle">💻 {t("skills.languages")}</h3>
       </Fades>
       <div className="skills-grid">{languages.map(renderSkillCard)}</div>
 
-      {/* ---- Tools ---- */}
       <Fades animationType="fadeZoom">
         <h3 className="skills-subtitle">🔧 {t("skills.tools")}</h3>
       </Fades>

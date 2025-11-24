@@ -1,13 +1,13 @@
 import "./RequirementForm.css";
+import { useTranslation } from "react-i18next";
 
 function RequirementForm() {
+  const { t } = useTranslation();
+
   return (
     <section className="requirement-container">
-      <h2 className="requirement-title">Project Requirement Form</h2>
-      <p className="requirement-subtitle">
-        Fill in your details and upload any supporting documents.  
-        I will review your information and contact you shortly.
-      </p>
+      <h2 className="requirement-title">{t("requirement.title")}</h2>
+      <p className="requirement-subtitle">{t("requirement.subtitle")}</p>
 
       <form
         name="requirement-form"
@@ -19,25 +19,33 @@ function RequirementForm() {
         <input type="hidden" name="form-name" value="requirement-form" />
 
         <div className="form-group">
-          <input type="text" name="name" placeholder="Your Name" required />
+          <input
+            type="text"
+            name="name"
+            placeholder={t("requirement.name")}
+            required
+          />
         </div>
 
         <div className="form-group">
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="email"
+            name="email"
+            placeholder={t("requirement.email")}
+            required
+          />
         </div>
 
         <div className="form-group">
           <textarea
             name="details"
-            placeholder="Describe your project..."
+            placeholder={t("requirement.details")}
             required
           ></textarea>
         </div>
 
         <div className="form-group file-group">
-          <label className="file-label">
-            Upload File (PDF, DOC, JPG, max 10MB)
-          </label>
+          <label className="file-label">{t("requirement.uploadLabel")}</label>
           <input
             type="file"
             name="attachment"
@@ -47,7 +55,7 @@ function RequirementForm() {
         </div>
 
         <button type="submit" className="submit-btn">
-          Submit Request
+          {t("requirement.submitButton")}
         </button>
       </form>
     </section>
