@@ -2,6 +2,9 @@
   padding: 8rem 2rem;
   background: #e9e9ea;
 }
+.dark .project-section {
+  background: #1e1e1e;
+}
 
 .projects-header {
   display: flex;
@@ -37,6 +40,9 @@
   color: #333;
   text-align: left;
 }
+.dark .projects-title {
+  color: #f0f0f0;
+}
 
 .projects-description {
   font-size: 1.15rem;
@@ -61,6 +67,10 @@
   transition: all 0.25s ease;
   text-align: left;
   border: 1px solid #e5e5e5;
+}
+.dark .project-card {
+  background: #a8a8a8;
+  border: 1px solid #444;
 }
 
 .project-card:hover {

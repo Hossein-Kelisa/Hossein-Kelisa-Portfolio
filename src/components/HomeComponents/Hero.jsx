@@ -14,15 +14,12 @@ const Hero = () => {
       <div className="hero-navbar-wrapper">
         <Navbar />
       </div>
-
       <Welcome />
-
       <div className="explore-button-wrapper">
         <Fades animationType="fadeZoom">
-          <a className="explore-button">{t("hero.viewWork")}</a>
-          {/* <a href="/services" className="explore-button">
+          <a href="/services" className="explore-button">
             {t("hero.viewWork")}
-          </a> */}
+          </a>
         </Fades>
       </div>
     </div>

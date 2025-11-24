@@ -4,7 +4,7 @@ import { FaFilePdf } from "react-icons/fa";
 
 const Proposal = () => {
   return (
-    <section id="proposal" className="proposal-section">
+    <section id="requirements" className="proposal-section">
       <Fades animationType="fadeUp">
         <h2 className="proposal-title">Project Requirements & Contract</h2>
       </Fades>
