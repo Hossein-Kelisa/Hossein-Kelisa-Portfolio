@@ -18,7 +18,7 @@ import {
 } from "react-icons/fa";
 import Fades from "../../Animations/Fades";
 import { useTranslation } from "react-i18next";
-import skillsImg from "../../assets/33.jpg";
+import skillsImg from "../../assets/22.jpg";
 
 const languages = [
   { name: "JavaScript", icon: <FaJs />, level: 5 },

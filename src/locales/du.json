@@ -19,7 +19,8 @@
     "text": {
       "part1": " Ik ben een fullstack developer gevestigd in Nederland 🇳🇱 met een sterke passie voor het oplossen van problemen en het creëren van gebruiksvriendelijke digitale producten. Oorspronkelijk kom ik uit Iran. Ik heb Industrieel Ingenieursonderwijs gestudeerd aan de Payam Noor Universiteit in Urmia en vijf jaar als accountant gewerkt voordat ik naar Nederland verhuisde.\nNa het ontdekken van mijn interesse in programmeren besloot ik mijn carrière te veranderen en begon ik aan het",
       "link": " HackYourFuture",
-      "part2": " -programma. Daar leerde ik moderne webontwikkeling en deed ik echte projectervaring op door teamwork en clean coding-praktijken.\nIk werk zelfverzekerd met React en ik houd van UI-design, probleemoplossing en samenwerken met anderen. Ik ben verantwoordelijk, gemotiveerd en een snelle leerling, en ik blijf mezelf steeds verder ontwikkelen als developer."
+      "part2": " -programma. Daar leerde ik moderne webontwikkeling en deed ik echte projectervaring op door teamwork en clean coding-praktijken.\nIk werk zelfverzekerd met React en ik houd van UI-design, probleemoplossing en samenwerken met anderen. Ik ben verantwoordelijk, gemotiveerd en een snelle leerling, en ik blijf mezelf steeds verder ontwikkelen als developer.",
+      "part3": "Ik bouw moderne, snelle en responsieve websites en webapplicaties met behulp van schone code, een sterke structuur en professionele tools."
     }
   },
   "languages": {
@@ -50,6 +51,7 @@
   },
   "growth-life": {
     "title": "Groei & Leven",
+    "description": "Ik ben altijd bezig mijn vaardigheden te verbeteren en nieuwe technologieën te verkennen om te groeien als developer. Continu leren en een gebalanceerde levensstijl helpen mij creatief, gefocust en klaar voor nieuwe uitdagingen te blijven.",
     "learningNow": "Nu aan het leren",
     "Learning": {
       "typescript": "TypeScript",

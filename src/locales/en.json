@@ -19,7 +19,8 @@
     "text": {
       "part1": " I’m a full-stack developer based in the Netherlands 🇳🇱 with a strong passion for solving problems and creating user-friendly digital products. Originally from Iran, I studied Industrial Engineering at Payam Noor University in Urmia and worked for five years in accounting before moving to the Netherlands. After discovering my interest in coding, I decided to change my career and joined the ",
       "link": "HackYourFuture",
-      "part2": " program, where I learned modern web development and gained real project experience through teamwork and clean coding practices. I’m confident working with React, and I enjoy UI design, problem-solving, and collaborating with others. I’m responsible, motivated, and a fast learner who is always improving and growing as a developer."
+      "part2": " program, where I learned modern web development and gained real project experience through teamwork and clean coding practices. I’m confident working with React, and I enjoy UI design, problem-solving, and collaborating with others. I’m responsible, motivated, and a fast learner who is always improving and growing as a developer.",
+      "part3": "I build modern, fast, and responsive websites and web applications using clean code, strong structure, and professional tools."
     }
   },
   "languages": {
@@ -50,6 +51,7 @@
   },
   "growth-life": {
     "title": "Growth & Life",
+    "description": "I am always improving my skills and exploring new technologies to grow as a developer. Continuous learning and a balanced lifestyle help me stay creative, focused, and ready for new challenges.",
     "learningNow": "Learning Now",
     "Learning": {
       "typescript": "TypeScript",
@@ -87,16 +89,6 @@
     "backToPortfolio": "Back to Portfolio"
   },
 
-
-
-
-
-
-
-
-
-
-  
   "projects": {
     "title": "Projects",
     "ticEng": {
