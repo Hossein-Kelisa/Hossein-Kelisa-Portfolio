@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import bgImage from "../../assets/IMG_5030.JPG";
+import bgImage from "../../assets/my-image3.JPG";
 import "./Waves.css";
 
 export function Waves({

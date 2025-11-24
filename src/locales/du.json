@@ -19,7 +19,8 @@
     "text": {
       "part1": " Ik ben een fullstack developer gevestigd in Nederland 🇳🇱 met een sterke passie voor het oplossen van problemen en het creëren van gebruiksvriendelijke digitale producten. Oorspronkelijk kom ik uit Iran. Ik heb Industrieel Ingenieursonderwijs gestudeerd aan de Payam Noor Universiteit in Urmia en vijf jaar als accountant gewerkt voordat ik naar Nederland verhuisde.\nNa het ontdekken van mijn interesse in programmeren besloot ik mijn carrière te veranderen en begon ik aan het",
       "link": " HackYourFuture",
-      "part2": " -programma. Daar leerde ik moderne webontwikkeling en deed ik echte projectervaring op door teamwork en clean coding-praktijken.\nIk werk zelfverzekerd met React en ik houd van UI-design, probleemoplossing en samenwerken met anderen. Ik ben verantwoordelijk, gemotiveerd en een snelle leerling, en ik blijf mezelf steeds verder ontwikkelen als developer."
+      "part2": " -programma. Daar leerde ik moderne webontwikkeling en deed ik echte projectervaring op door teamwork en clean coding-praktijken.\nIk werk zelfverzekerd met React en ik houd van UI-design, probleemoplossing en samenwerken met anderen. Ik ben verantwoordelijk, gemotiveerd en een snelle leerling, en ik blijf mezelf steeds verder ontwikkelen als developer.",
+      "part3": "Ik bouw moderne, snelle en responsieve websites en webapplicaties met behulp van schone code, een sterke structuur en professionele tools."
     }
   },
   "languages": {
@@ -50,6 +51,7 @@
   },
   "growth-life": {
     "title": "Groei & Leven",
+    "description": "Ik ben altijd bezig mijn vaardigheden te verbeteren en nieuwe technologieën te verkennen om te groeien als developer. Continu leren en een gebalanceerde levensstijl helpen mij creatief, gefocust en klaar voor nieuwe uitdagingen te blijven.",
     "learningNow": "Nu aan het leren",
     "Learning": {
       "typescript": "TypeScript",
@@ -77,5 +79,55 @@
       "message": "Bericht"
     },
     "formButton": "Stuur bericht"
+  },
+  "services": {
+    "title": "Mijn Services",
+    "subtitle": "Ik bouw moderne, snelle en gebruiksvriendelijke webapplicaties. Schone ontwerpen, sterke prestaties en full-stack oplossingen voor jouw bedrijf.",
+    "requirements": "Vereisten",
+    "skills": "Vaardigheden",
+    "projects": "Projecten",
+    "backToPortfolio": "Terug naar Portfolio"
+  },
+  "projects": {
+    "intro": "Hier zijn enkele van de professionele projecten die ik heb gebouwd - van full-stack applicaties tot interactieve websites. Elk project weerspiegelt mijn schone codestijl, prestatiegerichte mindset en toewijding aan het creëren van gebruiksvriendelijke digitale ervaringen.",
+    "title": "Projecten",
+    "ticEng": {
+      "title": "Tic_eng",
+      "description": "Een bedrijfswebsite voor een ingenieursbedrijf dat test-, inspectie- en certificeringsdiensten aanbiedt"
+    },
+    "shareWithUs": {
+      "title": "ShareWithUs",
+      "description": "Een sociaal deelplatform waar gebruikers items van elkaar kunnen opsommen en lenen"
+    },
+    "worldOfHorses": {
+      "title": "World Of Horses",
+      "description": "Een project dat paardenrassen van over de wereld toont met behulp van API's en een dynamische gebruikersinterface"
+    },
+    "quizApp": {
+      "title": "Quiz App",
+      "description": "Een eenvoudige en interactieve quizapplicatie gebouwd met HTML, CSS en JavaScript"
+    }
+  },
+  "skills": {
+    "title": "Vaardigheden",
+    "description": "Ik specialiseer mij in het bouwen van moderne, efficiënte en schaalbare webapplicaties - van frontend interfaces tot backend systemen, databases en deployment. Mijn toolkit omvat de technologieën die ik dagelijks gebruik om ideeën om te zetten in echte, hoogwaardige producten.",
+    "languages": "Talen, Frameworks en Bibliotheken",
+    "tools": "Tools en Platforms"
+  },
+  "requirement": {
+    "title": "Dien je verzoek in",
+    "subtitle": "Vul je gegevens in en upload eventuele ondersteunende documenten. Ik zal je informatie bekijken en binnenkort contact met je opnemen.",
+    "name": "Je naam",
+    "email": "Je e-mail",
+    "details": "Beschrijf je project...",
+    "uploadLabel": "Bestand uploaden (PDF, DOC, JPG, max 10MB)",
+    "submitButton": "Verzoek indienen"
+  },
+  "proposal": {
+    "title": "Projectvereisten & Contract",
+    "description": "Download het volledige projectdocument, inclusief vereisten, workflow, prijsstelling en contractdetails. Dit helpt je het volledige proces te begrijpen voordat je een verzoek indient.",
+    "download": "Download PDF"
   }
+
+
 }

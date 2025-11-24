@@ -19,12 +19,6 @@ const Certificates = () => {
         >
           <div className="cert-card">
             <span className="cert-title">{t("certificates.fullStack")}</span>
-            <span
-              className="cert-icon"
-              role="img"
-              aria-label={t("certificates.iconLabel")}
-            >
-            </span>
           </div>
         </a>
       </Fades>

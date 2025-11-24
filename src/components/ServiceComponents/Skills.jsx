@@ -18,13 +18,14 @@ import {
 } from "react-icons/fa";
 import Fades from "../../Animations/Fades";
 import { useTranslation } from "react-i18next";
+import skillsImg from "../../assets/22.jpg";
 
 const languages = [
   { name: "JavaScript", icon: <FaJs />, level: 5 },
   { name: "React", icon: <FaReact />, level: 5 },
   { name: "HTML5", icon: <FaHtml5 />, level: 5 },
   { name: "CSS3", icon: <FaCss3Alt />, level: 5 },
-  { name: "Jest", icon: <FaFileCode />, level: 4 }, 
+  { name: "Jest", icon: <FaFileCode />, level: 4 },
   { name: "REST API", icon: <FaCloud />, level: 5 },
   { name: "Node.js", icon: <FaNodeJs />, level: 5 },
   { name: "MySQL", icon: <FaDatabase />, level: 5 },
@@ -67,9 +68,19 @@ const Skills = () => {
 
   return (
     <section id="skills" className="skills-section">
-      <Fades animationType="fadeZoom">
-        <h2 className="skills-title">{t("skills.title")}</h2>
-      </Fades>
+      <div className="skills-header">
+        <div className="skills-image-wrapper">
+          <img src={skillsImg} alt="Skills" className="skills-image" />
+        </div>
+
+        <div className="skills-text">
+          <Fades animationType="fadeZoom">
+            <h2 className="skills-title">{t("skills.title")}</h2>
+          </Fades>
+
+          <p className="skills-description">{t("skills.description")}</p>
+        </div>
+      </div>
 
       <Fades animationType="fadeZoom">
         <h3 className="skills-subtitle">💻 {t("skills.languages")}</h3>
