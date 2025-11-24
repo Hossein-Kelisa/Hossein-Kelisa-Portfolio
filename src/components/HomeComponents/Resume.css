@@ -9,6 +9,9 @@
   margin-bottom: 20px;
   color: #222;
 }
+.dark .resume-section h2 {
+  color: #f0f0f0;
+}
 
 .resume-section p {
   font-size: 1.2rem;
