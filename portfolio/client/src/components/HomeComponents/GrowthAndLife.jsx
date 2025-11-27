@@ -1,6 +1,6 @@
 import "./GrowthAndLife.css";
 import Fades from "../../Animations/Fades";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "../../../node_modules/react-i18next";
 import { SiTypescript, SiTailwindcss } from "react-icons/si";
 import { FaAws, FaShieldAlt, FaPalette } from "react-icons/fa";
 import growthImg from "../../assets/G&L-image.jpg";

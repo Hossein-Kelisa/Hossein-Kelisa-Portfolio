@@ -1,6 +1,6 @@
 import "./ServicesHero.css";
 import Fades from "../../Animations/Fades";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "../../../node_modules/react-i18next";
 
 const ServicesHero = () => {
   const { t } = useTranslation();
@@ -20,23 +20,32 @@ const ServicesHero = () => {
           <p className="services-hero-subtitle">{t("services.subtitle")}</p>
 
           <div className="services-hero-buttons">
-            <button className="services-hero-btn primary" onClick={() => handleLinkClick("requirements")}>
+            <button
+              className="services-hero-btn primary"
+              onClick={() => handleLinkClick("requirements")}
+            >
               {t("services.requirements")}
             </button>
-            <button className="services-hero-btn secondary" onClick={() => handleLinkClick("skills")}>
+            <button
+              className="services-hero-btn secondary"
+              onClick={() => handleLinkClick("skills")}
+            >
               {t("services.skills")}
             </button>
-            <button className="services-hero-btn secondary" onClick={() => handleLinkClick("projects")}>
+            <button
+              className="services-hero-btn secondary"
+              onClick={() => handleLinkClick("projects")}
+            >
               {t("services.projects")}
             </button>
           </div>
         </div>
-        <div className="Back-to-Portfolio-button-container">
-          <a className="Back-to-Portfolio-button" href="/">
-            {t("services.backToPortfolio")}
-          </a>
-        </div>
       </Fades>
+      <div className="Back-to-Portfolio-button-container">
+        <a className="Back-to-Portfolio-button" href="/">
+          {t("services.backToPortfolio")}
+        </a>
+      </div>
     </section>
   );
 };

@@ -1,6 +1,6 @@
 import "./Text.css";
 import Fades from "../../Animations/Fades";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "../../../node_modules/react-i18next";
 
 const Text = () => {
   const { t } = useTranslation();
