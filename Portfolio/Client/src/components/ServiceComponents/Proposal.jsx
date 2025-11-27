@@ -1,7 +1,7 @@
 import Fades from "../../Animations/Fades";
 import "./Proposal.css";
 import { FaFilePdf } from "react-icons/fa";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "../../../node_modules/react-i18next";
 
 const Proposal = () => {
   const { t } = useTranslation();

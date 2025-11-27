@@ -1,6 +1,6 @@
 import Fades from "../../Animations/Fades";
 import "./About.css";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "../../../node_modules/react-i18next";
 import aboutImg from "../../assets/my-image.jpg";
 
 const About = () => {

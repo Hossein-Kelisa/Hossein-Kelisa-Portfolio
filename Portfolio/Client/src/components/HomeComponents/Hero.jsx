@@ -3,7 +3,7 @@ import { Waves } from "./Waves";
 import Navbar from "./Navbar";
 import Welcome from "./Welcome";
 import Fades from "../../Animations/Fades";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "../../../node_modules/react-i18next";
 
 const Hero = () => {
   const { t } = useTranslation();
