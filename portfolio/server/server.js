@@ -1,7 +1,6 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import process from "process";
 import contactRoutes from "./routes/contact.js";
 import connectDB from "./config/db.js";
 
