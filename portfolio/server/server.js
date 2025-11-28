@@ -10,7 +10,7 @@ const app = express();
 
 connectDB();
 
-app.use(cors({ origin: "http://localhost:3000" })); /// i have to separate this file with all the routes
+app.use(cors({ origin: "http://localhost:5173" })); /// i have to separate this file with all the routes
 app.use(express.json());
 app.use("/api/contact", contactRoutes);
 
