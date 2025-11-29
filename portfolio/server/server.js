@@ -1,8 +1,9 @@
 import express from "express";
-import cors from "cors";
 import dotenv from "dotenv";
+import cors from "cors";
 import contactRoutes from "./routes/contact.js";
 import connectDB from "./config/db.js";
+import corsOption from "./config/corsOptions.js";
 
 dotenv.config();
 
@@ -10,7 +11,7 @@ const app = express();
 
 connectDB();
 
-app.use(cors({ origin: "http://localhost:5173" })); /// i have to separate this file with all the routes
+app.use(cors(corsOption));
 app.use(express.json());
 app.use("/api/contact", contactRoutes);
 
