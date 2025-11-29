@@ -3,6 +3,7 @@ import Fades from "../../Animations/Fades";
 import "./Contact.css";
 import { useTranslation } from "../../../node_modules/react-i18next";
 import { useState } from "react";
+import { sendMessage } from "../../api/contact";
 
 const contacts = [
   {
@@ -35,21 +36,31 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log("Form submitted:", formData);
-    setFormData({ name: "", email: "", message: "" });
+    try {
+      const response = await sendMessage(formData);
+      console.log("Message sent successfully:", response);
+
+      // Show success alert
+      alert("Message sent successfully!");
+
+      // Reset form
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      console.error("Error sending message:", error);
+      alert("Failed to send message. Please try again later.");
+    }
   };
+
   return (
     <section id="contact" className="contact-section">
       <div className="contact-container">
         <div className="left-side">
           <Fades animationType="fadeUp">
             <h2 className="contact-title">{t("contact.title")}</h2>
-            <p className="contact-description">
-              {t("contact.description")}
-            </p>
+            <p className="contact-description">{t("contact.description")}</p>
 
             <div className="contact-grid">
               {contacts.map(({ href, icon }, index) => (
