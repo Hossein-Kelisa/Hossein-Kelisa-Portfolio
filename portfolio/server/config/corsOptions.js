@@ -1,6 +1,6 @@
 const corsOptions = {
   origin: [
-    "https://localhost:5173",
+    "http://localhost:5173",
     "https://hosseinkelisa.com",
     "https://www.hosseinkelisa.com",
     "https://hossein-kelisa.netlify.app",
