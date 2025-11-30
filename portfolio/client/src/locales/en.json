@@ -119,7 +119,7 @@
     "subtitle": "Fill in your details and upload any supporting documents. I will review your information and contact you shortly.",
     "name": "Your Name",
     "email": "Your Email",
-    "details": "Describe your project...",
+    "message": "Describe your project...",
     "uploadLabel": "Upload File (PDF, DOC, JPG, max 10MB)",
     "submitButton": "Submit Request"
   },

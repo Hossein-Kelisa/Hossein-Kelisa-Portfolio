@@ -41,7 +41,7 @@ function RequirementForm() {
           <div className="form-group">
             <textarea
               name="details"
-              placeholder={t("requirement.details")}
+              placeholder={t("requirement.message")}
               required
             ></textarea>
           </div>
