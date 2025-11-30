@@ -119,7 +119,7 @@
     "subtitle": "Vul je gegevens in en upload eventuele ondersteunende documenten. Ik zal je informatie bekijken en binnenkort contact met je opnemen.",
     "name": "Je naam",
     "email": "Je e-mail",
-    "details": "Beschrijf je project...",
+    "message": "Beschrijf je project...",
     "uploadLabel": "Bestand uploaden (PDF, DOC, JPG, max 10MB)",
     "submitButton": "Verzoek indienen"
   },
