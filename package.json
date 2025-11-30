@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "dev": "concurrently -n B,F -c green,blue \"npm run dev --prefix portfolio/server\" \"npm run dev --prefix portfolio/client\""
+  }
+}
