@@ -5,10 +5,15 @@ const messageSchema = new mongoose.Schema(
     name: { type: String, required: true, trim: true },
     email: { type: String, required: true, trim: true },
     message: { type: String, required: true, trim: true },
-    fileUrl: { type: String, default: null }, // optional (for form with file)
+
+    // Optional attachment link (S3 URL)
+    attachment: {
+      type: String,
+      default: null,
+    },
   },
   {
-    timestamps: true, // automatically adds createdAt & updatedAt
+    timestamps: true, // adds createdAt & updatedAt automatically
   }
 );
 
