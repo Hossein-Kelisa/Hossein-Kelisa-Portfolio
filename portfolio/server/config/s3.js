@@ -1,17 +1,17 @@
-import aws from "aws-sdk";
+import {
+  S3Client,
+  PutObjectCommand,
+  GetObjectCommand,
+} from "@aws-sdk/client-s3";
 import dotenv from "dotenv";
 dotenv.config();
 
-aws.config.update({
-  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+const s3 = new S3Client({
   region: process.env.AWS_REGION,
-  signatureVersion: "v4",
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  },
 });
 
-const s3 = new aws.S3({
-  apiVersion: "2006-03-01",
-  signatureVersion: "v4",
-});
-
-export default s3;
+export { s3, PutObjectCommand, GetObjectCommand };
