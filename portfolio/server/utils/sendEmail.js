@@ -2,7 +2,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export const sendEmail = async ({ name, email, message, attachments}) => {
+export const sendEmail = async ({ name, email, message, attachments }) => {
   const response = await resend.emails.send({
     from: "Portfolio <onboarding@resend.dev>",
     to: process.env.MY_EMAIL,
@@ -20,7 +20,9 @@ export const sendEmail = async ({ name, email, message, attachments}) => {
 
   if (response.error) {
     console.log("❌ Email failed:", response.error);
+    return { success: false, error: response.error };
   } else {
     console.log("✅ Email sent:", response.id);
+    return { success: true, id: response.id };
   }
 };

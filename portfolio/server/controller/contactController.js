@@ -27,7 +27,7 @@ export const sendMessage = async (req, res) => {
     let attachmentsList = [];
 
     if (attachmentUrl) {
-      const key = attachmentUrl.split(".amazonaws.com/")[1];
+      const key = new URL(attachmentUrl).pathname.replace(/^\//, ""); // remove leading '/'
       const buffer = await getObjectBuffer(key);
 
       attachmentsList.push({

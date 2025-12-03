@@ -121,7 +121,8 @@
     "email": "Je e-mail",
     "message": "Beschrijf je project...",
     "uploadLabel": "Bestand uploaden (PDF, DOC, JPG, max 10MB)",
-    "submitButton": "Verzoek indienen"
+    "submitButton": "Verzoek indienen",
+    "loading": "Bezig met verzenden..."
   },
   "proposal": {
     "title": "Projectvereisten & Contract",

@@ -6,31 +6,22 @@ import { useState } from "react";
 import { sendMessage } from "../../api/contact";
 
 const contacts = [
-  {
-    href: "mailto:Hossein.kelisa@gmail.com",
-    icon: <FaEnvelope />,
-  },
-  {
-    href: "https://github.com/Hossein-kelisa",
-    icon: <FaGithub />,
-  },
-  {
-    href: "https://linkedin.com/in/Hossein-kelisa",
-    icon: <FaLinkedin />,
-  },
-  {
-    href: "https://slack.com/Hossein-kelisa",
-    icon: <FaSlack />,
-  },
+  { href: "mailto:Hossein.kelisa@gmail.com", icon: <FaEnvelope /> },
+  { href: "https://github.com/Hossein-kelisa", icon: <FaGithub /> },
+  { href: "https://linkedin.com/in/Hossein-kelisa", icon: <FaLinkedin /> },
+  { href: "https://slack.com/Hossein-kelisa", icon: <FaSlack /> },
 ];
 
 const Contact = () => {
   const { t } = useTranslation();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
+
+  const [loading, setLoading] = useState(false); // <-- NEW
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -38,6 +29,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true); // <-- START loading
 
     try {
       const response = await sendMessage(formData);
@@ -52,6 +44,8 @@ const Contact = () => {
       console.error("Error sending message:", error);
       alert("Failed to send message. Please try again later.");
     }
+
+    setLoading(false); // <-- END loading
   };
 
   return (
@@ -112,8 +106,12 @@ const Contact = () => {
               required
             ></textarea>
 
-            <button type="submit" className="form-button">
-              {t("contact.formButton")}
+            <button
+              type="submit"
+              className="form-button"
+              disabled={loading} // <-- DISABLE BUTTON
+            >
+              {loading ? "Sending..." : t("contact.formButton")}
             </button>
           </form>
         </Fades>

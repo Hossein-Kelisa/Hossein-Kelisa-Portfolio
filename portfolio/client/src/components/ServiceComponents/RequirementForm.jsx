@@ -13,6 +13,8 @@ const RequirementForm = () => {
     attachment: null,
   });
 
+  const [loading, setLoading] = useState(false);
+
   const handleChange = (e) => {
     const { name, value, files } = e.target;
 
@@ -25,6 +27,7 @@ const RequirementForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     // Prepare FormData for file upload
     const data = new FormData();
@@ -55,6 +58,7 @@ const RequirementForm = () => {
       console.error("Error sending request:", error);
       alert("Failed to send request. Please try again later.");
     }
+    setLoading(false);
   };
 
   return (
@@ -112,8 +116,8 @@ const RequirementForm = () => {
             />
           </div>
 
-          <button type="submit" className="submit-btn">
-            {t("requirement.submitButton")}
+          <button type="submit" className="submit-btn" disabled={loading}>
+            {loading ? t("requirement.loading") : t("requirement.submitButton")}
           </button>
         </form>
       </Fades>
