@@ -4,6 +4,7 @@ import "./Contact.css";
 import { useTranslation } from "../../../node_modules/react-i18next";
 import { useState } from "react";
 import { sendMessage } from "../../api/contact";
+import { toast } from "react-toastify";
 
 const contacts = [
   { href: "mailto:Hossein.kelisa@gmail.com", icon: <FaEnvelope /> },
@@ -36,13 +37,13 @@ const Contact = () => {
       console.log("Message sent successfully:", response);
 
       // Show success alert
-      alert("Message sent successfully!");
+      toast.success("Message sent successfully!");
 
       // Reset form
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
       console.error("Error sending message:", error);
-      alert("Failed to send message. Please try again later.");
+      toast.error("Failed to send message. Please try again later.");
     }
 
     setLoading(false); // <-- END loading
