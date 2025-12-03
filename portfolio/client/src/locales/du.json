@@ -62,7 +62,7 @@
     },
     "hobby": "Buiten coderen",
     "hobbies": {
-      "gym": "Naar de sportschool gaan",
+      "gym": "Fitness & Gym",
       "horseRiding": "Geïnteresseerd in paardrijden",
       "listeningToMusic": "Muziek luisteren",
       "photography": "Fotografie",
@@ -121,12 +121,12 @@
     "name": "Je naam",
     "email": "Je e-mail",
     "message": "Beschrijf je project...",
-    "uploadLabel": "Bestand uploaden (PDF, DOC, JPG, max 10MB)",
+    "uploadLabel": "Bestand uploaden (PDF, max 10MB)",
     "submitButton": "Verzoek indienen",
     "loading": "Bezig met verzenden..."
   },
   "proposal": {
-    "title": "Projectvereisten & Contract",
+    "title": "Projectvereisten & Voorsteldocument",
     "description": "Download het volledige projectdocument, inclusief vereisten, workflow, prijsstelling en contractdetails. Dit helpt je het volledige proces te begrijpen voordat je een verzoek indient.",
     "download": "Download PDF"
   }
