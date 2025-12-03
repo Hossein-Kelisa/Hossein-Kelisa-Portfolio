@@ -63,9 +63,10 @@
     "hobby": "Beyond Coding",
     "hobbies": {
       "gym": "Going to the Gym",
-      "horseRiding": "Horse Riding",
+      "horseRiding": "Interested in horse riding",
       "listeningToMusic": "Listening to Music",
-      "photography": "Photography"
+      "photography": "Photography",
+      "volleyball": "Enjoy volleyball"
     },
     "collaborateNote": "I enjoy working with others and building meaningful projects together. Let’s connect and create something great!"
   },
@@ -129,5 +130,4 @@
     "description": "Download the complete project document, including requirements, workflow, pricing, and contract details. This helps you understand the full process before submitting a request.",
     "download": "Download PDF"
   }
-
 }
