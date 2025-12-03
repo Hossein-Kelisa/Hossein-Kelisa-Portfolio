@@ -1,20 +1,24 @@
 export const validateContact = (req, res, next) => {
   const { name, email, message } = req.body;
 
-  // Validate input
+  // Required fields
   if (!name || !email || !message) {
-    return res
-      .status(400)
-      .json({ success: false, message: "All fields are required" });
+    return res.status(400).json({
+      success: false,
+      message: "Name, email, and message are required.",
+    });
   }
 
-  // Check if email is valid
+  // Email validation
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(email)) {
-    return res
-      .status(400)
-      .json({ success: false, message: "Invalid email address" });
+    return res.status(400).json({
+      success: false,
+      message: "Invalid email format.",
+    });
   }
+
+  // File is optional → no validation needed unless you want to check size/type here
 
   next();
 };

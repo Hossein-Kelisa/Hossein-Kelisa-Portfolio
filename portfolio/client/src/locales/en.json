@@ -121,7 +121,8 @@
     "email": "Your Email",
     "message": "Describe your project...",
     "uploadLabel": "Upload File (PDF, DOC, JPG, max 10MB)",
-    "submitButton": "Submit Request"
+    "submitButton": "Submit Request",
+    "loading": "Sending..."
   },
   "proposal": {
     "title": "Project Requirements & Contract",

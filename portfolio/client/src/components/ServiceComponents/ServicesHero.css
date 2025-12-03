@@ -1,6 +1,7 @@
 .services-hero-section {
   position: relative;
-  background: url('../../assets/ServicesHero-img.jpg') no-repeat center center/cover;
+  background: url("../../assets/ServicesHero-img.jpg") no-repeat center
+    center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,7 +34,7 @@
 .services-hero-btn {
   padding: 15px 30px;
   font-size: 1rem;
-  border: none; 
+  border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -41,12 +42,12 @@
 .services-hero-btn.primary {
   background-color: #f4da30;
   color: #000000;
-} 
+}
 .dark .services-hero-btn.primary {
   background-color: #a6a6a5;
-}  
+}
 .services-hero-btn.primary:hover {
-  background-color:transparent;
+  background-color: transparent;
   color: #f4da30;
   border: 1px solid #f4da30;
 }
@@ -58,13 +59,13 @@
   color: #000000;
 }
 .services-hero-btn.secondary:hover {
-  background-color:transparent;
+  background-color: transparent;
   color: #f4da30;
   border: 1px solid #f4da30;
 }
 .Back-to-Portfolio-button-container {
-  bottom:10%;
-  left:5%;
+  bottom: 10%;
+  left: 5%;
   position: absolute;
 }
 .Back-to-Portfolio-button {
