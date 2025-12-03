@@ -37,6 +37,7 @@ const GrowthAndLife = () => {
     { icon: "🏇", title: t("growth-life.hobbies.horseRiding") },
     { icon: "🎵", title: t("growth-life.hobbies.listeningToMusic") },
     { icon: "📸", title: t("growth-life.hobbies.photography") },
+    { icon: "🏐", title: t("growth-life.hobbies.volleyball") },
   ];
 
   const renderCard = (item, index, type) => (

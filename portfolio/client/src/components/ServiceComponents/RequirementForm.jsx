@@ -3,6 +3,7 @@ import { useTranslation } from "../../../node_modules/react-i18next";
 import Fades from "../../Animations/Fades";
 import { sendMessage } from "../../api/contact";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const RequirementForm = () => {
   const { t } = useTranslation();
@@ -42,7 +43,7 @@ const RequirementForm = () => {
       const response = await sendMessage(data);
       console.log("Request sent successfully:", response);
 
-      alert("Request sent successfully!");
+      toast.success("Request sent successfully!");
 
       // Reset form
       setFormData({
@@ -56,7 +57,7 @@ const RequirementForm = () => {
       document.querySelector('input[name="attachment"]').value = "";
     } catch (error) {
       console.error("Error sending request:", error);
-      alert("Failed to send request. Please try again later.");
+      toast.error("Failed to send request. Please try again later.");
     }
     setLoading(false);
   };

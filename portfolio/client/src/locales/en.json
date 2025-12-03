@@ -62,10 +62,11 @@
     },
     "hobby": "Beyond Coding",
     "hobbies": {
-      "gym": "Going to the Gym",
-      "horseRiding": "Horse Riding",
+      "gym": "Fitness & Gym",
+      "horseRiding": "Interested in Horse Riding",
       "listeningToMusic": "Listening to Music",
-      "photography": "Photography"
+      "photography": "Photography",
+      "volleyball": "Interested in Volleyball"
     },
     "collaborateNote": "I enjoy working with others and building meaningful projects together. Let’s connect and create something great!"
   },
@@ -120,14 +121,13 @@
     "name": "Your Name",
     "email": "Your Email",
     "message": "Describe your project...",
-    "uploadLabel": "Upload File (PDF, DOC, JPG, max 10MB)",
+    "uploadLabel": "Upload File (PDF, max 10MB)",
     "submitButton": "Submit Request",
     "loading": "Sending..."
   },
   "proposal": {
-    "title": "Project Requirements & Contract",
+    "title": "Project Requirements & Proposal Document",
     "description": "Download the complete project document, including requirements, workflow, pricing, and contract details. This helps you understand the full process before submitting a request.",
     "download": "Download PDF"
   }
-
 }
