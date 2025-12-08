@@ -17,10 +17,10 @@
   "about": {
     "title": "About Me",
     "text": {
-      "part1": " I’m a full-stack developer based in the Netherlands 🇳🇱 with a strong passion for solving problems and creating user-friendly digital products. Originally from Iran, I studied Industrial Engineering at Payam Noor University in Urmia and worked for five years in accounting before moving to the Netherlands. After discovering my interest in coding, I decided to change my career and joined the ",
+      "part1": "I’m a full-stack developer based in the Netherlands, focused on building clean and useful digital products. My background is a bit different from most developers: I studied Industrial Engineering in Iran and spent several years working in accounting before moving to the Netherlands. Over time, I realized that what I enjoy most is solving problems and creating things — and that naturally led me into web development. I joined ",
       "link": "HackYourFuture",
-      "part2": " program, where I learned modern web development and gained real project experience through teamwork and clean coding practices. I’m confident working with React, and I enjoy UI design, problem-solving, and collaborating with others. I’m responsible, motivated, and a fast learner who is always improving and growing as a developer.",
-      "part3": "I build modern, fast, and responsive websites and web applications using clean code, strong structure, and professional tools."
+      "part2": " to learn modern JavaScript, React, and full-stack development, and I built several real projects with teams using Git, Agile, and clean coding practices. That experience showed me how much I enjoy turning ideas into functional, user-friendly interfaces.",
+      "part3": "I work confidently with React and Node.js, and I care about good UI, clean code, and collaboration. I’m motivated, reliable, and always improving my skills. What drives me is simple: I like building things that help people, and I like working with teams who care about quality and learning."
     }
   },
   "languages": {
@@ -51,7 +51,7 @@
   },
   "growth-life": {
     "title": "Growth & Life",
-    "description": "I am always improving my skills and exploring new technologies to grow as a developer. Continuous learning and a balanced lifestyle help me stay creative, focused, and ready for new challenges.",
+    "description": "I’m always developing my skills and exploring new technologies to grow as a developer. Staying curious, learning consistently, and keeping a healthy balance in life help me stay creative, focused, and ready for new challenges.",
     "learningNow": "Learning Now",
     "Learning": {
       "typescript": "TypeScript",
@@ -68,11 +68,11 @@
       "photography": "Photography",
       "volleyball": "Interested in Volleyball"
     },
-    "collaborateNote": "I enjoy working with others and building meaningful projects together. Let’s connect and create something great!"
+    "collaborateNote": "I enjoy collaborating with others and building projects that truly make a difference. If you’d like to work together or start something new, feel free to reach out—I’d be happy to connect."
   },
   "contact": {
     "title": "Get in Touch",
-    "description": "Feel free to contact me for projects, collaborations, or any questions. I usually reply within one day!",
+    "description": "Feel free to reach out for projects, collaborations, or any questions. I’m usually quick to respond and happy to help.",
     "formTitle": "Contact Me",
     "formPlaceholders": {
       "name": "Your Name",
@@ -83,14 +83,14 @@
   },
   "services": {
     "title": "My Services",
-    "subtitle": "I build modern, fast, and user-friendly web applications. Clean design, strong performance, and full-stack solutions for your business.",
+    "subtitle": "I believe good software should feel simple, enjoyable, and reliable. I combine clean code with thoughtful design to create solutions that last.",
     "requirements": "Requirements",
     "skills": "Skills",
     "projects": "Projects",
     "backToPortfolio": "Back to Portfolio"
   },
   "projects": {
-    "intro": "Here are some of the professional projects I have built — from full-stack applications to interactive websites. Each project reflects my clean coding style, performance-first mindset, and dedication to creating user-friendly digital experiences.",
+    "intro": "Below is a selection of my work, including full-stack applications and modern websites. These projects show my commitment to clean engineering, fast performance, and thoughtful user experience.",
     "title": "Projects",
     "ticEng": {
       "title": "Tic_eng",
@@ -111,13 +111,13 @@
   },
   "skills": {
     "title": "Skills",
-    "description": "I specialize in building modern, efficient, and scalable web applications—covering everything from frontend interfaces to backend systems, databases, and deployment. My toolkit includes the technologies I use every day to turn ideas into real, high-quality products.",
+    "description": "I create fast, scalable web applications with solid frontends, dependable backends, and well-structured databases. The tools below are part of my daily workflow for delivering real, high-quality digital products.",
     "languages": "Languages, Frameworks and Libraries",
     "tools": "Tools and Platforms"
   },
   "requirement": {
     "title": "Send your request",
-    "subtitle": "Fill in your details and upload any supporting documents. I will review your information and contact you shortly.",
+    "subtitle": "Share your details and any relevant documents. I’ll review your request and contact you soon with the next steps.",
     "name": "Your Name",
     "email": "Your Email",
     "message": "Describe your project...",
@@ -127,7 +127,7 @@
   },
   "proposal": {
     "title": "Requirements & Proposal",
-    "description": "Download the complete project document, including requirements, workflow, pricing, and contract details. This helps you understand the full process before submitting a request.",
+    "description": "Download the full project document, including requirements, workflow, pricing, and contract details. It gives you a complete overview before you submit a request.",
     "download": "Download PDF"
   }
 }

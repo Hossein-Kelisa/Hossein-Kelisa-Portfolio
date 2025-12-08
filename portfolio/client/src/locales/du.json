@@ -17,10 +17,10 @@
   "about": {
     "title": "Over mij",
     "text": {
-      "part1": " Ik ben een fullstack developer gevestigd in Nederland 🇳🇱 met een sterke passie voor het oplossen van problemen en het creëren van gebruiksvriendelijke digitale producten. Oorspronkelijk kom ik uit Iran. Ik heb Industrieel Ingenieursonderwijs gestudeerd aan de Payam Noor Universiteit in Urmia en vijf jaar als accountant gewerkt voordat ik naar Nederland verhuisde.\nNa het ontdekken van mijn interesse in programmeren besloot ik mijn carrière te veranderen en begon ik aan het",
+      "part1": " Ik ben een full-stack developer gevestigd in Nederland, met een focus op het bouwen van schone en nuttige digitale producten. Mijn achtergrond is iets anders dan die van de meeste developers: ik heb Industrieel Ingenieurswetenschappen gestudeerd in Iran en heb meerdere jaren als accountant gewerkt voordat ik naar Nederland verhuisde. Na verloop van tijd realiseerde ik me dat wat ik het leukst vind, het oplossen van problemen en het creëren van dingen is — en dat leidde me natuurlijk naar webontwikkeling. Ik sloot me aan bij ",
       "link": " HackYourFuture",
-      "part2": " -programma. Daar leerde ik moderne webontwikkeling en deed ik echte projectervaring op door teamwork en clean coding-praktijken.\nIk werk zelfverzekerd met React en ik houd van UI-design, probleemoplossing en samenwerken met anderen. Ik ben verantwoordelijk, gemotiveerd en een snelle leerling, en ik blijf mezelf steeds verder ontwikkelen als developer.",
-      "part3": "Ik bouw moderne, snelle en responsieve websites en webapplicaties met behulp van schone code, een sterke structuur en professionele tools."
+      "part2": " om moderne JavaScript, React en full-stack ontwikkeling te leren, en ik heb verschillende echte projecten gebouwd met teams met behulp van Git, Agile en schone codeerpraktijken. Die ervaring liet me zien hoeveel plezier ik heb in het omzetten van ideeën in functionele, gebruiksvriendelijke interfaces.",
+      "part3": " Ik werk zelfverzekerd met React en Node.js, en ik geef om een goede UI, schone code en samenwerking. Ik ben gemotiveerd, betrouwbaar en altijd bezig mijn vaardigheden te verbeteren. Wat mij drijft is simpel: ik hou ervan dingen te bouwen die mensen helpen, en ik werk graag samen met teams die geven om kwaliteit en leren."
     }
   },
   "languages": {
@@ -51,7 +51,7 @@
   },
   "growth-life": {
     "title": "Groei & Leven",
-    "description": "Ik ben altijd bezig mijn vaardigheden te verbeteren en nieuwe technologieën te verkennen om te groeien als developer. Continu leren en een gebalanceerde levensstijl helpen mij creatief, gefocust en klaar voor nieuwe uitdagingen te blijven.",
+    "description": "Ik ben altijd bezig mijn vaardigheden te ontwikkelen en nieuwe technologieën te verkennen om te groeien als developer. Nieuwsgierig blijven, consistent leren en een gezonde balans in het leven helpen me creatief, gefocust en klaar voor nieuwe uitdagingen te blijven.",
     "learningNow": "Nu aan het leren",
     "Learning": {
       "typescript": "TypeScript",
@@ -68,11 +68,11 @@
       "photography": "Fotografie",
       "volleyball": "Geïnteresseerd in volleybal"
     },
-    "collaborateNote": "Ik sta altijd open voor samenwerking aan interessante projecten of gewoon om hallo te zeggen. Voel je vrij om contact met mij op te nemen!"
+    "collaborateNote": "Ik werk graag samen met anderen en bouw projecten die echt een verschil maken. Als je samen wilt werken of iets nieuws wilt starten, neem dan gerust contact met mij op—ik leg graag een connectie."
   },
   "contact": {
     "title": "Neem contact met mij op",
-    "description": "Heb je vragen of wil je samenwerken? Neem gerust contact met mij op via de onderstaande kanalen.",
+    "description": "Neem gerust contact op voor projecten, samenwerkingen of vragen. Ik reageer meestal snel en help je graag verder.",
     "formTitle": "Stuur mij een bericht",
     "formPlaceholders": {
       "name": "Naam",
@@ -83,14 +83,14 @@
   },
   "services": {
     "title": "Mijn Services",
-    "subtitle": "Ik bouw moderne, snelle en gebruiksvriendelijke webapplicaties. Schone ontwerpen, sterke prestaties en full-stack oplossingen voor jouw bedrijf.",
+    "subtitle": "Ik geloof dat goede software eenvoudig, plezierig en betrouwbaar moet aanvoelen. Ik combineer schone code met doordacht ontwerp om oplossingen te creëren die blijven bestaan.",
     "requirements": "Vereisten",
     "skills": "Vaardigheden",
     "projects": "Projecten",
     "backToPortfolio": "Terug naar Portfolio"
   },
   "projects": {
-    "intro": "Hier zijn enkele van de professionele projecten die ik heb gebouwd - van full-stack applicaties tot interactieve websites. Elk project weerspiegelt mijn schone codestijl, prestatiegerichte mindset en toewijding aan het creëren van gebruiksvriendelijke digitale ervaringen.",
+    "intro": "Hieronder volgt een selectie van mijn werk, inclusief full-stack applicaties en moderne websites. Deze projecten tonen mijn inzet voor schone engineering, snelle prestaties en doordachte gebruikerservaring.",
     "title": "Projecten",
     "ticEng": {
       "title": "Tic_eng",
@@ -111,13 +111,13 @@
   },
   "skills": {
     "title": "Vaardigheden",
-    "description": "Ik specialiseer mij in het bouwen van moderne, efficiënte en schaalbare webapplicaties - van frontend interfaces tot backend systemen, databases en deployment. Mijn toolkit omvat de technologieën die ik dagelijks gebruik om ideeën om te zetten in echte, hoogwaardige producten.",
+    "description": "Ik creëer snelle, schaalbare webapplicaties met solide frontends, betrouwbare backends en goed gestructureerde databases. De onderstaande tools maken deel uit van mijn dagelijkse workflow voor het leveren van echte, hoogwaardige digitale producten.",
     "languages": "Talen, Frameworks en Bibliotheken",
     "tools": "Tools en Platforms"
   },
   "requirement": {
     "title": "Dien je verzoek in",
-    "subtitle": "Vul je gegevens in en upload eventuele ondersteunende documenten. Ik zal je informatie bekijken en binnenkort contact met je opnemen.",
+    "subtitle": "Deel je gegevens en eventuele relevante documenten. Ik zal je verzoek beoordelen en binnenkort contact met je opnemen over de volgende stappen.",
     "name": "Je naam",
     "email": "Je e-mail",
     "message": "Beschrijf je project...",
@@ -127,7 +127,7 @@
   },
   "proposal": {
     "title": "Vereisten & Voorstel",
-    "description": "Download het volledige projectdocument, inclusief vereisten, workflow, prijsstelling en contractdetails. Dit helpt je het volledige proces te begrijpen voordat je een verzoek indient.",
+    "description": "Download het volledige projectdocument, inclusief vereisten, workflow, prijsstelling en contractdetails. Het geeft je een compleet overzicht voordat je een verzoek indient.",
     "download": "Download PDF"
   }
 }

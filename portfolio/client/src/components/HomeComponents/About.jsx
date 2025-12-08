@@ -9,7 +9,6 @@ const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="about-container">
-
         <Fades animationType="fadeRight">
           <div className="about-image-wrapper">
             <img src={aboutImg} alt="About" className="about-image" />
@@ -32,45 +31,12 @@ const About = () => {
               {t("about.text.part2")}
             </p>
 
-            <p className="about-description">
-              {t("about.text.part3")}
-            </p>
+            <p className="about-description">{t("about.text.part3")}</p>
           </div>
         </Fades>
-
       </div>
     </section>
   );
 };
 
 export default About;
-
-
-
-
-// import Fades from "../../Animations/Fades";
-// import "./About.css";
-// import { useTranslation } from "react-i18next";
-
-// const About = () => {
-//   const { t } = useTranslation();
-
-//   return (
-//     <section id="about" className="about-section">
-//       <Fades animationType="fadeUp">
-//         <h2>{t("about.title")}</h2>
-//       </Fades>
-//       <Fades animationType="fadeUp">
-//         <p>
-//           {t("about.text.part1")}
-//           <a href="https://www.hackyourfuture.net/" target="_blank" rel="noopener noreferrer">
-//             {t("about.text.link")}
-//           </a>
-//           {t("about.text.part2")}
-//         </p>
-//       </Fades>
-//     </section>
-//   );
-// };
-
-// export default About;

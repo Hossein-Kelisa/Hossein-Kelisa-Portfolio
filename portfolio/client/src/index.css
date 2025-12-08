@@ -1,23 +1,27 @@
 /* Import Comic Neue font */
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
 /* Import Inter font */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 /* Import Vazir font */
-@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.0.0/dist/font-face.css');
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.0.0/dist/font-face.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap");
 
 :root {
   --color-text: #333;
   --color-background: rgb(255, 255, 255);
-    /* --color-background: rgb(236, 235, 235); */
+  /* --color-background: rgb(236, 235, 235); */
 }
 html[lang="fa"] body {
-  font-family: 'Vazir', sans-serif;
+  font-family: "Vazir", sans-serif;
   direction: rtl;
   text-align: right;
   scroll-behavior: smooth;
 }
-html[lang="en"] body, html[lang="du"] body {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+html[lang="en"] body,
+html[lang="du"] body {
+  /* font-family: "Sora", sans-serif; */
+  font-family: "Comic Neue", cursive;
   direction: ltr;
   scroll-behavior: smooth;
 }
@@ -30,7 +34,7 @@ html[lang="en"] body, html[lang="du"] body {
 
 body {
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--color-text);
   background-color: var(--color-background);
   -webkit-font-smoothing: antialiased;
@@ -39,15 +43,17 @@ body {
 }
 /* Dark mode */
 body.dark {
-  background: #11183cf1;
+  background: #2d4557f1;
 }
 
 /* Headings use Comic Neue */
-h1, h2, h3 {
-  font-family: 'Comic Neue', cursive;
+h1,
+h2,
+h3 {
+  /* font-family: "Comic Neue", cursive; */
+  font-family: "Sora", sans-serif;
   font-weight: 700; /* makes it bold and fun */
 }
-
 
 /* Links */
 a {
@@ -69,7 +75,6 @@ button {
   background-color: rgb(32, 70, 197);
   z-index: 9999;
 }
-
 
 /* Light mode preference */
 @media (prefers-color-scheme: light) {

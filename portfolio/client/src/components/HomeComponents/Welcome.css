@@ -6,6 +6,7 @@
   background: transparent;
 }
 .welcome-title {
+  font-family: "Comic Neue", cursive;
   font-size: 5rem;
   font-weight: 700;
   color: #ffffff;
