@@ -63,65 +63,71 @@ const RequirementForm = () => {
   };
 
   return (
-    <section className="requirement-container">
-      <Fades animationType="fadeUp">
-        <h2 className="requirement-title">{t("requirement.title")}</h2>
-        <p className="requirement-subtitle">{t("requirement.subtitle")}</p>
+    <section className="requirement-section">
+      <div className="requirement-container">
+        <Fades animationType="fadeUp">
+          <h2 className="requirement-title">{t("requirement.title")}</h2>
+          <p className="requirement-subtitle">{t("requirement.subtitle")}</p>
 
-        <form onSubmit={handleSubmit} className="requirement-form">
-          <input type="hidden" name="form-name" value="requirement-form" />
+          <form onSubmit={handleSubmit} className="requirement-form">
+            <input type="hidden" name="form-name" value="requirement-form" />
 
-          <div className="form-group">
-            <input
-              type="text"
-              name="name"
-              placeholder={t("requirement.name")}
-              className="requirementForm-input"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-          </div>
+            <div className="form-group">
+              <input
+                type="text"
+                name="name"
+                placeholder={t("requirement.name")}
+                className="requirementForm-input"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+            </div>
 
-          <div className="form-group">
-            <input
-              type="email"
-              name="email"
-              placeholder={t("requirement.email")}
-              className="requirementForm-input"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
+            <div className="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder={t("requirement.email")}
+                className="requirementForm-input"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
 
-          <div className="form-group">
-            <textarea
-              name="message"
-              placeholder={t("requirement.message")}
-              className="requirementForm-input"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            ></textarea>
-          </div>
+            <div className="form-group">
+              <textarea
+                name="message"
+                placeholder={t("requirement.message")}
+                className="requirementForm-input"
+                value={formData.message}
+                onChange={handleChange}
+                required
+              ></textarea>
+            </div>
 
-          <div className="form-group file-group">
-            <label className="file-label">{t("requirement.uploadLabel")}</label>
-            <input
-              type="file"
-              name="attachment"
-              accept=".pdf,.doc,.docx,.jpg,.png"
-              className="file-input"
-              onChange={handleChange}
-            />
-          </div>
+            <div className="form-group file-group">
+              <label className="file-label">
+                {t("requirement.uploadLabel")}
+              </label>
+              <input
+                type="file"
+                name="attachment"
+                accept=".pdf,.doc,.docx,.jpg,.png"
+                className="file-input"
+                onChange={handleChange}
+              />
+            </div>
 
-          <button type="submit" className="submit-btn" disabled={loading}>
-            {loading ? t("requirement.loading") : t("requirement.submitButton")}
-          </button>
-        </form>
-      </Fades>
+            <button type="submit" className="submit-btn" disabled={loading}>
+              {loading
+                ? t("requirement.loading")
+                : t("requirement.submitButton")}
+            </button>
+          </form>
+        </Fades>
+      </div>
     </section>
   );
 };

@@ -1,8 +1,18 @@
+.requirement-section {
+  padding: 40px 20px;
+  border-radius: 100% 0% / 8%;
+  background-color: #c6e4f7c2;
+}
 .requirement-container {
   max-width: 700px;
+  border: 1px solid #9e9d9d;
+  border-radius: 12px;
   margin: 60px auto;
   padding: 20px;
   text-align: center;
+}
+.dark .requirement-section {
+  background-color: #86a1b4;
 }
 
 .requirement-title {
@@ -61,6 +71,18 @@
   display: block;
   color: #444;
 }
+.file-input::file-selector-button {
+  background: #0070ef;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.file-input::file-selector-button:hover {
+  background: #0054b4;
+}
 
 .submit-btn {
   background: #0077ff;
@@ -77,4 +99,26 @@
 .submit-btn:hover {
   background: #005fcc;
   transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  .requirement-container {
+    margin: 40px 10px;
+    padding: 15px;
+  }
+
+  .requirement-title {
+    font-size: 1.7rem;
+  }
+
+  .requirement-subtitle {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .requirement-title {
+    font-size: 1.5rem;
+  }
+  .requirement-subtitle {
+    font-size: 0.95rem;
+  }
 }
