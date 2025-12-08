@@ -38,7 +38,8 @@ const tools = [
   { name: "GitHub", icon: <FaGit />, level: 5 },
   { name: "Postman", icon: <FaTools />, level: 4 },
   { name: "Figma", icon: <FaFigma />, level: 4 },
-  { name: "Netlify", icon: <FaCloud />, level: 5 },
+  { name: "AWS", icon: <FaCloud />, level: 3 },
+  { name: "Netlify", icon: <FaCloud />, level: 4 },
   { name: "Render", icon: <FaCloud />, level: 4 },
   { name: "VS Code", icon: <FaCodepen />, level: 5 },
   { name: "Heroku", icon: <FaCloud />, level: 4 },
@@ -47,7 +48,6 @@ const tools = [
   { name: "Namecheap", icon: <FaServer />, level: 4 },
   { name: "CodePen", icon: <FaCodepen />, level: 4 },
   { name: "Atlas", icon: <FaDatabase />, level: 5 },
-  { name: "AWS", icon: <FaCloud />, level: 4 },
 ];
 
 const Skills = () => {

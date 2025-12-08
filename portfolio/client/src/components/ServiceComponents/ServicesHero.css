@@ -69,11 +69,14 @@
   position: absolute;
 }
 .Back-to-Portfolio-button {
-  padding: 15px 20px;
+  padding: 10px 25px;
   font-size: 1.1rem;
   cursor: pointer;
-  background-color: #f0f0f0;
-  color: #039fc3;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #030dc3;
+  border: none;
+  text-shadow: 0 0 5px #f3f308;
   transition: all 0.3s ease;
   text-transform: uppercase;
   clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 15% 100%, 0% 50%, 15% 0);
