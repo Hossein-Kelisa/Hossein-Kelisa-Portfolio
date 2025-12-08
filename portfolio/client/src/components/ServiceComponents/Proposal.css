@@ -1,8 +1,9 @@
 .proposal-section {
   padding: 80px 20px;
-  background: #e9e9ea8e;
+  background: #ffffff8e;
   margin: 0 auto;
   text-align: center;
+  border-top: 1px solid #d4d4d4;
 }
 
 .proposal-title {
