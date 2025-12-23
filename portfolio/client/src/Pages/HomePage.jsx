@@ -11,6 +11,7 @@ import GrowthAndLife from "../components/HomeComponents/GrowthAndLife";
 import Certificates from "../components/HomeComponents/Certificates";
 import Resume from "../components/HomeComponents/Resume";
 import MyLanguages from "../components/HomeComponents/MyLanguages";
+import GoToService from "../components/HomeComponents/GoToService";
 import "../i18n";
 
 const HomePage = () => {
@@ -25,9 +26,10 @@ const HomePage = () => {
         <About />
         <Certificates />
         <GrowthAndLife />
-        <MyLanguages />
         <Resume />
+        <MyLanguages />
         {/* <Layout /> */}
+        <GoToService />
         <Contact />
       </main>
       <Footer />

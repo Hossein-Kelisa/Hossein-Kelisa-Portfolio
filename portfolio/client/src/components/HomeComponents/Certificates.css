@@ -20,7 +20,7 @@
 .cert-card {
   background: #ffffff;
   padding: 25px 30px;
-  border-radius: 18px;
+  border-radius: 44% 56% 65% 35%/57% 58% 42% 43%;
   transition: all 0.25s ease;
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,7 @@
 
 .cert-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.434);
 }
 
 .cert-link {
