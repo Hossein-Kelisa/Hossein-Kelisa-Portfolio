@@ -80,6 +80,56 @@ const Projects = () => {
             </a>
             <p>{t("projects.quizApp.description")}</p>
           </div>
+          <div className="project-card">
+            <a
+              href="https://sobhannasiri.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>{t("projects.sobhan.title")}</h3>
+            </a>
+            <p>{t("projects.sobhan.description")}</p>
+          </div>
+          <div className="project-card">
+            <a
+              href="https://photovid.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>{t("projects.photoVid.title")}</h3>
+            </a>
+            <p>{t("projects.photoVid.description")}</p>
+          </div>
+          <div className="project-card">
+            <a
+              href="https://github.com/Hossein-Kelisa/Dictionary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>{t("projects.dictionary.title")}</h3>
+            </a>
+            <p>{t("projects.dictionary.description")}</p>
+          </div>
+          <div className="project-card">
+            <a
+              href="https://github.com/Hossein-Kelisa/Digital-Clock?tab=readme-ov-file"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>{t("projects.digitalClock.title")}</h3>
+            </a>
+            <p>{t("projects.digitalClock.description")}</p>
+          </div>
+          <div className="project-card">
+            <a
+              href="https://github.com/Hossein-Kelisa/Simple-Calculator"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>{t("projects.simpleCalculator.title")}</h3>
+            </a>
+            <p>{t("projects.simpleCalculator.description")}</p>
+          </div>
         </div>
       </Fades>
     </section>
