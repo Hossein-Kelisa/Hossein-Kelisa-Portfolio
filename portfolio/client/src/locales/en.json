@@ -107,6 +107,26 @@
     "quizApp": {
       "title": "Quiz App",
       "description": "A simple and interactive quiz application built with HTML, CSS, and JavaScript"
+    },
+    "sobhan": {
+      "title": "Sobhan",
+      "description": "A personal blog website where a creative young boy shares his thoughts and opinions about the movies and cartoons he has watched, presented in a simple and engaging layout."
+    },
+    "photoVid": {
+      "title": "PhotoVid",
+       "description": "A portfolio-style website for a professional and creative photographer and videographer, showcasing selected photo and video works with a clean and visual-focused design."
+    },
+    "dictionary": {
+      "title": "Dictionary App",
+      "description": "A web application that provides definitions, synonyms, and translations for various words using a public API"
+    },
+    "digitalClock": {
+      "title": "Digital Clock",
+      "description": "A digital clock application that displays the current time in real time with a clear and easy-to-read interface."
+    },
+    "simpleCalculator": {
+      "title": "Simple Calculator",
+      "description": "A basic calculator application that performs arithmetic operations with a user-friendly interface"
     }
   },
   "skills": {

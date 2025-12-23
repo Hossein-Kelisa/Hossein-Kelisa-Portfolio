@@ -107,6 +107,26 @@
     "quizApp": {
       "title": "Quiz App",
       "description": "Een eenvoudige en interactieve quizapplicatie gebouwd met HTML, CSS en JavaScript"
+    },
+    "sobhan": {
+      "title": "Sobhan",
+      "description": "Een persoonlijke blogwebsite waar een creatieve jongen zijn meningen en gedachten deelt over de films en tekenfilms die hij heeft bekeken, gepresenteerd in een eenvoudige en aantrekkelijke lay-out."
+    },
+    "photoVid": {
+      "title": "PhotoVid",
+      "description": "Een portfolio-website voor een professionele en creatieve fotograaf en videograaf, waarin geselecteerde foto- en videowerken worden getoond met een strak en visueel gericht ontwerp."
+    },
+    "dictionary": {
+      "title": "Dictionary App",
+      "description": "Een webapplicatie die definities, synoniemen en vertalingen van verschillende woorden biedt met behulp van een openbare API."
+    },
+    "digitalClock": {
+      "title": "Digital Clock",
+      "description": "Een digitale klokapplicatie die de huidige tijd in realtime weergeeft met een duidelijke en goed leesbare interface."
+    },
+    "simpleCalculator": {
+      "title": "Simple Calculator",
+      "description": "Een eenvoudige rekenmachine-applicatie die basisrekenkundige bewerkingen uitvoert met een gebruiksvriendelijke interface."
     }
   },
   "skills": {
