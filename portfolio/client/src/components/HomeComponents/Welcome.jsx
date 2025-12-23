@@ -13,6 +13,7 @@ const Welcome = () => {
         </h1>
       </Fades>
       <p className="welcome-subtitle">{t("welcome.homeSubtitle1")}</p>
+      {/* <span className="infinity">I am </span> */}
     </section>
   );
 };

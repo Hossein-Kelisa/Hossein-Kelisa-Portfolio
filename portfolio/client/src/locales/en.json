@@ -70,6 +70,11 @@
     },
     "collaborateNote": "I enjoy collaborating with others and building projects that truly make a difference. If you’d like to work together or start something new, feel free to reach out—I’d be happy to connect."
   },
+  "goToService": {
+    "title": "Interested in My Work?",
+    "text": "If you would like to see my projects or learn more about my professional services, please visit my services page. There you can explore my work and find the right solution for your needs.",
+    "button": "View Services"
+  },
   "contact": {
     "title": "Get in Touch",
     "description": "Feel free to reach out for projects, collaborations, or any questions. I’m usually quick to respond and happy to help.",
@@ -114,7 +119,7 @@
     },
     "photoVid": {
       "title": "PhotoVid",
-       "description": "A portfolio-style website for a professional and creative photographer and videographer, showcasing selected photo and video works with a clean and visual-focused design."
+      "description": "A portfolio-style website for a professional and creative photographer and videographer, showcasing selected photo and video works with a clean and visual-focused design."
     },
     "dictionary": {
       "title": "Dictionary App",

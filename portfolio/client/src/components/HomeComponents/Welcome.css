@@ -22,6 +22,35 @@
   direction: ltr;
   text-align: left;
 }
+/* .infinity {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #b3ff00;
+}
+.infinity::after {
+  content: "developer.";
+  padding-left: 8px;
+  animation: text 10s infinite;
+}
+@keyframes text {
+  0%,
+  20% {
+    content: "developer.";
+  }
+  25%,
+  45% {
+    content: "designer.";
+  }
+  50%,
+  70% {
+    content: "creator.";
+  }
+  75%,
+  95% {
+    content: "innovator.";
+  }
+} */
+
 .dark .welcome-subtitle {
   color: #b3ff007d;
 }

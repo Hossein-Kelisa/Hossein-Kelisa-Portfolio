@@ -70,6 +70,11 @@
     },
     "collaborateNote": "Ik werk graag samen met anderen en bouw projecten die echt een verschil maken. Als je samen wilt werken of iets nieuws wilt starten, neem dan gerust contact met mij op—ik leg graag een connectie."
   },
+  "goToService": {
+    "title": "Geïnteresseerd in mijn werk?",
+    "text": "Als je mijn projecten wilt zien of meer wilt leren over mijn professionele diensten, bezoek dan mijn dienstenpagina. Daar kun je mijn werk verkennen en de juiste oplossing voor jouw behoeften vinden.",
+    "button": "Bekijk diensten"
+  },
   "contact": {
     "title": "Neem contact met mij op",
     "description": "Neem gerust contact op voor projecten, samenwerkingen of vragen. Ik reageer meestal snel en help je graag verder.",

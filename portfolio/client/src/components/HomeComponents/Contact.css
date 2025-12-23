@@ -1,6 +1,6 @@
 .contact-section {
   padding: 80px 20px;
-  background-color: #caedff;
+  background-color: #e2f8fe;
   border-radius: 100% 0% / 8%;
 }
 .dark .contact-section {
@@ -99,7 +99,7 @@
   position: absolute;
   inset: 5px;
   border-radius: 16px;
-  background: #caedff;
+  background: #e2f8fe;
   z-index: -1;
   box-shadow: 0 0 40px rgba(155, 155, 155, 0.2);
 }
