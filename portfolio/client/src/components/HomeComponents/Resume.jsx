@@ -14,7 +14,7 @@ const Resume = () => {
       <Fades animationType="fadeUp">
         <p>{t("resume.description")}</p>
         <a
-          href="/HosseinKelisa.pdf"
+          href="/HosseinKelisaCV.pdf"
           download
           className="download-btn"
           target="_blank"
